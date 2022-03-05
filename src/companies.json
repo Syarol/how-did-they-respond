@@ -1,0 +1,156 @@
+{
+	"companies": [{
+		"name": "Airbnb",
+		"website": "https://www.airbnb.com",
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": "Ceased cooperation with country"
+			}, {
+				"country": "🇧🇾",
+				"measures": "Ceased cooperation with country"
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": "Housing up to 100,000 Ukrainian refugees for free"
+			}]
+		},
+		"links": [
+			"https://twitter.com/bchesky/status/1498214180674965504",
+			"https://ua.interfax.com.ua/news/general/807433.html"
+		]
+	}, {
+		"name": "Coupler.io",
+		"website": "https://www.coupler.io/",
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": "Closed its services for this country"
+			}, {
+				"country": "🇧🇾",
+				"measures": "Closed its services for this country"
+			}]
+		},
+		"links": [
+			"https://twitter.com/coupler__io/status/1499447030577565698"
+		]
+	}, {
+		"name": "Ericsson",
+		"website": "https://www.ericsson.com/",
+		"side": "Not specified",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": "Stop deliveries to this country"
+			}]
+		},
+		"links": [
+			"https://www.datacenterdynamics.com/en/news/ericsson-suspends-deliveries-to-russia-is-evaluating-business-there/"
+		]
+	}, {
+		"name": "Oracle",
+		"website": "https://www.oracle.com",
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": "Suspended all operations in Russia"
+			}]
+		},
+		"links": [
+			"https://www.reuters.com/business/oracle-says-it-has-suspended-all-operations-russia-2022-03-02/"
+		]
+	}, {
+		"name": "Outdooractive",
+		"website": "https://www.outdooractive.com/",
+		"side": "🇺🇦",
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": "Free access to Pro membership for Ukrainian citizens"
+			}]
+		},
+		"links": [
+			"https://www.facebook.com/outdooractive/posts/10157903928364058"
+		]
+	}, {
+		"name": "Nokia",
+		"website": "https://www.nokia.com/",
+		"side": "Condems war in general",
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": "Donate €1 million to UNICEF"
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": "Stop deliveries to this country"
+			}]
+		},
+		"links": [
+			"https://twitter.com/PekkaLundmark/status/1499654011154313216",
+			"https://www.reuters.com/business/media-telecom/nokia-stops-deliveries-russia-2022-03-01/"
+		]
+	}, {
+		"name": "Mailtrap",
+		"website": "https://mailtrap.io/",
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": "Closed its services for this country"
+			}, {
+				"country": "🇧🇾",
+				"measures": "Closed its services for this country"
+			}]
+		},
+		"links": [
+			"https://twitter.com/Mailtrap/status/1499449526599491588"
+		]
+	}, {
+		"name": "Remington Arms",
+		"website": "https://www.remington.com/",
+		"side": "🇺🇦",
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": "Sends 1 million rounds of ammo"
+			}]
+		},
+		"links": [
+			"https://twitter.com/RemingtonArms/status/1499884903676186633"
+		]
+	},{
+		"name": "Samsung",
+		"website": "https://www.samsung.com/",
+		"side": "Condems war in general",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": "The supply of Samsung products to Russia is suspended"
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": "Provide help for $6 million"
+			}]
+		},
+		"links": [
+			"https://twitter.com/samsungukraine/status/1499985429814206464"
+		]
+	}, {
+		"name": "SAP",
+		"website": "https://www.sap.com/",
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": "Pause sales to Russia"
+			}]
+		},
+		"links": [
+			"https://www.marketwatch.com/story/sap-pauses-sales-to-russia-271646301894"
+		]
+	}]
+}
