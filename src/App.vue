@@ -1,0 +1,353 @@
+<template>
+	<div>
+		<h1 class='app-heading text-center'>
+			<a
+				class='link link--red'
+				href='https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine'
+			>24 February</a>,<br> after 8 years of semi-frozen war, russia🇷🇺 initiated a full-scale invasion of Ukraine🇺🇦. In addition to sanctions initiated by many countries, a lot of companies have their own response to war. Here, you can take a look at it
+		</h1>
+		<input 
+			v-model='searchText' 
+			class='search-field'
+			type='text' 
+			placeholder='Search...'
+			@input='searchCompany'
+		>
+	</div>
+	
+	<ul class='organizations-list'>
+		<template v-if='searchText.length === 0'>
+			<li
+				v-for='org of companies.slice(0, 15)'
+				:key='org.name'
+				class='organization'
+				@click='selectOrganization(org)'
+			>
+				{{ org.name }}
+			</li>
+		</template>
+		<template v-else-if='organizations.length > 0'>
+			<li
+				v-for='org of organizations'
+				:key='org.name'
+				class='organization'
+				@click='selectOrganization(org)'
+			>
+				{{ org.name }}
+			</li>
+		</template>
+		<template v-else>
+			<span>Sorry, but I can't find this company statement</span>
+		</template>
+	</ul>
+
+	<section 
+		v-if='activeOrganization'
+		class='info-section'
+	>
+		<h2 class='section-heading'>
+			{{ activeOrganization.name }}
+		</h2>
+		<p>
+			Website: <a
+				class='link'
+				:href='activeOrganization.website'
+			>link</a>
+		</p>
+		<p v-if='activeOrganization.side'>
+			Sided with: {{ activeOrganization.side }}
+		</p>
+		<p v-if='activeOrganization.actions.support'>
+			Actions of support:
+			<ul
+				v-for='org of activeOrganization.actions.support'
+				:key='org.country'
+				class='list'
+			>
+				<li>To {{ org.country }}: {{ org.measures }}</li>
+			</ul>
+		</p>
+		<p v-if='activeOrganization.actions.sanctions'>
+			Sanctions: 
+			<ul
+				v-for='org of activeOrganization.actions.sanctions'
+				:key='org.country'
+				class='list'
+			>
+				<li>On {{ org.country }}: {{ org.measures }}</li>
+			</ul>
+		</p>
+		<p>
+			Links: 
+			<ul
+				v-for='link of activeOrganization.links'
+				:key='link'
+				class='list'
+			>
+				<a 
+					:href='link'
+					class='link'
+				> 
+					{{ link }}
+				</a>
+			</ul>
+		</p>		
+	</section>
+	<section class='info-section'>
+		<h2 class='section-heading'>
+			Didn't find someone?
+		</h2>
+		<p class='text-center'>
+			We can't cover every company by ourselves, and we would be happy for your help. If you discovered a company that is declared its position about the current war or made some actions, please don't hesitate to create an issue for it on GitHub or add missing information by yourself by creating a pull request.
+		</p>
+	</section>
+	<section class='info-section'>
+		<h2 class='section-heading'>
+			Want to help Ukraine?
+		</h2>
+		<p>There are plenty or organization that helps ukrainian army and refugees, there is some of them:</p>
+		<ul>
+			<li>
+				The Come Back Alive Foundation: <a
+					class='link'
+					href='https://www.comebackalive.in.ua/'
+				>link</a>
+			</li>
+			<li>
+				Foundation of Serhii Prytula: <a
+					class='link'
+					href='https://www.prytula-co.org/'
+				>link</a>
+			</li>
+			<li>
+				Hospitallers: <a
+					class='link'
+					href='https://www.facebook.com/1554490484835854/posts/3152910124993874/'
+				>link</a>
+			</li>
+			<li>
+				Army SOS: <a
+					class='link'
+					href='https://armysos.com.ua/en'
+				>link</a>
+			</li>
+			<li>
+				<a
+					class='link'
+					href='https://en.wikipedia.org/wiki/National_Bank_of_Ukraine'
+				>NBU</a> Special Account to Raise Funds for Ukraine's Armed Forces: <a
+					class='link'
+					href='https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi'
+				>link</a>
+			</li>
+			<li>
+				Volunteer Special Forces: Ivano–Frankivsk: <a
+					class='link'
+					href='https://purring-sceptre-959.notion.site/Volunteer-Special-Forces-Ivano-Frankivsk-458d4e959ec5441cae23ccc7a2570da6'
+				>link</a>
+			</li>
+			<li>
+				<a
+					class='link'
+					href='https://en.wikipedia.org/wiki/Ukrspetsexport'
+				>Ukrspecexport</a> State Enterprise: <a
+					class='link'
+					href='https://ukroboronprom.com.ua/en/'
+				>link</a>
+			</li>
+		</ul>
+
+		<h3 class='section-sub-heading'>
+			Searching for another ways to help?
+		</h3>
+		<p class='text-center'>
+			Share information about russians war crimes (not only in Ukraine), fight their propaganda and demand your government to <a
+				class='link'
+				href='https://twitter.com/hashtag/closethesky'
+			>#CloseTheSky</a>
+		</p>
+	</section>
+</template>
+
+<script>
+import companies from './companies.json';
+
+export default {
+	data() {
+		return {
+			activeOrganization: null,
+			companies: companies.companies,
+			organizations: [],
+			searchText: '',
+		};
+	},
+	methods: {
+		searchCompany() {
+			this.organizations = this.companies.filter(el => el.name.toLowerCase().includes(this.searchText));
+		},
+		selectOrganization(e){
+			this.activeOrganization = e;
+		},
+	},
+};
+</script>
+
+<style>
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	position: relative;
+	font-weight: normal;
+}
+
+body {
+	min-height: 100vh;
+	color: #2c3e50;
+	background: #fff;
+	line-height: 1.6;
+	font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+		Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 15px;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #fff;
+		background: #181818;
+	}
+}
+
+#app {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-weight: normal;
+	margin: 0 auto;
+	max-width: 1280px;
+	padding: 2rem;
+}
+
+a,
+.link,
+.link:visited {
+	text-decoration: none;
+	transition: 0.4s;
+	color: #2a2cc3;
+}
+
+@media (prefers-color-scheme: dark) {
+	.link,
+	.link:visited {
+		color: #b5b51b;
+	}
+}
+
+.link--red,
+.link--red:visited {
+	color: #bd0000;
+}
+
+.link--red:hover {
+	background-color: #bd000033;
+}
+
+.search-field {
+	background: #00000020;
+	border-bottom: 2px solid #7f7f7f;
+	border: 0;
+	color: #000;
+	font-size: 2.5em;
+	height: 60px;
+	margin-top: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+	.search-field {
+		height: 40px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.app-heading {
+		font-size: 20px;
+	}
+
+	.search-field {
+		height: 50px;
+		font-size: 1.5em;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.search-field {
+		background: #ffffff0d;
+		color: #7f7f7f;
+	}
+}
+
+.organizations-list {
+	column-gap: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style: none;
+	margin: 10px 10%;
+	padding: 0;
+	row-gap: 5px;
+}
+
+.organization {
+	cursor: pointer;
+}
+
+.organization:hover {
+	color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+	.organization:hover {
+		color: #ebebeb;
+	}
+}
+
+.info-section {
+	background: #00000020;
+	margin: 20px 0;
+	max-width: 800px;
+	padding: 30px 15px;
+}
+
+@media (prefers-color-scheme: dark) {
+	.info-section {
+		background: #ffffff0d;
+	}
+}
+
+.section-heading {
+	font-weight: 500;
+	text-align: center;
+}
+
+.section-sub-heading {
+	font-weight: 500;
+	margin-bottom: 5px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.list {
+	list-style: none;
+	padding: 0 0 0 1em;
+}
+</style>
