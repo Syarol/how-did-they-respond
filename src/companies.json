@@ -1,5 +1,28 @@
 {
 	"companies": [{
+		"name": "Adobe",
+		"website": "https://www.adobe.com/",
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended all new sales in Russia",
+					"Terminated access to Adobe Creative Cloud, Adobe Document Cloud and Adobe Experience Cloud to Russian government-controlled media outlets"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Series of grants totaling over $1 million"
+				]
+			}]
+		},
+		"links": [
+			"https://blog.adobe.com/en/publish/2022/03/04/adobe-stops-all-new-sales-in-russia",
+			"https://blog.adobe.com/en/publish/2022/03/04/adobe-foundation-response-humanitarian-crisis-ukraine"
+		]
+	}, {
 		"name": "Airbnb",
 		"website": "https://www.airbnb.com",
 		"side": "🇺🇦",
@@ -27,27 +50,23 @@
 			"https://ua.interfax.com.ua/news/general/807433.html"
 		]
 	}, {
-		"name": "Adobe",
-		"website": "https://www.adobe.com/",
-		"side": "🇺🇦",
+		"name": "AMD",
+		"website": "https://www.amd.com/",
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
 				"measures": [
-					"Suspended all new sales in Russia",
-					"Terminated access to Adobe Creative Cloud, Adobe Document Cloud and Adobe Experience Cloud to Russian government-controlled media outlets"
+					"Suspending all sales and distributions to this country"
 				]
-			}],
-			"support": [{
-				"country": "🇺🇦",
+			}, {
+				"country": "🇧🇾",
 				"measures": [
-					"Series of grants totaling over $1 million"
+					"Suspending all sales and distributions to this country"
 				]
 			}]
 		},
 		"links": [
-			"https://blog.adobe.com/en/publish/2022/03/04/adobe-stops-all-new-sales-in-russia",
-			"https://blog.adobe.com/en/publish/2022/03/04/adobe-foundation-response-humanitarian-crisis-ukraine"
+			"https://in.pcmag.com/processors/148230/amd-intel-halt-all-chip-sales-to-russia-belarus-over-ukraine-invasion"
 		]
 	}, {
 		"name": "Apple",
@@ -96,6 +115,52 @@
 			"https://twitter.com/coupler__io/status/1499447030577565698"
 		]
 	}, {
+		"name": "Coursera",
+		"website": "https://coursera.org/",
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspending all content from Russian university and industry partners",
+					"Halting further business with Russian institutions across Coursera for Business, Coursera for Government, and Coursera for Campus",
+					"Suspending the ability for learners in Russia to enroll in paid course"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Offers to all Ukrainian Ukrainian higher education institutions and their students access to Coursera for Campus for free",
+					"Coursera for Refugees program is available for free to nonprofits those actively working to support Ukrainian refugees",
+					"Individuals coming to the Coursera platform, can receive financial aid or a scholarship waiver"
+				]
+			}]
+		},
+		"links": [
+			"https://blog.coursera.org/coursera-response-to-the-humanitarian-crisis-in-ukraine/"
+		]
+	}, {
+		"name": "edX",
+		"website": "https://edx.org/",
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Removed all content offered by Russian Universities"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Offers for all Ukrainian colleges and universities free access to edX Online Campus for the foreseeable future"
+				]
+			}]
+		},
+		"links": [
+			"https://blog.edx.org/standing-with-ukraine-supporting-displaced-learners"
+		]
+	}, {
 		"name": "Ericsson",
 		"website": "https://www.ericsson.com/",
 		"side": "Not specified",
@@ -126,6 +191,32 @@
 			"https://github.blog/2022-03-02-our-response-to-the-war-in-ukraine/"
 		]
 	}, {
+		"name": "Grammarly",
+		"website": "https://grammarly.com/",
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Block users from this country"
+				]
+			}, {
+				"country": "🇧🇾",
+				"measures": [
+					"Block users from this country"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donating $5 million organizations and funds supporting the people of Ukraine"
+				]
+			}]
+		},
+		"links": [
+			"https://www.grammarly.com/stand-with-ukraine"
+		]
+	}, {
 		"name": "IBM",
 		"website": "https://www.ibm.com/",
 		"side": "🇺🇦",
@@ -139,6 +230,33 @@
 		},
 		"links": [
 			"https://newsroom.ibm.com/War-in-Ukraine-Supporting-IBMers"
+		]
+	}, {
+		"name": "Intel",
+		"website": "https://www.amd.com/",
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspending all shipments to this country"
+				]
+			}, {
+				"country": "🇧🇾",
+				"measures": [
+					"Suspending all shipments to this country"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Matching employee donations through the Intel Foundation that has already raised over $1.2 million",
+					"Aid refugees in surrounding areas including Poland, Germany and Romania"
+				]
+			}]
+		},
+		"links": [
+			"https://www.intel.com/content/www/us/en/newsroom/news/intel-statement-war-ukraine.html"
 		]
 	}, {
 		"name": "Oracle",
@@ -193,6 +311,39 @@
 			"https://www.reuters.com/business/media-telecom/nokia-stops-deliveries-russia-2022-03-01/"
 		]
 	}, {
+		"name": "MacPaw",
+		"website": "https://macpaw.com/",
+		"side": "🇺🇦",
+		"actions": {
+			"general": [{
+				"measures": [
+					"All media covering the situation in Ukraine could receive a one-year subscription for CleanMyMac for free"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped selling its products to users from this country"
+				]
+			}, {
+				"country": "🇧🇾",
+				"measures": [
+					"Stopped selling its products to users from this country"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donations to funds that support Ukraine",
+					"On-site volunteering"
+				]
+			}]
+		},
+		"links": [
+			"https://macpaw.com/news/macpaw-amidst-aggression",
+			"https://www.facebook.com/macpaw/posts/5003329553038886"
+		]
+	}, {
 		"name": "Mailtrap",
 		"website": "https://mailtrap.io/",
 		"side": "🇺🇦",
@@ -211,6 +362,20 @@
 		},
 		"links": [
 			"https://twitter.com/Mailtrap/status/1499449526599491588"
+		]
+	}, {
+		"name": "Nvidia",
+		"website": "https://www.nvidia.com/",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Halts all sales to this country"
+				]
+			}]
+		},
+		"links": [
+			"https://in.pcmag.com/graphics-cards/148243/nvidia-to-stop-all-product-sales-to-russia"
 		]
 	}, {
 		"name": "Remington Arms",
@@ -289,6 +454,31 @@
 		},
 		"links": [
 			"https://www.marketwatch.com/story/sap-pauses-sales-to-russia-271646301894"
+		]
+	}, {
+		"name": "TunnelBear",
+		"website": "https://www.tunnelbear.com/",
+		"actions": {
+			"general": [{
+				"measures": [
+					"Removed Ukraine servers from available servers list"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Gave 100GB of data when connecting from Ukraine"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Gave 10GB of data when connecting from Russia"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/theTunnelBear/status/1499058817967050755",
+			"https://twitter.com/theTunnelBear/status/1499488389913063431"
 		]
 	}]
 }
