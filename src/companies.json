@@ -6,14 +6,20 @@
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
-				"measures": "Ceased cooperation with country"
+				"measures": [
+					"Ceased cooperation with country"
+				]
 			}, {
 				"country": "🇧🇾",
-				"measures": "Ceased cooperation with country"
+				"measures": [
+					"Ceased cooperation with country"
+				]
 			}],
 			"support": [{
 				"country": "🇺🇦",
-				"measures": "Housing up to 100,000 Ukrainian refugees for free"
+				"measures": [
+					"Housing up to 100,000 Ukrainian refugees for free"
+				]
 			}]
 		},
 		"links": [
@@ -27,11 +33,16 @@
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
-				"measures": "Suspended all new sales in Russia. Terminated access to Adobe Creative Cloud, Adobe Document Cloud and Adobe Experience Cloud to Russian government-controlled media outlets."
+				"measures": [
+					"Suspended all new sales in Russia",
+					"Terminated access to Adobe Creative Cloud, Adobe Document Cloud and Adobe Experience Cloud to Russian government-controlled media outlets"
+				]
 			}],
 			"support": [{
 				"country": "🇺🇦",
-				"measures": "Series of grants totaling over $1 million"
+				"measures": [
+					"Series of grants totaling over $1 million"
+				]
 			}]
 		},
 		"links": [
@@ -44,11 +55,18 @@
 		"side": "No statement",
 		"actions": {
 			"general": [{
-				"measures": "Started to display Crimea as a part of Ukraine to users outside of Russia. Disabled traffic and live incidents in Apple Maps in Ukraine"
+				"measures": [
+					"Started to display Crimea as a part of Ukraine to users outside of Russia",
+					"Disabled traffic and live incidents in Apple Maps in Ukraine"
+				]
 			}],
 			"sanctions": [{
 				"country": "🇷🇺",
-				"measures": "Halted product sales in Russia. Limited Apple Pay service in Russia. Removed RT and Sputnik News from App Store in all markets outside Russia"
+				"measures": [
+					"Halted product sales in Russia",
+					"Limited Apple Pay service in Russia",
+					"Removed RT and Sputnik News from App Store in all markets outside Russia"
+				]
 			}]
 		},
 		"links": [
@@ -64,10 +82,14 @@
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
-				"measures": "Closed its services for this country"
+				"measures": [
+					"Closed its services for this country"
+				]
 			}, {
 				"country": "🇧🇾",
-				"measures": "Closed its services for this country"
+				"measures": [
+					"Closed its services for this country"
+				]
 			}]
 		},
 		"links": [
@@ -80,7 +102,9 @@
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
-				"measures": "Stop deliveries to this country"
+				"measures": [
+					"Stop deliveries to this country"
+				]
 			}]
 		},
 		"links": [
@@ -93,7 +117,9 @@
 		"actions": {
 			"support": [{
 				"country": "🇺🇦",
-				"measures": "Donating $100,000 to Razom and matching an additional $200,000 of donations from employees"
+				"measures": [
+					"Donating $100,000 to Razom and matching an additional $200,000 of donations from employees"
+				]
 			}]
 		},
 		"links": [
@@ -106,7 +132,9 @@
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
-				"measures": "Suspended all sales to Russia and Russia-headquartered companies"
+				"measures": [
+					"Suspended all sales to Russia and Russia-headquartered companies"
+				]
 			}]
 		},
 		"links": [
@@ -119,7 +147,9 @@
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
-				"measures": "Suspended all operations in Russia"
+				"measures": [
+					"Suspended all operations in Russia"
+				]
 			}]
 		},
 		"links": [
@@ -132,7 +162,9 @@
 		"actions": {
 			"support": [{
 				"country": "🇺🇦",
-				"measures": "Free access to Pro membership for Ukrainian citizens"
+				"measures": [
+					"Free access to Pro membership for Ukrainian citizens"
+				]
 			}]
 		},
 		"links": [
@@ -145,11 +177,15 @@
 		"actions": {
 			"support": [{
 				"country": "🇺🇦",
-				"measures": "Donate €1 million to UNICEF"
+				"measures": [
+					"Donate €1 million to UNICEF"
+				]
 			}],
 			"sanctions": [{
 				"country": "🇷🇺",
-				"measures": "Stop deliveries to this country"
+				"measures": [
+					"Stop deliveries to this country"
+				]
 			}]
 		},
 		"links": [
@@ -163,10 +199,14 @@
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
-				"measures": "Closed its services for this country"
+				"measures": [
+					"Closed its services for this country"
+				]
 			}, {
 				"country": "🇧🇾",
-				"measures": "Closed its services for this country"
+				"measures": [
+					"Closed its services for this country"
+				]
 			}]
 		},
 		"links": [
@@ -179,7 +219,9 @@
 		"actions": {
 			"support": [{
 				"country": "🇺🇦",
-				"measures": "Sends 1 million rounds of ammo"
+				"measures": [
+					"Sends 1 million rounds of ammo"
+				]
 			}]
 		},
 		"links": [
@@ -192,11 +234,15 @@
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
-				"measures": "The supply of Samsung products to Russia is suspended"
+				"measures": [
+					"The supply of Samsung products to Russia is suspended"
+				]
 			}],
 			"support": [{
 				"country": "🇺🇦",
-				"measures": "Provide help for $6 million"
+				"measures": [
+					"Provide help for $6 million"
+				]
 			}]
 		},
 		"links": [
@@ -208,15 +254,21 @@
 		"side": "Condems war in general",
 		"actions": {
 			"general": [{
-				"measures": "Bought 100,000 metric tons of Russian Urals crude oil"
+				"measures": [
+					"Bought 100,000 metric tons of Russian Urals crude oil"
+				]
 			}],
 			"sanctions": [{
 				"country": "🇷🇺",
-				"measures": "Exiting from joint ventures with Gazprom. Intend to end involvement with the project to pipe gas from Russia"
+				"measures": [
+					"Exiting from joint ventures with Gazprom. Intend to end involvement with the project to pipe gas from Russia"
+				]
 			}],
 			"support": [{
 				"country": "🇺🇦",
-				"measures": "Promised to help with money"
+				"measures": [
+					"Promised to help with money"
+				]
 			}]
 		},
 		"links": [
@@ -230,7 +282,9 @@
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
-				"measures": "Pause sales to Russia"
+				"measures": [
+					"Pause sales to Russia"
+				]
 			}]
 		},
 		"links": [

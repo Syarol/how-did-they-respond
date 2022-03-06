@@ -58,24 +58,10 @@
 		<p v-if='activeOrganization.side'>
 			Sided with: {{ activeOrganization.side }}
 		</p>
-		<appList :actions-list='activeOrganization.actions.general'>Actions in general:</appList>
-		<appList :actions-list='activeOrganization.actions.support'>Actions of support:</appList>
-		<appList :actions-list='activeOrganization.actions.sanctions'>Sanctions:</appList>
-		<p>
-			Links: 
-			<ul
-				v-for='link of activeOrganization.links'
-				:key='link'
-				class='list'
-			>
-				<a 
-					:href='link'
-					class='link'
-				> 
-					{{ link }}
-				</a>
-			</ul>
-		</p>		
+		<actionsList :actions-list='activeOrganization.actions.general'>Actions in general:</actionsList>
+		<actionsList :actions-list='activeOrganization.actions.support'>Actions of support:</actionsList>
+		<actionsList :actions-list='activeOrganization.actions.sanctions'>Sanctions:</actionsList>
+		<linksList :links-list='activeOrganization.links'>Links: </linksList>
 	</section>
 	<section class='info-section'>
 		<h2 class='section-heading'>
@@ -157,11 +143,13 @@
 <script>
 import companies from './companies.json';
 
-import appList from './components/appList.vue';
+import actionsList from './components/actionsList.vue';
+import linksList from './components/linksList.vue';
 
 export default {
 	components: {
-		appList,
+		actionsList,
+		linksList,
 	},
 	data() {
 		return {
@@ -328,5 +316,10 @@ a,
 
 .text-center {
 	text-align: center;
+}
+
+.list {
+	list-style: none;
+	padding: 0 0 0 1em;
 }
 </style>
