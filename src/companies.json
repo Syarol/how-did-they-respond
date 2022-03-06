@@ -21,6 +21,43 @@
 			"https://ua.interfax.com.ua/news/general/807433.html"
 		]
 	}, {
+		"name": "Adobe",
+		"website": "https://www.adobe.com/",
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": "Suspended all new sales in Russia. Terminated access to Adobe Creative Cloud, Adobe Document Cloud and Adobe Experience Cloud to Russian government-controlled media outlets."
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": "Series of grants totaling over $1 million"
+			}]
+		},
+		"links": [
+			"https://blog.adobe.com/en/publish/2022/03/04/adobe-stops-all-new-sales-in-russia",
+			"https://blog.adobe.com/en/publish/2022/03/04/adobe-foundation-response-humanitarian-crisis-ukraine"
+		]
+	}, {
+		"name": "Apple",
+		"website": "https://www.airbnb.com",
+		"side": "No statement",
+		"actions": {
+			"general": [{
+				"measures": "Started to display Crimea as a part of Ukraine to users outside of Russia. Disabled traffic and live incidents in Apple Maps in Ukraine"
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": "Halted product sales in Russia. Limited Apple Pay service in Russia. Removed RT and Sputnik News from App Store in all markets outside Russia"
+			}]
+		},
+		"links": [
+			"https://techcrunch.com/2022/03/04/apple-maps-now-displays-crimea-as-part-of-ukraine-to-viewers-outside-of-russia/",
+			"https://techcrunch.com/2022/03/01/apple-halts-product-sales-in-russia-following-ukraine-invasion/",
+			"https://techcrunch.com/2022/03/01/apple-pulls-russian-state-owned-media-outlets-rt-and-sputnik-from-global-app-stores/",
+			"https://www.fastcompany.com/90728097/tech-companies-pull-out-of-russia"
+		]
+	}, {
 		"name": "Coupler.io",
 		"website": "https://www.coupler.io/",
 		"side": "🇺🇦",
@@ -48,6 +85,32 @@
 		},
 		"links": [
 			"https://www.datacenterdynamics.com/en/news/ericsson-suspends-deliveries-to-russia-is-evaluating-business-there/"
+		]
+	}, {
+		"name": "GitHub",
+		"website": "https://www.github.com/",
+		"side": "🇺🇦",
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": "Donating $100,000 to Razom and matching an additional $200,000 of donations from employees"
+			}]
+		},
+		"links": [
+			"https://github.blog/2022-03-02-our-response-to-the-war-in-ukraine/"
+		]
+	}, {
+		"name": "IBM",
+		"website": "https://www.ibm.com/",
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": "Suspended all sales to Russia and Russia-headquartered companies"
+			}]
+		},
+		"links": [
+			"https://newsroom.ibm.com/War-in-Ukraine-Supporting-IBMers"
 		]
 	}, {
 		"name": "Oracle",
@@ -122,7 +185,7 @@
 		"links": [
 			"https://twitter.com/RemingtonArms/status/1499884903676186633"
 		]
-	},{
+	}, {
 		"name": "Samsung",
 		"website": "https://www.samsung.com/",
 		"side": "Condems war in general",
@@ -138,6 +201,27 @@
 		},
 		"links": [
 			"https://twitter.com/samsungukraine/status/1499985429814206464"
+		]
+	}, {
+		"name": "Shell",
+		"website": "https://www.shell.com/",
+		"side": "Condems war in general",
+		"actions": {
+			"general": [{
+				"measures": "Bought 100,000 metric tons of Russian Urals crude oil"
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": "Exiting from joint ventures with Gazprom. Intend to end involvement with the project to pipe gas from Russia"
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": "Promised to help with money"
+			}]
+		},
+		"links": [
+			"https://www.wsj.com/livecoverage/russia-ukraine-latest-news-2022-03-04/card/shell-buys-russian-oil-at-bargain-price-2ZljvO2HQlmPm5d5aAgG",
+			"https://twitter.com/Shell/status/1500179430605471747"
 		]
 	}, {
 		"name": "SAP",

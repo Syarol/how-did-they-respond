@@ -4,6 +4,7 @@
 			<a
 				class='link link--red'
 				href='https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine'
+				style='font-weight: 800;'
 			>24 February</a>,<br> after 8 years of semi-frozen war, russia🇷🇺 initiated a full-scale invasion of Ukraine🇺🇦. In addition to sanctions initiated by many countries, a lot of companies have their own response to war. Here, you can take a look at it
 		</h1>
 		<input 
@@ -57,26 +58,9 @@
 		<p v-if='activeOrganization.side'>
 			Sided with: {{ activeOrganization.side }}
 		</p>
-		<p v-if='activeOrganization.actions.support'>
-			Actions of support:
-			<ul
-				v-for='org of activeOrganization.actions.support'
-				:key='org.country'
-				class='list'
-			>
-				<li>To {{ org.country }}: {{ org.measures }}</li>
-			</ul>
-		</p>
-		<p v-if='activeOrganization.actions.sanctions'>
-			Sanctions: 
-			<ul
-				v-for='org of activeOrganization.actions.sanctions'
-				:key='org.country'
-				class='list'
-			>
-				<li>On {{ org.country }}: {{ org.measures }}</li>
-			</ul>
-		</p>
+		<appList :actions-list='activeOrganization.actions.general'>Actions in general:</appList>
+		<appList :actions-list='activeOrganization.actions.support'>Actions of support:</appList>
+		<appList :actions-list='activeOrganization.actions.sanctions'>Sanctions:</appList>
 		<p>
 			Links: 
 			<ul
@@ -98,14 +82,14 @@
 			Didn't find someone?
 		</h2>
 		<p class='text-center'>
-			We can't cover every company by ourselves, and we would be happy for your help. If you discovered a company that is declared its position about the current war or made some actions, please don't hesitate to create an issue for it on GitHub or add missing information by yourself by creating a pull request.
+			We can't cover every company by ourselves, and we would be happy for your help. If you discovered a company that is declared its position about the current war or made some actions, please don't hesitate to create an issue for it on <a class='link' href='https://github.com/Syarol/how-did-they-respond'>GitHub</a> or add missing information by yourself by creating a pull request.
 		</p>
 	</section>
 	<section class='info-section'>
 		<h2 class='section-heading'>
 			Want to help Ukraine?
 		</h2>
-		<p>There are plenty or organization that helps ukrainian army and refugees, there is some of them:</p>
+		<p>There is plenty of organization that helps the Ukrainian army and refugees. If you can help financially, the fastest way for them to receive your help is to donate to local funds. There is some of them:</p>
 		<ul>
 			<li>
 				The Come Back Alive Foundation: <a
@@ -156,8 +140,9 @@
 				>link</a>
 			</li>
 		</ul>
-
-		<h3 class='section-sub-heading'>
+	</section>
+	<section class='info-section'>
+		<h3 class='section-heading'>
 			Searching for another ways to help?
 		</h3>
 		<p class='text-center'>
@@ -172,7 +157,12 @@
 <script>
 import companies from './companies.json';
 
+import appList from './components/appList.vue';
+
 export default {
+	components: {
+		appList,
+	},
 	data() {
 		return {
 			activeOrganization: null,
@@ -333,21 +323,10 @@ a,
 .section-heading {
 	font-weight: 500;
 	text-align: center;
-}
-
-.section-sub-heading {
-	font-weight: 500;
 	margin-bottom: 5px;
-	margin-top: 20px;
-	text-align: center;
 }
 
 .text-center {
 	text-align: center;
-}
-
-.list {
-	list-style: none;
-	padding: 0 0 0 1em;
 }
 </style>
