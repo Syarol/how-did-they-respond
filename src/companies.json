@@ -95,6 +95,28 @@
 			"https://www.fastcompany.com/90728097/tech-companies-pull-out-of-russia"
 		]
 	}, {
+		"name": "Autodesk",
+		"website": "https://www.autodesk.com",
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspends services work in Russia"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Financial support to Ukraine-specific relief efforts",
+					"Will provide a 2:1 match for every donation Autodesk employees make during the month of March to one of selected organizations"
+				]
+			}]
+		},
+		"links": [
+			"https://adsknews.autodesk.com/views/crisis-in-ukraine"
+		]
+	}, {
 		"name": "Coupler.io",
 		"website": "https://www.coupler.io/",
 		"side": "🇺🇦",
@@ -288,6 +310,23 @@
 		"links": [
 			"https://www.facebook.com/outdooractive/posts/10157903928364058"
 		]
+	},  {
+		"name": "Netflix",
+		"website": "https://www.netflix.com/",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"[28/02] Refused to stream Russian state channels",
+					"[06/03] Halted production of all upcoming Russian-language series",
+					"Suspended service in Russia"
+				]
+			}]
+		},
+		"links": [
+			"https://www.hollywoodreporter.com/business/business-news/netflix-not-streaming-russian-state-channels-1235101253/",
+			"https://www.reuters.com/business/media-telecom/nokia-stops-deliveries-russia-2022-03-01/"
+		]
 	}, {
 		"name": "Nokia",
 		"website": "https://www.nokia.com/",
@@ -454,6 +493,20 @@
 		},
 		"links": [
 			"https://www.marketwatch.com/story/sap-pauses-sales-to-russia-271646301894"
+		]
+	}, {
+		"name": "TikTok",
+		"website": "https://www.tiktok.com/",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspends service work in Russia"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/TikTokComms/status/1500535434610368518"
 		]
 	}, {
 		"name": "TunnelBear",
