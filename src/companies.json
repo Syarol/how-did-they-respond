@@ -117,6 +117,37 @@
 			"https://adsknews.autodesk.com/views/crisis-in-ukraine"
 		]
 	}, {
+		"name": "Bolt",
+		"website": "https://bolt.eu//",
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspended all ride-hailing operations in Belarus"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Removed all Russia-manufactured and Russian-branded goods from Bolt Market stores and will be donating them to charity"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Will donate 5% of every order in Europe to NGOs, including the Red Cross. With the help of users, expects to donate more than €5 million. At 7 March, €3 million were donated",
+					"Reduced the commission for all our services in Ukraine to zero",
+					"Incentivised drivers in Poland and Slovakia to accept rides on the Ukrainian border",
+					"Launched new category Support for emergency rides"
+				]
+			}]
+		},
+		"links": [
+			"https://blog.bolt.eu/en/bolt-stands-against-invasion-in-ukraine-donates-over-e5m/",
+			"https://blog.bolt.eu/en/bolt-has-donated-e3m-to-ngos-supporting-ukraine-so-far-more-to-follow/",
+			"https://nv.ua/ukr/ukraine/events/dopomoga-u-kiyevi-kudi-zvertatisya-za-jizheyu-likami-poradyu-likarya-50221937.html"
+		]
+	}, {
 		"name": "Coupler.io",
 		"website": "https://www.coupler.io/",
 		"side": "🇺🇦",
@@ -160,6 +191,28 @@
 		},
 		"links": [
 			"https://blog.coursera.org/coursera-response-to-the-humanitarian-crisis-in-ukraine/"
+		]
+	}, {
+		"name": "DataArt",
+		"website": "https://www.dataart.com/",
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped all investment, hiring and business development activities in Russia",
+					"Enforced a strict policy of avoiding government contracts in Russia"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Set up a Humanitarian Relief Fund and have allocated $1 million to help those remaining in Ukraine, and those who have to rebuild their lives elsewhere"
+				]
+			}]
+		},
+		"links": [
+			"https://www.dataart.com/our-statement-on-ukraine"
 		]
 	}, {
 		"name": "edX",
@@ -453,6 +506,21 @@
 			"https://twitter.com/samsungukraine/status/1499985429814206464"
 		]
 	}, {
+		"name": "SAP",
+		"website": "https://www.sap.com/",
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Pause sales to Russia"
+				]
+			}]
+		},
+		"links": [
+			"https://www.marketwatch.com/story/sap-pauses-sales-to-russia-271646301894"
+		]
+	}, {
 		"name": "Shell",
 		"website": "https://www.shell.com/",
 		"side": "Condems war in general",
@@ -480,19 +548,34 @@
 			"https://twitter.com/Shell/status/1500179430605471747"
 		]
 	}, {
-		"name": "SAP",
-		"website": "https://www.sap.com/",
-		"side": "🇺🇦",
+		"name": "Spotify",
+		"website": "https://www.spotify.com/",
 		"actions": {
+			"general": [{
+				"measures": [
+					"Launched a global guide on the Spotify platform to provide users around the world with trusted news",
+					"Artists have the ability to change their artist image on their Spotify profile to support Ukraine"
+				]
+			}
+			],
 			"sanctions": [{
 				"country": "🇷🇺",
 				"measures": [
-					"Pause sales to Russia"
+					"Closed office in Russia",
+					"Restricted the discoverability of shows owned and operated by Russian state-affiliated media",
+					"Removed all RT and Sputnik content from Spotify in the EU and other markets"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Matching employees donations 2:1 to support local humanitarian efforts in Ukraine",
+					"Mobilized Artist Fundraising Pick feature in Spotify for Artists to be used to help raise funds for the effort to help those affected by war"
 				]
 			}]
 		},
 		"links": [
-			"https://www.marketwatch.com/story/sap-pauses-sales-to-russia-271646301894"
+			"https://newsroom.spotify.com/2022-03-02/spotifys-statement-in-response-to-the-war-in-ukraine/"
 		]
 	}, {
 		"name": "TikTok",
@@ -532,6 +615,32 @@
 		"links": [
 			"https://twitter.com/theTunnelBear/status/1499058817967050755",
 			"https://twitter.com/theTunnelBear/status/1499488389913063431"
+		]
+	}, {
+		"name": "Upwork",
+		"website": "https://www.upwork.com/",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspends service work in Russia by 1 May"
+				]
+			}, {
+				"country": "🇧🇾",
+				"measures": [
+					"Suspends service work in Russia by 1 May"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"A $1 million donation to Direct Relief International in support of the Ukrainian population",
+					"A $100,000 matching program for donations from our own team members to aid in humanitarian relief in Ukraine"
+				]
+			}]
+		},
+		"links": [
+			"https://www.upwork.com/blog/a-letter-from-our-ceo-march-2022"
 		]
 	}]
 }
