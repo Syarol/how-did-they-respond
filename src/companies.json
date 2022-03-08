@@ -1,5 +1,32 @@
 {
 	"companies": [{
+		"name": "Adidas",
+		"website": "https://www.adobe.com/",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended operations of all offline and online stores in Russia"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Plan to continue to pay employees in Russia"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Donation of €1 million to refugee and children's charities",
+					"Donated clothing to Global Aid Network to distribute to people in need withing Ukraine and neighboring countries",
+					"Support to employees from Ukraine"
+				]
+			}]
+		},
+		"links": [
+			"https://www.linkedin.com/feed/update/urn:li:activity:6906644725970141185/"
+		]
+	}, {
 		"name": "Adobe",
 		"website": "https://www.adobe.com/",
 		"side": "🇺🇦",
@@ -117,8 +144,59 @@
 			"https://adsknews.autodesk.com/views/crisis-in-ukraine"
 		]
 	}, {
+		"name": "Bayer",
+		"website": "https://www.bayer.com/",
+		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Refused to stop operate in Russia"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Will donate €3 million to didster relief fund",
+					"Will match all donations made by employees",
+					"Shipped antibiotics and sterile medical items on request of the Ukrainian Ministry of Health"
+				]
+			}]
+		},
+		"links": [
+			"https://www.bayer.com/en/ukraine",
+			"https://www.epravda.com.ua/news/2022/03/8/683507/"
+		]
+	}, {
+		"name": "Boeing",
+		"website": "https://www.boeing.com/",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Halted purchasing Russian titanium",
+					"Closed engineering office in Moscow",
+					"Stopped sending spare plane parts to Russian airlines"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Closed engineering office in Kyiv"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Will donate $2 million to support humanitarian response efforts in Ukraine",
+					"Will match all qualifying employee contributions made in support of Ukrainian humanitarian relief"
+				]
+			}]
+		},
+		"links": [
+			"https://boeing.mediaroom.com/2022-03-03-Boeing-Commits-US-2-Million-to-Support-Humanitarian-Response-in-Ukraine",
+			"https://www.wsj.com/articles/boeings-future-with-a-titanium-venture-in-russia-remains-cloudy-11646649002"
+		]
+	}, {
 		"name": "Bolt",
-		"website": "https://bolt.eu//",
+		"website": "https://bolt.eu/",
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
@@ -215,6 +293,48 @@
 			"https://www.dataart.com/our-statement-on-ukraine"
 		]
 	}, {
+		"name": "Deloitte",
+		"website": "https://www2.deloitte.com/global/",
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Will no longer operate in Belorus"
+				]
+			},{
+				"country": "🇷🇺",
+				"measures": [
+					"Will no longer operate in Russia"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Suspended business operations and client service in Ukraine"
+				]
+			}],
+			"support": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Will support all impacted employees in Belarus"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Will support all impacted employees in Russia"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Action to ensure safety of employees in Ukraine and that their essential needs",
+					"Promise to made actions addressed humanitarian needs in Ukraine and across Europe"
+				]
+			}]
+		},
+		"links": [
+			"https://www2.deloitte.com/global/en/pages/about-deloitte/press-releases/deloitte-statement-on-ukraine-deloitte-global.html"
+		]
+	}, {
 		"name": "edX",
 		"website": "https://edx.org/",
 		"side": "🇺🇦",
@@ -249,6 +369,34 @@
 		},
 		"links": [
 			"https://www.datacenterdynamics.com/en/news/ericsson-suspends-deliveries-to-russia-is-evaluating-business-there/"
+		]
+	}, {
+		"name": "Estée Lauder",
+		"website": "https://www.elcompanies.com/",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended business investments and initiatives in Russia",
+					"Suspended all commercial activity in Russia (all stores, websites, shipments)"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will continue to provide compensation and support to employees in Russia"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Donated $1 million in support of relief efforts in Ukraine",
+					"Will be donating ELC products to those displaced and in need",
+					"Will match employee donations 2:1 to disaster relief NGOs for year"
+				]
+			}]
+		},
+		"links": [
+			"https://www.elcompanies.com/en/news-and-media/newsroom/company-features/2022/update-on-ukraine-invasion-and-business-in-russia"
 		]
 	}, {
 		"name": "GitHub",
