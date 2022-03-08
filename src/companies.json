@@ -1,7 +1,7 @@
 {
 	"companies": [{
 		"name": "Adidas",
-		"website": "https://www.adobe.com/",
+		"website": "https://www.adidas.com/",
 		"industry": [
 			"Fashion"
 		],
@@ -84,6 +84,43 @@
 		"links": [
 			"https://twitter.com/bchesky/status/1498214180674965504",
 			"https://ua.interfax.com.ua/news/general/807433.html"
+		]
+	}, {
+		"name": "Akamai Technologies",
+		"website": "https://www.akamai.com/",
+		"industry": [
+			"Software"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspending all sales in country",
+					"Terminating business with state-majority-owned customers"
+				]
+			}, {
+				"country": "🇧🇾",
+				"measures": [
+					"Suspending all sales in country",
+					"Terminating business with state-majority-owned customers"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will maintain a presence in Russia to support their global customers"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Will make their products and cybersecurity experts available to Ukrainian government agencies",
+					"Donations through the Akamai Foundation to address humanitarian needs"
+				]
+			}]
+		},
+		"links": [
+			"https://www.akamai.com/blog/news/ukraine-statement"
 		]
 	}, {
 		"name": "AMD",
@@ -251,6 +288,36 @@
 			"https://blog.bolt.eu/en/bolt-stands-against-invasion-in-ukraine-donates-over-e5m/",
 			"https://blog.bolt.eu/en/bolt-has-donated-e3m-to-ngos-supporting-ukraine-so-far-more-to-follow/",
 			"https://nv.ua/ukr/ukraine/events/dopomoga-u-kiyevi-kudi-zvertatisya-za-jizheyu-likami-poradyu-likarya-50221937.html"
+		]
+	}, {
+		"name": "CERN",
+		"website": "https://home.cern",
+		"industry": [
+			"Research"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"The Observer status of the Russia is suspended",
+					"CERN will not engage in new collaborations with the Russian Federation and its institutions"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Expresses support to the many members of CERN's Russian scientific community who reject invasion"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Will promote initiatives to support Ukrainian collaborators and Ukrainian scientific activity in the field of high-energy physics"
+				]
+			}]
+		},
+		"links": [
+			"https://home.cern/news/news/cern/cern-council-responds-russian-invasion-ukraine"
 		]
 	}, {
 		"name": "Coupler.io",
@@ -545,88 +612,6 @@
 			"https://www.intel.com/content/www/us/en/newsroom/news/intel-statement-war-ukraine.html"
 		]
 	}, {
-		"name": "Oracle",
-		"website": "https://www.oracle.com",
-		"industry": [
-			"Software"
-		],
-		"side": "🇺🇦",
-		"actions": {
-			"sanctions": [{
-				"country": "🇷🇺",
-				"measures": [
-					"Suspended all operations in Russia"
-				]
-			}]
-		},
-		"links": [
-			"https://www.reuters.com/business/oracle-says-it-has-suspended-all-operations-russia-2022-03-02/"
-		]
-	}, {
-		"name": "Outdooractive",
-		"website": "https://www.outdooractive.com/",
-		"industry": [
-			"Software"
-		],
-		"side": "🇺🇦",
-		"actions": {
-			"support": [{
-				"country": "🇺🇦",
-				"measures": [
-					"Free access to Pro membership for Ukrainian citizens"
-				]
-			}]
-		},
-		"links": [
-			"https://www.facebook.com/outdooractive/posts/10157903928364058"
-		]
-	},  {
-		"name": "Netflix",
-		"website": "https://www.netflix.com/",
-		"industry": [
-			"Software",
-			"Entertainment"
-		],
-		"actions": {
-			"sanctions": [{
-				"country": "🇷🇺",
-				"measures": [
-					"[28/02] Refused to stream Russian state channels",
-					"[06/03] Halted production of all upcoming Russian-language series",
-					"Suspended service in Russia"
-				]
-			}]
-		},
-		"links": [
-			"https://www.hollywoodreporter.com/business/business-news/netflix-not-streaming-russian-state-channels-1235101253/",
-			"https://www.reuters.com/business/media-telecom/nokia-stops-deliveries-russia-2022-03-01/"
-		]
-	}, {
-		"name": "Nokia",
-		"website": "https://www.nokia.com/",
-		"industry": [
-			"Telecom"
-		],
-		"side": "Condems war in general",
-		"actions": {
-			"support": [{
-				"country": "🇺🇦",
-				"measures": [
-					"Donate €1 million to UNICEF"
-				]
-			}],
-			"sanctions": [{
-				"country": "🇷🇺",
-				"measures": [
-					"Stop deliveries to this country"
-				]
-			}]
-		},
-		"links": [
-			"https://twitter.com/PekkaLundmark/status/1499654011154313216",
-			"https://www.reuters.com/business/media-telecom/nokia-stops-deliveries-russia-2022-03-01/"
-		]
-	}, {
 		"name": "MacPaw",
 		"website": "https://macpaw.com/",
 		"industry": [
@@ -686,6 +671,52 @@
 			"https://twitter.com/Mailtrap/status/1499449526599491588"
 		]
 	}, {
+		"name": "Netflix",
+		"website": "https://www.netflix.com/",
+		"industry": [
+			"Software",
+			"Entertainment"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"[28/02] Refused to stream Russian state channels",
+					"[06/03] Halted production of all upcoming Russian-language series",
+					"Suspended service in Russia"
+				]
+			}]
+		},
+		"links": [
+			"https://www.hollywoodreporter.com/business/business-news/netflix-not-streaming-russian-state-channels-1235101253/",
+			"https://www.reuters.com/business/media-telecom/nokia-stops-deliveries-russia-2022-03-01/"
+		]
+	}, {
+		"name": "Nokia",
+		"website": "https://www.nokia.com/",
+		"industry": [
+			"Telecom"
+		],
+		"side": "Condems war in general",
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donate €1 million to UNICEF"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stop deliveries to this country"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/PekkaLundmark/status/1499654011154313216",
+			"https://www.reuters.com/business/media-telecom/nokia-stops-deliveries-russia-2022-03-01/"
+		]
+	}, {
 		"name": "Nvidia",
 		"website": "https://www.nvidia.com/",
 		"industry": [
@@ -701,6 +732,59 @@
 		},
 		"links": [
 			"https://in.pcmag.com/graphics-cards/148243/nvidia-to-stop-all-product-sales-to-russia"
+		]
+	}, {
+		"name": "Oracle",
+		"website": "https://www.oracle.com",
+		"industry": [
+			"Software"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended all operations in Russia"
+				]
+			}]
+		},
+		"links": [
+			"https://www.reuters.com/business/oracle-says-it-has-suspended-all-operations-russia-2022-03-02/"
+		]
+	}, {
+		"name": "Outdooractive",
+		"website": "https://www.outdooractive.com/",
+		"industry": [
+			"Software"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Free access to Pro membership for Ukrainian citizens"
+				]
+			}]
+		},
+		"links": [
+			"https://www.facebook.com/outdooractive/posts/10157903928364058"
+		]
+	}, {
+		"name": "Puma",
+		"website": "https://puma.com/",
+		"industry": [
+			"Fashion"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspends operations of all stores in Russia"
+				]
+			}]
+		},
+		"links": [
+			"https://www.marketwatch.com/story/puma-closes-russia-stores-271646635007"
 		]
 	}, {
 		"name": "Remington Arms",
@@ -890,7 +974,7 @@
 			}, {
 				"country": "🇧🇾",
 				"measures": [
-					"Suspends service work in Russia by 1 May"
+					"Suspends service work in Belarus by 1 May"
 				]
 			}],
 			"support": [{
@@ -903,6 +987,39 @@
 		},
 		"links": [
 			"https://www.upwork.com/blog/a-letter-from-our-ceo-march-2022"
+		]
+	}, {
+		"name": "VMware",
+		"website": "https://www.vmware.com/",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspends all business operations in Russia"
+				]
+			}, {
+				"country": "🇧🇾",
+				"measures": [
+					"Suspends all business operations in Belarus"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will continue to support employees in Russia"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Will support Ukrainian team members, non-Ukraine-based employees with family members located in Ukraine, customers and partners"
+				]
+			}]
+		},
+		"links": [
+			"https://news.vmware.com/releases/vmware-statement-regarding-ukraine"
 		]
 	}]
 }
