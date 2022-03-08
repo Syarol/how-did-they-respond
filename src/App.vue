@@ -16,8 +16,21 @@
 		>
 	</div>
 	
+	<p style='margin: 10px 0;'>Also, you can sort companies by industries:</p>
+
+	<ul class='categories-list'>
+		<li
+			v-for='item of industries'
+			:key='item'
+			class='category'
+			@click='toggleCategory($event, item)'
+		>
+			{{ item }}
+		</li>
+	</ul>
+
 	<ul class='organizations-list'>
-		<template v-if='searchText.length === 0'>
+		<template v-if='searchText.length === 0 && activeCategories.size === 0'>
 			<li
 				v-for='org of companies.slice(0, 15)'
 				:key='org.name'
@@ -42,7 +55,7 @@
 		</template>
 	</ul>
 
-	<section 
+	<section
 		v-if='activeOrganization'
 		class='info-section'
 	>
@@ -142,6 +155,7 @@
 
 <script>
 import companies from './companies.json';
+import industries from './industries.json';
 
 import actionsList from './components/actionsList.vue';
 import linksList from './components/linksList.vue';
@@ -153,15 +167,39 @@ export default {
 	},
 	data() {
 		return {
+			activeCategories: new Set(),
 			activeOrganization: null,
+			categorizedOrganizations: [],
 			companies: companies.companies,
+			industries: industries,
 			organizations: [],
 			searchText: '',
 		};
 	},
 	methods: {
-		searchCompany() {
-			this.organizations = this.companies.filter(el => el.name.toLowerCase().includes(this.searchText));
+		searchCompany(){
+			let activeCategories = Array.from(this.activeCategories);
+
+			this.organizations = this.companies.filter(el => {
+				let isCategoriesApplied = false;
+
+				if (activeCategories.length > 0) {
+					isCategoriesApplied = el.industry.some(item => activeCategories.includes(item));
+				}
+
+				return el.name.toLowerCase().includes(this.searchText) && isCategoriesApplied;
+			});
+		},
+		toggleCategory(e, category){
+			e.target.classList.toggle('active');
+
+			if (this.activeCategories.has(category)) {
+				this.activeCategories.delete(category);
+			} else {
+				this.activeCategories.add(category);
+			}
+
+			this.searchCompany();
 		},
 		selectOrganization(e){
 			this.activeOrganization = e;
@@ -293,6 +331,36 @@ a,
 	.organization:hover {
 		color: #ebebeb;
 	}
+}
+
+.categories-list {
+	column-gap: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style: none;
+	margin: 0 10%;
+	padding: 0;
+	row-gap: 5px;
+}
+
+@media screen and (max-width: 480px) {
+	.categories-list {
+		margin: 0 10px;
+	}
+}
+
+.category {
+	border: 1px solid #f5f51f;
+	padding: 0 7px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.category.active {
+	background: #f5f51f;
+	color: #181818;
 }
 
 .info-section {

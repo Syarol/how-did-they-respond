@@ -2,6 +2,9 @@
 	"companies": [{
 		"name": "Adidas",
 		"website": "https://www.adobe.com/",
+		"industry": [
+			"Fashion"
+		],
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
@@ -29,6 +32,9 @@
 	}, {
 		"name": "Adobe",
 		"website": "https://www.adobe.com/",
+		"industry": [
+			"Software"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
@@ -52,6 +58,9 @@
 	}, {
 		"name": "Airbnb",
 		"website": "https://www.airbnb.com",
+		"industry": [
+			"Software"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
@@ -79,6 +88,9 @@
 	}, {
 		"name": "AMD",
 		"website": "https://www.amd.com/",
+		"industry": [
+			"Electronics"
+		],
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
@@ -98,6 +110,9 @@
 	}, {
 		"name": "Apple",
 		"website": "https://www.airbnb.com",
+		"industry": [
+			"Software"
+		],
 		"side": "No statement",
 		"actions": {
 			"general": [{
@@ -124,6 +139,9 @@
 	}, {
 		"name": "Autodesk",
 		"website": "https://www.autodesk.com",
+		"industry": [
+			"Software"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
@@ -146,6 +164,9 @@
 	}, {
 		"name": "Bayer",
 		"website": "https://www.bayer.com/",
+		"industry": [
+			"Pharmaceutical"
+		],
 		"actions": {
 			"support": [{
 				"country": "🇷🇺",
@@ -168,6 +189,9 @@
 	}, {
 		"name": "Boeing",
 		"website": "https://www.boeing.com/",
+		"industry": [
+			"Aerospace"
+		],
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
@@ -197,6 +221,9 @@
 	}, {
 		"name": "Bolt",
 		"website": "https://bolt.eu/",
+		"industry": [
+			"Software"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
@@ -228,6 +255,9 @@
 	}, {
 		"name": "Coupler.io",
 		"website": "https://www.coupler.io/",
+		"industry": [
+			"Software"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
@@ -248,6 +278,10 @@
 	}, {
 		"name": "Coursera",
 		"website": "https://coursera.org/",
+		"industry": [
+			"Software", 
+			"Education"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
@@ -273,6 +307,9 @@
 	}, {
 		"name": "DataArt",
 		"website": "https://www.dataart.com/",
+		"industry": [
+			"Software"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
@@ -295,6 +332,11 @@
 	}, {
 		"name": "Deloitte",
 		"website": "https://www2.deloitte.com/global/",
+		"industry": [
+			"Audit",
+			"Consulting",
+			"Legal"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
@@ -337,6 +379,10 @@
 	}, {
 		"name": "edX",
 		"website": "https://edx.org/",
+		"industry": [
+			"Software",
+			"Education"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
@@ -358,7 +404,9 @@
 	}, {
 		"name": "Ericsson",
 		"website": "https://www.ericsson.com/",
-		"side": "Not specified",
+		"industry": [
+			"Telecom"
+		],
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
@@ -373,6 +421,9 @@
 	}, {
 		"name": "Estée Lauder",
 		"website": "https://www.elcompanies.com/",
+		"industry": [
+			"Beauty"
+		],
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
@@ -401,6 +452,9 @@
 	}, {
 		"name": "GitHub",
 		"website": "https://www.github.com/",
+		"industry": [
+			"Software"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"support": [{
@@ -416,6 +470,9 @@
 	}, {
 		"name": "Grammarly",
 		"website": "https://grammarly.com/",
+		"industry": [
+			"Software"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
@@ -442,6 +499,9 @@
 	}, {
 		"name": "IBM",
 		"website": "https://www.ibm.com/",
+		"industry": [
+			"Software"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
@@ -456,7 +516,10 @@
 		]
 	}, {
 		"name": "Intel",
-		"website": "https://www.amd.com/",
+		"website": "https://www.intel.com/",
+		"industry": [
+			"Electronics"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
@@ -484,6 +547,9 @@
 	}, {
 		"name": "Oracle",
 		"website": "https://www.oracle.com",
+		"industry": [
+			"Software"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
@@ -499,6 +565,9 @@
 	}, {
 		"name": "Outdooractive",
 		"website": "https://www.outdooractive.com/",
+		"industry": [
+			"Software"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"support": [{
@@ -514,6 +583,10 @@
 	},  {
 		"name": "Netflix",
 		"website": "https://www.netflix.com/",
+		"industry": [
+			"Software",
+			"Entertainment"
+		],
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
@@ -531,6 +604,9 @@
 	}, {
 		"name": "Nokia",
 		"website": "https://www.nokia.com/",
+		"industry": [
+			"Telecom"
+		],
 		"side": "Condems war in general",
 		"actions": {
 			"support": [{
@@ -553,6 +629,9 @@
 	}, {
 		"name": "MacPaw",
 		"website": "https://macpaw.com/",
+		"industry": [
+			"Software"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"general": [{
@@ -586,6 +665,9 @@
 	}, {
 		"name": "Mailtrap",
 		"website": "https://mailtrap.io/",
+		"industry": [
+			"Software"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
@@ -606,6 +688,9 @@
 	}, {
 		"name": "Nvidia",
 		"website": "https://www.nvidia.com/",
+		"industry": [
+			"Software"
+		],
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
@@ -620,6 +705,9 @@
 	}, {
 		"name": "Remington Arms",
 		"website": "https://www.remington.com/",
+		"industry": [
+			"Arms"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"support": [{
@@ -635,6 +723,10 @@
 	}, {
 		"name": "Samsung",
 		"website": "https://www.samsung.com/",
+		"industry": [
+			"Software",
+			"Electronics"
+		],
 		"side": "Condems war in general",
 		"actions": {
 			"sanctions": [{
@@ -656,6 +748,9 @@
 	}, {
 		"name": "SAP",
 		"website": "https://www.sap.com/",
+		"industry": [
+			"Software"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
@@ -671,6 +766,9 @@
 	}, {
 		"name": "Shell",
 		"website": "https://www.shell.com/",
+		"industry": [
+			"Oil"
+		],
 		"side": "Condems war in general",
 		"actions": {
 			"general": [{
@@ -681,7 +779,10 @@
 			"sanctions": [{
 				"country": "🇷🇺",
 				"measures": [
-					"Exiting from joint ventures with Gazprom. Intend to end involvement with the project to pipe gas from Russia"
+					"Exiting from joint ventures with Gazprom. Intend to end involvement with the project to pipe gas from Russia",
+					"[08/03] Stops buying Russian crude oil",
+					"Shuts service stations, aviation fuels and lubricants operations in Russia",
+					"Will withdraw from Russian petroleum products, pipeline gas and LNG"
 				]
 			}],
 			"support": [{
@@ -693,11 +794,15 @@
 		},
 		"links": [
 			"https://www.wsj.com/livecoverage/russia-ukraine-latest-news-2022-03-04/card/shell-buys-russian-oil-at-bargain-price-2ZljvO2HQlmPm5d5aAgG",
-			"https://twitter.com/Shell/status/1500179430605471747"
+			"https://twitter.com/Shell/status/1500179430605471747",
+			"https://www.shell.com/media/news-and-media-releases/2022/shell-announces-intent-to-withdraw-from-russian-oil-and-gas.html"
 		]
 	}, {
 		"name": "Spotify",
 		"website": "https://www.spotify.com/",
+		"industry": [
+			"Software"
+		],
 		"actions": {
 			"general": [{
 				"measures": [
@@ -728,6 +833,9 @@
 	}, {
 		"name": "TikTok",
 		"website": "https://www.tiktok.com/",
+		"industry": [
+			"Software"
+		],
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
@@ -742,6 +850,9 @@
 	}, {
 		"name": "TunnelBear",
 		"website": "https://www.tunnelbear.com/",
+		"industry": [
+			"Software"
+		],
 		"actions": {
 			"general": [{
 				"measures": [
@@ -767,6 +878,9 @@
 	}, {
 		"name": "Upwork",
 		"website": "https://www.upwork.com/",
+		"industry": [
+			"Software"
+		],
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
