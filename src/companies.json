@@ -487,6 +487,9 @@
 		]
 	}, {
 		"name": "Estée Lauder",
+		"alt_name": [
+			"Estee Lauder"
+		],
 		"website": "https://www.elcompanies.com/",
 		"industry": [
 			"Beauty"

@@ -181,13 +181,17 @@ export default {
 			let activeCategories = Array.from(this.activeCategories);
 
 			this.organizations = this.companies.filter(el => {
-				let isCategoriesApplied = false;
+				let isFoundByName = el.name.toLowerCase().includes(this.searchText);
+				let isFoundByAltName = isFoundByName ? null : el?.alt_name?.some(item => item.toLowerCase().includes(this.searchText));
 
 				if (activeCategories.length > 0) {
-					isCategoriesApplied = el.industry.some(item => activeCategories.includes(item));
-				}
+					let isCategoriesApplied = el.industry.some(item => activeCategories.includes(item));
 
-				return el.name.toLowerCase().includes(this.searchText) && isCategoriesApplied;
+					return (isFoundByName && isCategoriesApplied) ||
+						(isFoundByAltName && isCategoriesApplied);
+				} else {
+					return isFoundByName || isFoundByAltName;
+				}
 			});
 		},
 		toggleCategory(e, category){
