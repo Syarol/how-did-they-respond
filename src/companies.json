@@ -1,5 +1,43 @@
 {
 	"companies": [{
+		"name": "11 bit studios",
+		"website": "https://11bitstudios.com/",
+		"industry": [
+			"Software",
+			"Gaming"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"All profits from \"This War of Mine\" for seven days after announcement went go to special fund which was donated to Ukrainian Red Cross. In summary, $850,000 were raised"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/11bitstudios/status/1496904408344449027",
+			"https://twitter.com/11bitstudios/status/1499736525357129730"
+		]
+	}, {
+		"name": "Acid Wizard Studio",
+		"website": "https://twitter.com/TheAcidWizard",
+		"industry": [
+			"Software",
+			"Gaming"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"All profits from \"Darkwood\" between 24 February and 8 March will be donated to Ukrainian Red Cross"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/TheAcidWizard/status/1498745024858705921"
+		]
+	}, {
 		"name": "Adidas",
 		"website": "https://www.adidas.com/",
 		"industry": [
@@ -150,7 +188,6 @@
 		"industry": [
 			"Software"
 		],
-		"side": "No statement",
 		"actions": {
 			"general": [{
 				"measures": [
@@ -224,6 +261,26 @@
 			"https://www.epravda.com.ua/news/2022/03/8/683507/"
 		]
 	}, {
+		"name": "beetlewing",
+		"website": "https://beetlewing.pl/",
+		"industry": [
+			"Software",
+			"Gaming"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"All profits from \"Slipways\" game for seven days after announcement will be donated to Polish Red Cross which helps victims of war in Ukraine. In summary, $16,200 were raised"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/krajzeg/status/1497185303630696451",
+			"https://twitter.com/krajzeg/status/1499725855391637508"
+		]
+	}, {
 		"name": "Boeing",
 		"website": "https://www.boeing.com/",
 		"industry": [
@@ -288,6 +345,39 @@
 			"https://blog.bolt.eu/en/bolt-stands-against-invasion-in-ukraine-donates-over-e5m/",
 			"https://blog.bolt.eu/en/bolt-has-donated-e3m-to-ngos-supporting-ukraine-so-far-more-to-follow/",
 			"https://nv.ua/ukr/ukraine/events/dopomoga-u-kiyevi-kudi-zvertatisya-za-jizheyu-likami-poradyu-likarya-50221937.html"
+		]
+	}, {
+		"name": "CD Project",
+		"website": "https://cdprojektred.com/",
+		"industry": [
+			"Software",
+			"Gaming"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspend all sales (both digital and physical) to Belarus"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Suspend all sales (both digital and physical) to Russia"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Provides humanitarian aid to refugees from Ukraine",
+					"Donated 1 million PLN to Polska Akcja Humanitarna that is helping Ukrainian refugees"
+				]
+			}]
+		},
+		"links": [
+			"https://en.cdprojektred.com/news/important-update-4/",
+			"https://twitter.com/CDPROJEKTRED/status/1499801772075933700",
+			"https://twitter.com/CDPROJEKTRED/status/1497207867773964290"
 		]
 	}, {
 		"name": "CERN",
@@ -567,6 +657,39 @@
 			"https://www.grammarly.com/stand-with-ukraine"
 		]
 	}, {
+		"name": "Huuuge Games",
+		"website": "https://huuugegames.com/",
+		"industry": [
+			"Software",
+			"Gaming"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspended distribution of their games in Belarus"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended distribution of their games in Russia"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Assists to relocate Ukrainian employees to safer places",
+					"Donated 1 million PLN to funds that helps victims of war",
+					"Will match donations made by employees to selected charities"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/HuuugeGames/status/1497262036417486855",
+			"https://twitter.com/HuuugeGames/status/1501618508064567301"
+		]
+	}, {
 		"name": "IBM",
 		"website": "https://www.ibm.com/",
 		"industry": [
@@ -773,6 +896,25 @@
 			"https://www.facebook.com/outdooractive/posts/10157903928364058"
 		]
 	}, {
+		"name": "People Can Fly",
+		"website": "https://peoplecanfly.com/",
+		"industry": [
+			"Software",
+			"Gaming"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Will double every donation to Polish Humanitarian Action by their link up to 1 million PLN"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/PCFPeopleCanFly/status/1498297630148935680"
+		]
+	}, {
 		"name": "Puma",
 		"website": "https://puma.com/",
 		"industry": [
@@ -916,6 +1058,25 @@
 		},
 		"links": [
 			"https://newsroom.spotify.com/2022-03-02/spotifys-statement-in-response-to-the-war-in-ukraine/"
+		]
+	}, {
+		"name": "State of Play",
+		"website": "https://www.stateofplaygames.com/",
+		"industry": [
+			"Software",
+			"Gaming"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"All profits from their games on the App Store, Google Play and Steam for seven days after announcement will be donated to Ukrainian Red Cross"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/State_of_Play/status/1497178102841192451"
 		]
 	}, {
 		"name": "TikTok",
