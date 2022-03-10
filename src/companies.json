@@ -161,6 +161,29 @@
 			"https://www.akamai.com/blog/news/ukraine-statement"
 		]
 	}, {
+		"name": "Alstom",
+		"website": "https://www.alstom.com/",
+		"industry": [
+			"Machinery"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspends all deliveries to Russia",
+					"Suspends all future business investments in Russia"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Suspends discussion about partnership project with UZ"
+				]
+			}]
+		},
+		"links": [
+			"https://www.alstom.com/press-releases-news/2022/3/alstom-statement-ukraine"
+		]
+	}, {
 		"name": "AMD",
 		"website": "https://www.amd.com/",
 		"industry": [
@@ -184,7 +207,7 @@
 		]
 	}, {
 		"name": "Apple",
-		"website": "https://www.airbnb.com",
+		"website": "https://www.apple.com",
 		"industry": [
 			"Software"
 		],
@@ -347,6 +370,36 @@
 			"https://nv.ua/ukr/ukraine/events/dopomoga-u-kiyevi-kudi-zvertatisya-za-jizheyu-likami-poradyu-likarya-50221937.html"
 		]
 	}, {
+		"name": "Caterpillar",
+		"website": "https://www.caterpillar.com/",
+		"industry": [
+			"Machinery"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspends operations in Russian manufacturing facilities"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will support employees in Russia"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Will donate more than $1 million to American Red Cross, Project Hope, and the Center for Disaster Philanthropy",
+					"Will match employee donations 2:1 to Red Cross"
+				]
+			}]
+		},
+		"links": [
+			"https://www.caterpillar.com/en/news/caterpillarNews/2022/caterpillar-statement-on-ukraine-and-russia.html",
+			"https://www.caterpillar.com/en/news/corporate-press-releases/h/caterpillar-foundation-supports-needs-ukrainian-people.html"
+		]
+	}, {
 		"name": "CD Project",
 		"website": "https://cdprojektred.com/",
 		"industry": [
@@ -408,6 +461,40 @@
 		},
 		"links": [
 			"https://home.cern/news/news/cern/cern-council-responds-russian-invasion-ukraine"
+		]
+	}, {
+		"name": "Cloundflare",
+		"website": "https://www.cloudflare.com/",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Moved customer encryption key material out of data centers in Ukraine, Russia, and Belarus"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Closed off paid access to our network and systems in the new comprehensively-sanctioned regions",
+					"Terminated any customers that have identified as tied to sanctions"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Refused to terminate services in Russia"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Any Ukrainian organizations that are facing cyberattack can apply for free protection under Project Galileo"
+				]
+			}]
+		},
+		"links": [
+			"https://blog.cloudflare.com/steps-taken-around-cloudflares-services-in-ukraine-belarus-and-russia/"
 		]
 	}, {
 		"name": "Coupler.io",
@@ -608,6 +695,30 @@
 		},
 		"links": [
 			"https://www.elcompanies.com/en/news-and-media/newsroom/company-features/2022/update-on-ukraine-invasion-and-business-in-russia"
+		]
+	}, {
+		"name": "Figma",
+		"website": "https://www.figma.com/",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopping all new sales in Russia"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Will match employee donations to organizations supporting Ukrainian refugees and humanitarian relief",
+					"Will grant continued access to Figma's paid features for current Ukrainian customers who ask for assistance in the coming months"
+				]
+			}]
+		},
+		"links": [
+			"https://www.figma.com/blog/our-response-to-ukraine/"
 		]
 	}, {
 		"name": "GitHub",
@@ -932,6 +1043,25 @@
 			"https://www.marketwatch.com/story/puma-closes-russia-stores-271646635007"
 		]
 	}, {
+		"name": "Readdle",
+		"website": "https://readdle.com/",
+		"industry": [
+			"Software"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Removed their apps from sale in the Russian App Store and Google Play",
+					"Will refuse to do business with Russian-owned companies or companies that continue to support the Russian invasion of Ukraine"
+				]
+			}]
+		},
+		"links": [
+			"https://readdle.com/blog/bye-russia"
+		]
+	}, {
 		"name": "Remington Arms",
 		"website": "https://www.remington.com/",
 		"industry": [
@@ -1025,6 +1155,60 @@
 			"https://www.wsj.com/livecoverage/russia-ukraine-latest-news-2022-03-04/card/shell-buys-russian-oil-at-bargain-price-2ZljvO2HQlmPm5d5aAgG",
 			"https://twitter.com/Shell/status/1500179430605471747",
 			"https://www.shell.com/media/news-and-media-releases/2022/shell-announces-intent-to-withdraw-from-russian-oil-and-gas.html"
+		]
+	}, {
+		"name": "Shopify",
+		"website": "https://www.shopify.com/",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspends operations in Russia"
+				]
+			}, {
+				"country": "🇧🇾",
+				"measures": [
+					"Suspends operations in Belarus"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Removed fees for Ukrainian merchants and partners",
+					"Will contribute funds to provide humanitarian aid through partner Flexport",
+					"Will match all donations made by employees through Flexport"
+				]
+			}]
+		},
+		"links": [
+			"https://news.shopify.com/supporting-ukraine"
+		]
+	}, {
+		"name": "Sketch",
+		"website": "https://www.sketch.com",
+		"industry": [
+			"Software"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopping all sales in Russia, including subscription renewals, Mac-only license renewals and any add-on purchases or purchases from new customers"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donated $10,000 to the Red Cross in Ukraine"
+				]
+			}]
+		},
+		"links": [
+			"https://www.sketch.com/blog/2022/03/08/we-stand-with-ukraine/"
 		]
 	}, {
 		"name": "Spotify",
