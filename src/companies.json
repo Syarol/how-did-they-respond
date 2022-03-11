@@ -184,6 +184,51 @@
 			"https://www.alstom.com/press-releases-news/2022/3/alstom-statement-ukraine"
 		]
 	}, {
+		"name": "Amazon",
+		"website": "https://www.amazon.com/",
+		"industry": [
+			"Entertainment",
+			"Gaming",
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Stopped allowing new sign-ups for AWS in Belarus",
+					"Suspended shipment of retail products to customers based in Belarus",
+					"Stopped to accepting new Belarus-based AWS customers and Amazon third-party sellers"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped allowing new sign-ups for AWS in Russia",
+					"Suspended shipment of retail products to customers based in Russia",
+					"Stopped to accepting new Russia-based AWS customers and Amazon third-party sellers",
+					"Suspending access to Prime Video",
+					"Stopped taking orders for \"New World\""
+				]
+			}],
+			"support": [{
+				"country": "🇵🇱",
+				"measures": [
+					"Employees in Poland received additional time off to take care of themselves and their families",
+					"Working with Ukrainian nationals to expedite immigration work visas"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Donated $5 million to organizations that are providing critical support on the ground",
+					"Will match all donations made by employees up to $5 million to selected NGOs",
+					"Added donation buttons or direct links to charitable organizations on the homepages of their websites, and will waive fees for payment processing on donations made through Amazon",
+					"Provided cybersecurity assistance for Ukrainian customers"
+				]
+			}]
+		},
+		"links": [
+			"https://www.aboutamazon.com/news/community/amazons-assistance-in-ukraine"
+		]
+	}, {
 		"name": "AMD",
 		"website": "https://www.amd.com/",
 		"industry": [
@@ -739,6 +784,35 @@
 			"https://github.blog/2022-03-02-our-response-to-the-war-in-ukraine/"
 		]
 	}, {
+		"name": "GitLab",
+		"website": "https://about.gitlab.com/",
+		"industry": [
+			"Software"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspended new business in 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended new business in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"he Sijbrandij Foundation will match donations from GitLab team members to the selected charities"
+				]
+			}]
+		},
+		"links": [
+			"https://about.gitlab.com/blog/2022/03/11/gitlab-actions-to-date-regarding-russian-invasion-of-ukraine/"
+		]
+	}, {
 		"name": "Grammarly",
 		"website": "https://grammarly.com/",
 		"industry": [
@@ -906,6 +980,32 @@
 		},
 		"links": [
 			"https://twitter.com/Mailtrap/status/1499449526599491588"
+		]
+	}, {
+		"name": "Microsoft",
+		"website": "",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended all new sales of Microsoft products and services in Russia",
+					"Stopping many aspects of business in Russia in compliance with governmental sanctions decisions"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Continuing to work proactively to help cybersecurity officials in Ukraine defend against Russian attacks",
+					"Helps refugees by providing technology and financial support for key NGOs and, where needed, defending these groups from ongoing cyberattacks"
+				]
+			}]
+		},
+		"links": [
+			"https://blogs.microsoft.com/on-the-issues/2022/02/28/ukraine-russia-digital-war-cyberattacks/",
+			"https://blogs.microsoft.com/on-the-issues/2022/03/04/microsoft-suspends-russia-sales-ukraine-conflict/"
 		]
 	}, {
 		"name": "Netflix",
@@ -1209,6 +1309,24 @@
 		},
 		"links": [
 			"https://www.sketch.com/blog/2022/03/08/we-stand-with-ukraine/"
+		]
+	}, {
+		"name": "Sony",
+		"website": "https://www.sony.com/",
+		"industry": [
+			"Entertainment"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donated $2M to organization that are providing humanitarian aid to the affected populations in 🇺🇦 and countries in the region",
+					"Will match donations from employees"
+				]
+			}]
+		},
+		"links": [
+			"https://www.sony.com/en/SonyInfo/News/Press/202203/22-007E/"
 		]
 	}, {
 		"name": "Spotify",
