@@ -68,6 +68,9 @@
 				:href='activeOrganization.website'
 			>link</a>
 		</p>
+		<p v-if='activeOrganization.headquarters'>
+			Headquarters: {{ activeOrganization.headquarters }}
+		</p>
 		<p v-if='activeOrganization.side'>
 			Sided with: {{ activeOrganization.side }}
 		</p>

@@ -2,6 +2,7 @@
 	"companies": [{
 		"name": "11 bit studios",
 		"website": "https://11bitstudios.com/",
+		"headquarters": "Warsaw, 🇵🇱",
 		"industry": [
 			"Software",
 			"Gaming"
@@ -22,6 +23,7 @@
 	}, {
 		"name": "Acid Wizard Studio",
 		"website": "https://twitter.com/TheAcidWizard",
+		"headquarters": "Warsaw, 🇵🇱",
 		"industry": [
 			"Software",
 			"Gaming"
@@ -40,6 +42,7 @@
 	}, {
 		"name": "Adidas",
 		"website": "https://www.adidas.com/",
+		"headquarters": "Herzogenaurach, 🇩🇪",
 		"industry": [
 			"Fashion"
 		],
@@ -70,6 +73,7 @@
 	}, {
 		"name": "Adobe",
 		"website": "https://www.adobe.com/",
+		"headquarters": "San Jose, CA, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -96,6 +100,7 @@
 	}, {
 		"name": "Airbnb",
 		"website": "https://www.airbnb.com",
+		"headquarters": "San Francisco, CA, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -126,6 +131,7 @@
 	}, {
 		"name": "Akamai Technologies",
 		"website": "https://www.akamai.com/",
+		"headquarters": "Cambridge, MA, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -163,6 +169,7 @@
 	}, {
 		"name": "Alstom",
 		"website": "https://www.alstom.com/",
+		"headquarters": "Saint-Ouen, 🇫🇷",
 		"industry": [
 			"Machinery"
 		],
@@ -186,6 +193,7 @@
 	}, {
 		"name": "Amazon",
 		"website": "https://www.amazon.com/",
+		"headquarters": "Seattle, WA, 🇺🇸",
 		"industry": [
 			"Entertainment",
 			"Gaming",
@@ -231,6 +239,7 @@
 	}, {
 		"name": "AMD",
 		"website": "https://www.amd.com/",
+		"headquarters": "Santa Clara, CA, 🇺🇸",
 		"industry": [
 			"Electronics"
 		],
@@ -253,6 +262,7 @@
 	}, {
 		"name": "Apple",
 		"website": "https://www.apple.com",
+		"headquarters": "Cupertino, CA, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -284,6 +294,7 @@
 			"Ask.fm"
 		],
 		"website": "https://ask.fm/",
+		"headquarters": "Riga, 🇱🇻",
 		"industry": [
 			"Software"
 		],
@@ -318,6 +329,7 @@
 	}, {
 		"name": "Autodesk",
 		"website": "https://www.autodesk.com",
+		"headquarters": "San Rafael, CA, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -343,6 +355,7 @@
 	}, {
 		"name": "Bayer",
 		"website": "https://www.bayer.com/",
+		"headquarters": "Leverkusen, 🇩🇪",
 		"industry": [
 			"Pharmaceutical"
 		],
@@ -368,6 +381,7 @@
 	}, {
 		"name": "beetlewing",
 		"website": "https://beetlewing.pl/",
+		"headquarters": "Warsaw, 🇵🇱",
 		"industry": [
 			"Software",
 			"Gaming"
@@ -388,6 +402,7 @@
 	}, {
 		"name": "Boeing",
 		"website": "https://www.boeing.com/",
+		"headquarters": "Seattle, WA, 🇺🇸",
 		"industry": [
 			"Aerospace"
 		],
@@ -420,6 +435,7 @@
 	}, {
 		"name": "Bolt",
 		"website": "https://bolt.eu/",
+		"headquarters": "Tallin, 🇪🇪",
 		"industry": [
 			"Software"
 		],
@@ -454,6 +470,7 @@
 	}, {
 		"name": "Caterpillar",
 		"website": "https://www.caterpillar.com/",
+		"headquarters": "Deerfield, IL, 🇺🇸",
 		"industry": [
 			"Machinery"
 		],
@@ -484,6 +501,7 @@
 	}, {
 		"name": "CD Project",
 		"website": "https://cdprojektred.com/",
+		"headquarters": "Warsaw, 🇵🇱",
 		"industry": [
 			"Software",
 			"Gaming"
@@ -517,6 +535,7 @@
 	}, {
 		"name": "CERN",
 		"website": "https://home.cern",
+		"headquarters": "Meyrin, 🇨🇭",
 		"industry": [
 			"Research"
 		],
@@ -545,8 +564,9 @@
 			"https://home.cern/news/news/cern/cern-council-responds-russian-invasion-ukraine"
 		]
 	}, {
-		"name": "Cloundflare",
+		"name": "Cloudflare",
 		"website": "https://www.cloudflare.com/",
+		"headquarters": "San Francisco, CA, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -581,6 +601,7 @@
 	}, {
 		"name": "Coupler.io",
 		"website": "https://www.coupler.io/",
+		"headquarters": "Danbury, CT, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -604,6 +625,7 @@
 	}, {
 		"name": "Coursera",
 		"website": "https://coursera.org/",
+		"headquarters": "Mountain View, CA, 🇺🇸",
 		"industry": [
 			"Software", 
 			"Education"
@@ -633,6 +655,7 @@
 	}, {
 		"name": "DataArt",
 		"website": "https://www.dataart.com/",
+		"headquarters": "New York, NY, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -658,6 +681,7 @@
 	}, {
 		"name": "Deloitte",
 		"website": "https://www2.deloitte.com/global/",
+		"headquarters": "London, 🇬🇧",
 		"industry": [
 			"Audit",
 			"Consulting",
@@ -705,6 +729,7 @@
 	}, {
 		"name": "eBay",
 		"website": "https://www.ebay.com/",
+		"headquarters": "San Jose, CA, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -739,6 +764,7 @@
 	}, {
 		"name": "edX",
 		"website": "https://edx.org/",
+		"headquarters": "Cambridge, MA, 🇺🇸",
 		"industry": [
 			"Software",
 			"Education"
@@ -764,6 +790,7 @@
 	}, {
 		"name": "Ericsson",
 		"website": "https://www.ericsson.com/",
+		"headquarters": "Stockholm, 🇸🇪",
 		"industry": [
 			"Telecom"
 		],
@@ -784,6 +811,7 @@
 			"Estee Lauder"
 		],
 		"website": "https://www.elcompanies.com/",
+		"headquarters": "New York, NY, 🇺🇸",
 		"industry": [
 			"Beauty"
 		],
@@ -815,6 +843,7 @@
 	}, {
 		"name": "Figma",
 		"website": "https://www.figma.com/",
+		"headquarters": "San Francisco, CA, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -839,6 +868,7 @@
 	}, {
 		"name": "GitHub",
 		"website": "https://www.github.com/",
+		"headquarters": "San Francisco, CA, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -857,6 +887,7 @@
 	}, {
 		"name": "GitLab",
 		"website": "https://about.gitlab.com/",
+		"headquarters": "San Francisco, CA, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -886,6 +917,7 @@
 	}, {
 		"name": "Grammarly",
 		"website": "https://grammarly.com/",
+		"headquarters": "San Francisco, CA, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -915,6 +947,7 @@
 	}, {
 		"name": "Huuuge Games",
 		"website": "https://huuugegames.com/",
+		"headquarters": "Warsaw, 🇵🇱",
 		"industry": [
 			"Software",
 			"Gaming"
@@ -948,6 +981,7 @@
 	}, {
 		"name": "IBM",
 		"website": "https://www.ibm.com/",
+		"headquarters": "Armonk, NY, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -966,6 +1000,7 @@
 	}, {
 		"name": "Intel",
 		"website": "https://www.intel.com/",
+		"headquarters": "Santa Clara, CA, 🇺🇸",
 		"industry": [
 			"Electronics"
 		],
@@ -999,6 +1034,7 @@
 			"LINX"
 		],
 		"website": "https://www.linx.net/",
+		"headquarters": "London, 🇬🇧",
 		"industry": [
 			"Telecom"
 		],
@@ -1016,6 +1052,7 @@
 	}, {
 		"name": "MacPaw",
 		"website": "https://macpaw.com/",
+		"headquarters": "Kyiv, 🇺🇦",
 		"industry": [
 			"Software"
 		],
@@ -1052,6 +1089,7 @@
 	}, {
 		"name": "Mailtrap",
 		"website": "https://mailtrap.io/",
+		"headquarters": "Danbury, CT, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -1074,7 +1112,8 @@
 		]
 	}, {
 		"name": "Microsoft",
-		"website": "",
+		"website": "https://www.microsoft.com/",
+		"headquarters": "Redmond, WA, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -1101,6 +1140,7 @@
 	}, {
 		"name": "Netflix",
 		"website": "https://www.netflix.com/",
+		"headquarters": "Los Gatos, CA, 🇺🇸",
 		"industry": [
 			"Software",
 			"Entertainment"
@@ -1122,6 +1162,7 @@
 	}, {
 		"name": "Nokia",
 		"website": "https://www.nokia.com/",
+		"headquarters": "Espoo, 🇫🇮",
 		"industry": [
 			"Telecom"
 		],
@@ -1147,6 +1188,7 @@
 	}, {
 		"name": "Nvidia",
 		"website": "https://www.nvidia.com/",
+		"headquarters": "Santa Clara, CA, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -1164,6 +1206,7 @@
 	}, {
 		"name": "Oracle",
 		"website": "https://www.oracle.com",
+		"headquarters": "Austin, TX, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -1182,6 +1225,7 @@
 	}, {
 		"name": "Outdooractive",
 		"website": "https://www.outdooractive.com/",
+		"headquarters": "Allgäu, 🇩🇪",
 		"industry": [
 			"Software"
 		],
@@ -1200,6 +1244,7 @@
 	}, {
 		"name": "People Can Fly",
 		"website": "https://peoplecanfly.com/",
+		"headquarters": "Warsaw, 🇵🇱",
 		"industry": [
 			"Software",
 			"Gaming"
@@ -1219,6 +1264,7 @@
 	}, {
 		"name": "Puma",
 		"website": "https://puma.com/",
+		"headquarters": "Herzogenaurach, 🇩🇪",
 		"industry": [
 			"Fashion"
 		],
@@ -1236,6 +1282,7 @@
 	}, {
 		"name": "Readdle",
 		"website": "https://readdle.com/",
+		"headquarters": "Odesa, 🇺🇦",
 		"industry": [
 			"Software"
 		],
@@ -1255,6 +1302,7 @@
 	}, {
 		"name": "Remington Arms",
 		"website": "https://www.remington.com/",
+		"headquarters": "Madison, NC, 🇺🇸",
 		"industry": [
 			"Arms"
 		],
@@ -1273,6 +1321,7 @@
 	}, {
 		"name": "Samsung",
 		"website": "https://www.samsung.com/",
+		"headquarters": "Suwon-si, 🇰🇷",
 		"industry": [
 			"Software",
 			"Electronics"
@@ -1298,6 +1347,7 @@
 	}, {
 		"name": "SAP",
 		"website": "https://www.sap.com/",
+		"headquarters": "Walldorf, 🇩🇪",
 		"industry": [
 			"Software"
 		],
@@ -1316,6 +1366,7 @@
 	}, {
 		"name": "Shell",
 		"website": "https://www.shell.com/",
+		"headquarters": "London, 🇬🇧",
 		"industry": [
 			"Oil"
 		],
@@ -1350,6 +1401,7 @@
 	}, {
 		"name": "Shopify",
 		"website": "https://www.shopify.com/",
+		"headquarters": "Ottawa, 🇨🇦",
 		"industry": [
 			"Software"
 		],
@@ -1380,6 +1432,7 @@
 	}, {
 		"name": "Sketch",
 		"website": "https://www.sketch.com",
+		"headquarters": "Full remote",
 		"industry": [
 			"Software"
 		],
@@ -1404,6 +1457,7 @@
 	}, {
 		"name": "Sony",
 		"website": "https://www.sony.com/",
+		"headquarters": "Tokyo, 🇯🇵",
 		"industry": [
 			"Entertainment"
 		],
@@ -1432,6 +1486,7 @@
 	}, {
 		"name": "Spotify",
 		"website": "https://www.spotify.com/",
+		"headquarters": "Stockholm, 🇸🇪",
 		"industry": [
 			"Software"
 		],
@@ -1465,6 +1520,7 @@
 	}, {
 		"name": "State of Play",
 		"website": "https://www.stateofplaygames.com/",
+		"headquarters": "London, 🇬🇧",
 		"industry": [
 			"Software",
 			"Gaming"
@@ -1484,6 +1540,7 @@
 	}, {
 		"name": "Strava",
 		"website": "https://www.strava.com/",
+		"headquarters": "San Francisco, CA, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -1514,6 +1571,7 @@
 	}, {
 		"name": "TikTok",
 		"website": "https://www.tiktok.com/",
+		"headquarters": "Beijing, 🇨🇳",
 		"industry": [
 			"Software"
 		],
@@ -1531,6 +1589,7 @@
 	}, {
 		"name": "TunnelBear",
 		"website": "https://www.tunnelbear.com/",
+		"headquarters": "Toronto, 🇨🇦",
 		"industry": [
 			"Software"
 		],
@@ -1559,6 +1618,7 @@
 	}, {
 		"name": "Upwork",
 		"website": "https://www.upwork.com/",
+		"headquarters": "San Francisco, CA, 🇺🇸",
 		"industry": [
 			"Software"
 		],
@@ -1588,6 +1648,7 @@
 	}, {
 		"name": "VMware",
 		"website": "https://www.vmware.com/",
+		"headquarters": "Palo Alto, CA, 🇺🇸",
 		"industry": [
 			"Software"
 		],
