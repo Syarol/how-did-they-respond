@@ -73,7 +73,7 @@
 		</p>
 		<actionsList :actions-list='activeOrganization.actions.general'>Actions in general:</actionsList>
 		<actionsList :actions-list='activeOrganization.actions.support'>Actions of support:</actionsList>
-		<actionsList :actions-list='activeOrganization.actions.sanctions'>Sanctions:</actionsList>
+		<actionsList :actions-list='activeOrganization.actions.sanctions'>Sanctions and forced actions:</actionsList>
 		<linksList :links-list='activeOrganization.links'>Links: </linksList>
 	</section>
 	<section class='info-section'>

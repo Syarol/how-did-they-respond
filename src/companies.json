@@ -279,6 +279,43 @@
 			"https://www.fastcompany.com/90728097/tech-companies-pull-out-of-russia"
 		]
 	}, {
+		"name": "ASKfm",
+		"alt_name": [
+			"Ask.fm"
+		],
+		"website": "https://ask.fm/",
+		"industry": [
+			"Software"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Completely disabled additional features of the application and private chats",
+					"Residents of 🇧🇾 will not be able to buy the internal ASKfm currency and no longer be able to subscribe"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Completely disabled additional features of the application and private chats",
+					"Residents of 🇷🇺 will not be able to buy the internal ASKfm currency and no longer be able to subscribe",
+					"Ads from 🇷🇺 advertisers are banned"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Called for donate to Armed Forces of Ukraine"
+				]
+			}]
+		},
+		"links": [
+			"https://safety.ask.fm/standwithukraine/",
+			"https://twitter.com/askfm/status/1501896777682857988",
+			"https://twitter.com/askfm/status/1501945343071510529"
+		]
+	}, {
 		"name": "Autodesk",
 		"website": "https://www.autodesk.com",
 		"industry": [
@@ -666,6 +703,40 @@
 			"https://www2.deloitte.com/global/en/pages/about-deloitte/press-releases/deloitte-statement-on-ukraine-deloitte-global.html"
 		]
 	}, {
+		"name": "eBay",
+		"website": "https://www.ebay.com/",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will remove any items that express support for Vladimir Putin",
+					"Suspended all deliveries to 🇷🇺",
+					"Suspended all transactions to 🇷🇺 addresses"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Suspend all international deliveries to 🇺🇦"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Made an initial donation of £15,000 and will match employee raised fundraising efforts with further donations",
+					"Will match all donations made through Give at Checkout and Community Selling for British Red Cross on eBay.co.uk between 1st March and 1st May, up to the value of £150,000",
+					"Suspended all selling fees for users in 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://www.businessinsider.com/ebay-to-remove-items-that-express-support-for-russias-vladimir-putin-2022-3",
+			"https://tamebay.com/2022/03/ebay-support-humanitarian-effort-in-ukraine",
+			"https://www.interfax.ru/business/827770"
+		]
+	}, {
 		"name": "edX",
 		"website": "https://edx.org/",
 		"industry": [
@@ -921,6 +992,26 @@
 		},
 		"links": [
 			"https://www.intel.com/content/www/us/en/newsroom/news/intel-statement-war-ukraine.html"
+		]
+	}, {
+		"name": "London Internet Exchange",
+		"alt_name": [
+			"LINX"
+		],
+		"website": "https://www.linx.net/",
+		"industry": [
+			"Telecom"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Ceased provision of all services and suspended membership of LINX for Megafon and Rostelecom"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/razhael/status/1502304088188465154"
 		]
 	}, {
 		"name": "MacPaw",
@@ -1317,6 +1408,15 @@
 			"Entertainment"
 		],
 		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Paused the theatrical release of \"Morbius\"",
+					"Halted all television distribution deals",
+					"Halted planned home entertainment releases",
+					"Crunchyroll suspended its anime streaming service"
+				]
+			}],
 			"support": [{
 				"country": "🇺🇦",
 				"measures": [
@@ -1326,7 +1426,8 @@
 			}]
 		},
 		"links": [
-			"https://www.sony.com/en/SonyInfo/News/Press/202203/22-007E/"
+			"https://www.sony.com/en/SonyInfo/News/Press/202203/22-007E/",
+			"https://variety.com/2022/film/news/sony-pictures-russia-spider-man-no-way-home-crunchyroll-1235202319/"
 		]
 	}, {
 		"name": "Spotify",
@@ -1379,6 +1480,36 @@
 		},
 		"links": [
 			"https://twitter.com/State_of_Play/status/1497178102841192451"
+		]
+	}, {
+		"name": "Strava",
+		"website": "https://www.strava.com/",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Service work is suspended in 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Service work is suspended in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Made donations to organizations that are focused on help to people in need",
+					"Launched \"Ukraine Relief Challenge\"",
+					"Lanched \"Support Ukraine\" activity map"
+				]
+			}]
+		},
+		"links": [
+			"https://thehill.com/policy/international/597956-strava-ending-service-in-russia-belarus"
 		]
 	}, {
 		"name": "TikTok",
