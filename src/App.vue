@@ -29,8 +29,21 @@
 		</li>
 	</ul>
 
+	<p style='margin: 10px 0;text-align: center;'>Filter companies by country of headquarter location:</p>
+
+	<ul class='categories-list'>
+		<li
+			v-for='item of countries'
+			:key='item'
+			class='category'
+			@click='toggleCountry($event, item)'
+		>
+			{{ item }}
+		</li>
+	</ul>
+
 	<ul class='organizations-list'>
-		<template v-if='searchText.length === 0 && activeCategories.size === 0'>
+		<template v-if='searchText.length === 0 && activeCategories.size === 0 && activeCountries.size === 0'>
 			<li
 				v-for='org of companies.slice(0, 15)'
 				:key='org.name'
@@ -159,6 +172,7 @@
 <script>
 import companies from './companies.json';
 import industries from './industries.json';
+import countries from './countries.json';
 
 import actionsList from './components/actionsList.vue';
 import linksList from './components/linksList.vue';
@@ -171,9 +185,11 @@ export default {
 	data() {
 		return {
 			activeCategories: new Set(),
+			activeCountries: new Set(),
 			activeOrganization: null,
 			categorizedOrganizations: [],
 			companies: companies.companies,
+			countries: countries,
 			industries: industries,
 			organizations: [],
 			searchText: '',
@@ -182,16 +198,27 @@ export default {
 	methods: {
 		searchCompany(){
 			let activeCategories = Array.from(this.activeCategories);
+			let activeCountries = Array.from(this.activeCountries);
 
 			this.organizations = this.companies.filter(el => {
 				let isFoundByName = el.name.toLowerCase().includes(this.searchText);
 				let isFoundByAltName = isFoundByName ? null : el?.alt_name?.some(item => item.toLowerCase().includes(this.searchText));
 
-				if (activeCategories.length > 0) {
-					let isCategoriesApplied = el.industry.some(item => activeCategories.includes(item));
+				let isAnyCategorySelected = activeCategories.length > 0;
+				let isAnyCountrySelected = activeCountries.length > 0;
 
+				let isCategoriesApplied = isAnyCategorySelected ? el.industry.some(item => activeCategories.includes(item)) : null;
+				let isCountriesApplied = isAnyCountrySelected ? activeCountries.some(item => el.headquarters.includes(item)) : null;
+
+				if (isAnyCategorySelected && isAnyCountrySelected) {
+					return (isFoundByName && isCategoriesApplied && isCountriesApplied) ||
+						(isFoundByAltName && isCategoriesApplied && isCountriesApplied);
+				} else if (isAnyCategorySelected && !isAnyCountrySelected) {
 					return (isFoundByName && isCategoriesApplied) ||
 						(isFoundByAltName && isCategoriesApplied);
+				} else if (!isAnyCategorySelected && isAnyCountrySelected) {
+					return (isFoundByName && isCountriesApplied) ||
+						(isFoundByAltName && isCountriesApplied);
 				} else {
 					return isFoundByName || isFoundByAltName;
 				}
@@ -204,6 +231,17 @@ export default {
 				this.activeCategories.delete(category);
 			} else {
 				this.activeCategories.add(category);
+			}
+
+			this.searchCompany();
+		},
+		toggleCountry(e, country){
+			e.target.classList.toggle('active');
+
+			if (this.activeCountries.has(country)) {
+				this.activeCountries.delete(country);
+			} else {
+				this.activeCountries.add(country);
 			}
 
 			this.searchCompany();

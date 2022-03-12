@@ -998,6 +998,29 @@
 			"https://newsroom.ibm.com/War-in-Ukraine-Supporting-IBMers"
 		]
 	}, {
+		"name": "Imperva",
+		"website": "https://www.imperva.com/",
+		"headquarters": "San Mateo, CA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspended all new sales and operations in 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended all new sales and operations in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/Imperva/status/1501581093803331585"
+		]
+	}, {
 		"name": "Intel",
 		"website": "https://www.intel.com/",
 		"headquarters": "Santa Clara, CA, 🇺🇸",
