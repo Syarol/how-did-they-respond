@@ -327,6 +327,24 @@
 			"https://twitter.com/askfm/status/1501945343071510529"
 		]
 	}, {
+		"name": "Auchan",
+		"website": "https://www.auchan.fr/",
+		"headquarters": "Croix, 🇫🇷",
+		"industry": [
+			"Retail"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Refused to leave 🇷🇺 market"
+				]
+			}]
+		},
+		"links": [
+			"https://newswep.com/globus-and-auchan-denied-rumors-about-leaving-the-russian-market-news-news/"
+		]
+	}, {
 		"name": "Autodesk",
 		"website": "https://www.autodesk.com",
 		"headquarters": "San Rafael, CA, 🇺🇸",
@@ -915,6 +933,24 @@
 			"https://about.gitlab.com/blog/2022/03/11/gitlab-actions-to-date-regarding-russian-invasion-of-ukraine/"
 		]
 	}, {
+		"name": "Globus",
+		"website": "https://www.globus.de/",
+		"headquarters": "Sankt Wendel, 🇩🇪",
+		"industry": [
+			"Retail"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Refused to leave 🇷🇺 market"
+				]
+			}]
+		},
+		"links": [
+			"https://newswep.com/globus-and-auchan-denied-rumors-about-leaving-the-russian-market-news-news/"
+		]
+	}, {
 		"name": "Grammarly",
 		"website": "https://grammarly.com/",
 		"headquarters": "San Francisco, CA, 🇺🇸",
@@ -998,6 +1034,43 @@
 			"https://newsroom.ibm.com/War-in-Ukraine-Supporting-IBMers"
 		]
 	}, {
+		"name": "IKEA",
+		"website": "https://www.ikea.com/",
+		"headquarters": "Delft, 🇳🇱",
+		"industry": [
+			"Retail"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Paused all export and import in and out of 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Paused all export and import in and out of 🇷🇺",
+					"Paused all IKEA Industry production operations in 🇷🇺",
+					"Paused all IKEA Retail operations in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Secured employment and income stability for the immediate future and provide support to 15,000 employees in 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Donated €20M for humanitarian assistance to those who have been forcibly displaced as a result of the war",
+					"Inter IKEA Group and Ingka Group are initially granting €10 million each to provide support in products and other assistance to UNHCR, Save the Children and other organisations working in the local markets"
+				]
+			}]
+		},
+		"links": [
+			"https://about.ikea.com/en/newsroom/2022/03/03/ikea-pauses-operations-in-russia-and-belarus"
+		]
+	}, {
 		"name": "Imperva",
 		"website": "https://www.imperva.com/",
 		"headquarters": "San Mateo, CA, 🇺🇸",
@@ -1050,6 +1123,81 @@
 		},
 		"links": [
 			"https://www.intel.com/content/www/us/en/newsroom/news/intel-statement-war-ukraine.html"
+		]
+	}, {
+		"name": "Jysk",
+		"website": "https://www.jysk.com/",
+		"headquarters": "Brabrand, 🇩🇰",
+		"industry": [
+			"Retail"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Closed all stores in 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Closed most of the stores in 🇺🇦"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Employees of closed stores will receive their pay"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Employees of closed stores will receive their pay"
+				]
+			}]
+		},
+		"links": [
+			"https://cphpost.dk/?p=131956"
+		]
+	}, {
+		"name": "LEGO",
+		"website": "https://www.lego.com/",
+		"headquarters": "Billund, 🇩🇰",
+		"industry": [
+			"Retail"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": "Stopped shipments of products to 🇷🇺"
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": "Will donate DKK 110M ($16.5M) to emergency relief efforts"
+			}]
+		},
+		"links": [
+			"https://www.bloomberg.com/news/articles/2022-03-07/lego-stops-toy-shipments-to-stores-in-russia-due-to-ukraine-war",
+			"https://www.brickfanatics.com/lego-confirms-its-stopped-shipping-to-russia/"
+		]
+	}, {
+		"name": "Leroy Merlin",
+		"website": "https://www.leroymerlin.com/",
+		"headquarters": "Lezennes, 🇫🇷",
+		"industry": [
+			"Retail"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Refusing to suspend operation in 🇷🇺",
+					"Planning to increase deliveries to 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.lasicilia.it/adnkronos/news/-ucraina-leroy-merlin-non-lascia-la-russia-non-sospendiamo-attivita-ampliamo-la-gamma--1514278/",
+			"https://www.epravda.com.ua/news/2022/03/11/683776/"
 		]
 	}, {
 		"name": "London Internet Exchange",
@@ -1134,6 +1282,42 @@
 			"https://twitter.com/Mailtrap/status/1499449526599491588"
 		]
 	}, {
+		"name": "Maxar Technologies",
+		"website": "https://www.maxar.com/",
+		"headquarters": "Westminster, CO, 🇺🇸",
+		"industry": [
+			"Aerospace"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Made much of imagery available to news organizations to support global transparency and combat the spread of disinformation"
+				]
+			}]
+		},
+		"links": [
+			"https://spacenews.com/satellite-imaging-companies-increase-profile-as-they-track-russias-invasion-of-ukraine/"
+		]
+	}, {
+		"name": "MDA",
+		"website": "https://mda.space/",
+		"headquarters": "Brampton, 🇨🇦",
+		"industry": [
+			"Aerospace"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Sharing the imagery with Ukraine government"
+				]
+			}]
+		},
+		"links": [
+			"https://mda.space/en/article/mda-to-provide-satellite-imagery-for-international-efforts-ukraine/",
+			"https://www.businessinsider.com/canadian-space-company-providing-real-time-satellite-imagery-ukraine-2022-3"
+		]
+	}, {
 		"name": "Microsoft",
 		"website": "https://www.microsoft.com/",
 		"headquarters": "Redmond, WA, 🇺🇸",
@@ -1181,6 +1365,37 @@
 		"links": [
 			"https://www.hollywoodreporter.com/business/business-news/netflix-not-streaming-russian-state-channels-1235101253/",
 			"https://www.reuters.com/business/media-telecom/nokia-stops-deliveries-russia-2022-03-01/"
+		]
+	}, {
+		"name": "Nike",
+		"website": "https://www.nike.com/",
+		"headquarters": "Beaverton, OR, 🇺🇸",
+		"industry": [
+			"Fashion"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped taking online orders on its Russian website",
+					"Closing its owned and operated stores withing country"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will continue to support employees in Russia"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Will donate $1M to UNICEF and New York-based charity International Rescue Committee"
+				]
+			}]
+		},
+		"links": [
+			"https://www.wsj.com/livecoverage/russia-ukraine-latest-news-2022-03-02/card/nike-halts-online-sales-in-russia-zvDqFpwCBLDsGev0BNSz",
+			"https://www.voguebusiness.com/fashion/nike-pauses-trade-with-russia-donates-dollar1-million-to-relief-efforts"
 		]
 	}, {
 		"name": "Nokia",
@@ -1321,6 +1536,37 @@
 		},
 		"links": [
 			"https://readdle.com/blog/bye-russia"
+		]
+	}, {
+		"name": "Reddit",
+		"website": "https://www.reddit.com/",
+		"headquarters": "San Francisco, CA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Calibrated automated safety systems and are providing daily guidance to community and safety team members to ensure that important and newsworthy citizen journalism are not removed by mistake",
+					"Stood up a cross-functional team to monitor and respond to developments in real time, assisted by Russian and Ukrainian speakers"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Prohibited links to Russian state media outlets across the entire website",
+					"Won't accept advertisements that target Russia or originate from any Russia-based entity, government or private"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Provides advanced income payments and housing allowances and support relocation of employees from 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://www.redditinc.com/blog/supporting-ukraine-and-our-community"
 		]
 	}, {
 		"name": "Remington Arms",
@@ -1491,7 +1737,9 @@
 					"Paused the theatrical release of \"Morbius\"",
 					"Halted all television distribution deals",
 					"Halted planned home entertainment releases",
-					"Crunchyroll suspended its anime streaming service"
+					"Crunchyroll suspended its anime streaming service",
+					"Suspened PlayStation Store operations",
+					"Suspended all shipments of PlayStation software and hardware to 🇷🇺"
 				]
 			}],
 			"support": [{
@@ -1504,7 +1752,8 @@
 		},
 		"links": [
 			"https://www.sony.com/en/SonyInfo/News/Press/202203/22-007E/",
-			"https://variety.com/2022/film/news/sony-pictures-russia-spider-man-no-way-home-crunchyroll-1235202319/"
+			"https://variety.com/2022/film/news/sony-pictures-russia-spider-man-no-way-home-crunchyroll-1235202319/",
+			"https://www.washingtonpost.com/video-games/2022/03/09/sony-state-of-play-recap-2022/"
 		]
 	}, {
 		"name": "Spotify",
@@ -1637,6 +1886,36 @@
 		"links": [
 			"https://twitter.com/theTunnelBear/status/1499058817967050755",
 			"https://twitter.com/theTunnelBear/status/1499488389913063431"
+		]
+	}, {
+		"name": "Ubisoft",
+		"website": "https://www.ubisoft.com/",
+		"headquarters": "Montreuil, 🇫🇷",
+		"industry": [
+			"Gaming",
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended sales in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"In addition to a more than €1M fund dedicated to supporting Ukrainian teams, company donated to the Ukrainian Red Cross, Save the Children and the solidarity fund set up by the Bank of Ukraine",
+					"Each team member was provided additional funds to help cover exceptional costs and paid their salary in advance",
+					"Set up alternative housing for employees in neighboring countries",
+					"Created dedicated hotlines to provide employees personalized support and aid",
+					"Set up official regional store for 🇺🇦 with prices in hryvnia"
+				]
+			}]
+		},
+		"links": [
+			"https://news.ubisoft.com/en-gb/article/2dkkIG51BCP24JwGGvDry9/how-ubisoft-is-supporting-our-teams-and-the-people-of-ukraine",
+			"https://gamedev.dou.ua/news/ubisoft-ukrainian-store/"
 		]
 	}, {
 		"name": "Upwork",
