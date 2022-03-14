@@ -327,6 +327,30 @@
 			"https://twitter.com/askfm/status/1501945343071510529"
 		]
 	}, {
+		"name": "ASUS",
+		"website": "https://www.asus.com/",
+		"headquarters": "Taipei, 🇹🇼",
+		"industry": [
+			"Electronics"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped all shipments to 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Will donate $30M to Disaster Relief Foundation"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/ASUS/status/1503320037708689410"
+		]
+	}, {
 		"name": "Auchan",
 		"website": "https://www.auchan.fr/",
 		"headquarters": "Croix, 🇫🇷",
@@ -486,6 +510,38 @@
 			"https://nv.ua/ukr/ukraine/events/dopomoga-u-kiyevi-kudi-zvertatisya-za-jizheyu-likami-poradyu-likarya-50221937.html"
 		]
 	}, {
+		"name": "Bridgestone",
+		"website": "https://www.bridgestone.com/",
+		"headquarters": "Tokyo, 🇯🇵",
+		"industry": [
+			"Machinery"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended manufacturing activities in 🇷🇺",
+					"Freeze any new investments to 🇷🇺",
+					"Suspended all exports to 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will support financially their employees in 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Has made a €1M donation to the Red Cross",
+					"Donated €2.5M to UNHCR (Office of the United Nations High Commissioner for Refugees)"
+				]
+			}]
+		},
+		"links": [
+			"https://www.businesswire.com/news/home/20220314005327/en/Bridgestone-to-Suspend-Manufacturing-Activities-in-and-Export-to-Russia"
+		]
+	}, {
 		"name": "Caterpillar",
 		"website": "https://www.caterpillar.com/",
 		"headquarters": "Deerfield, IL, 🇺🇸",
@@ -580,6 +636,24 @@
 		},
 		"links": [
 			"https://home.cern/news/news/cern/cern-council-responds-russian-invasion-ukraine"
+		]
+	}, {
+		"name": "Clearview AI",
+		"website": "https://www.clearview.ai/",
+		"headquarters": "New York, NY, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Gave free access for Ukraine’s defense ministry to uncover 🇷🇺 assailants, combat misinformation and identify the dead"
+				]
+			}]
+		},
+		"links": [
+			"https://www.cnbc.com/2022/03/13/ukraine-has-started-using-clearview-ais-facial-recognition-during-war.html"
 		]
 	}, {
 		"name": "Cloudflare",
@@ -1168,11 +1242,15 @@
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
-				"measures": "Stopped shipments of products to 🇷🇺"
+				"measures": [
+					"Stopped shipments of products to 🇷🇺"
+				]
 			}],
 			"support": [{
 				"country": "🇺🇦",
-				"measures": "Will donate DKK 110M ($16.5M) to emergency relief efforts"
+				"measures": [
+					"Will donate DKK 110M ($16.5M) to emergency relief efforts"
+				]
 			}]
 		},
 		"links": [
@@ -1345,6 +1423,29 @@
 			"https://blogs.microsoft.com/on-the-issues/2022/03/04/microsoft-suspends-russia-sales-ukraine-conflict/"
 		]
 	}, {
+		"name": "MongoDB",
+		"website": "https://www.mongodb.com/",
+		"headquarters": "New York, NY, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Will terminate user accounts from 🇧🇾, which includes their full data deletion"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Will terminate user accounts from 🇷🇺, which includes their full data deletion"
+				]
+			}]
+		},
+		"links": [
+			"https://www.medianama.com/2022/03/223-mongodb-terminated-russia-belarus-user-accounts/"
+		]
+	}, {
 		"name": "Netflix",
 		"website": "https://www.netflix.com/",
 		"headquarters": "Los Gatos, CA, 🇺🇸",
@@ -1498,6 +1599,42 @@
 		},
 		"links": [
 			"https://twitter.com/PCFPeopleCanFly/status/1498297630148935680"
+		]
+	}, {
+		"name": "Pfizer",
+		"website": "https://www.pfizer.com/",
+		"headquarters": "New York, NY, 🇺🇸",
+		"industry": [
+			"Pharmaceutical"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Will work with FDA and other regulators to transition all ongoing clinical trials to alternative sites outside 🇷🇺"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will no longer initiate new clinical trials in 🇷🇺",
+					"Will stop recruiting new patients in ongoing clinical trials in the country",
+					"Will cease all planned investments with local suppliers intended to build manufacturing capacity in the country"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will continue shipments of meds to 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Will donate all profits of 🇷🇺 subsidiary to causes that provide direct humanitarian support to the people of Ukraine"
+				]
+			}]
+		},
+		"links": [
+			"https://www.pfizer.com/news/press-release/press-release-detail/pfizer-updates-company-position-russia"
 		]
 	}, {
 		"name": "Puma",
