@@ -1055,6 +1055,24 @@
 			"https://www.grammarly.com/stand-with-ukraine"
 		]
 	}, {
+		"name": "Halfords",
+		"website": "https://www.halfords.com/",
+		"headquarters": "Redditch, 🇬🇧",
+		"industry": [
+			"Retail"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donated £50,000 to the Disasters Emergency Committee (DEC) Ukraine Humanitarian Appeal"
+				]
+			}]
+		},
+		"links": [
+			"https://www.halfords.com/news/ukraine-crisis-appeal.html"
+		]
+	}, {
 		"name": "Huuuge Games",
 		"website": "https://huuugegames.com/",
 		"headquarters": "Warsaw, 🇵🇱",
@@ -1396,6 +1414,29 @@
 			"https://www.businessinsider.com/canadian-space-company-providing-real-time-satellite-imagery-ukraine-2022-3"
 		]
 	}, {
+		"name": "Metro AG",
+		"website": "https://www.metroag.de/",
+		"headquarters": "Düsseldorf, 🇩🇪",
+		"industry": [
+			"Retail"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will continue the operation of the 🇷🇺 subsidiary"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Supports food and water deliveries of the UN World Food Programme to 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://newsroom.metroag.de/en/news/2022/03/11/statement-on-war-in-ukraine"
+		]
+	}, {
 		"name": "Microsoft",
 		"website": "https://www.microsoft.com/",
 		"headquarters": "Redmond, WA, 🇺🇸",
@@ -1579,6 +1620,32 @@
 		},
 		"links": [
 			"https://www.facebook.com/outdooractive/posts/10157903928364058"
+		]
+	}, {
+		"name": "PayPal",
+		"website": "https://www.paypal.com/",
+		"headquarters": "Palo Alto, CA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended work of services in 🇷🇺",
+					"Will block e-wallets of Russians from March 18"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Launched campaigns for donation to charities that provides humanitarian support withing 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/FedorovMykhailo/status/1500022660952203266",
+			"https://www.ukrinform.net/rubric-polytics/3427854-paypal-to-block-russians-ewallets-from-march-18.html"
 		]
 	}, {
 		"name": "People Can Fly",
@@ -1859,6 +1926,37 @@
 		},
 		"links": [
 			"https://www.sketch.com/blog/2022/03/08/we-stand-with-ukraine/"
+		]
+	}, {
+		"name": "Snap",
+		"website": "https://www.snap.com/",
+		"headquarters": "Santa Monica, CA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Halted advertising sales to all 🇧🇾 entities"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Halted advertising sales to all 🇷🇺 entities"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Providing emergency assistance and helping employees from 🇺🇦 offices safely relocate",
+					"Donated $15M in humanitarian aid to support organizations providing direct relief to the people of 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://newsroom.snap.com/we-support-ukraine"
 		]
 	}, {
 		"name": "Sony",
