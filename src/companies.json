@@ -819,6 +819,25 @@
 			"https://www2.deloitte.com/global/en/pages/about-deloitte/press-releases/deloitte-statement-on-ukraine-deloitte-global.html"
 		]
 	}, {
+		"name": "DuckDuckGo",
+		"website": "https://duckduckgo.com/",
+		"headquarters": "Paoli, PA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will down-rank sites associated with 🇷🇺 disinformation"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/yegg/status/1501716484761997318"
+		]
+	}, {
 		"name": "eBay",
 		"website": "https://www.ebay.com/",
 		"headquarters": "San Jose, CA, 🇺🇸",
@@ -878,6 +897,39 @@
 		},
 		"links": [
 			"https://blog.edx.org/standing-with-ukraine-supporting-displaced-learners"
+		]
+	}, {
+		"name": "Eli Lilly and Company",
+		"website": "https://www.lilly.com/",
+		"headquarters": "Indianapolis, IN, 🇺🇸",
+		"industry": [
+			"Pharmaceutical"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended all investments, promotional activities, and new clinical trials in 🇷🇺",
+					"Suspended exportation of non-essential medicines to that country"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"People suffering from diseases like cancer and diabetes will continue to get the Lilly medicines they need"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Donated $7.5M of insulin to Project HOPE",
+					"Donated $1.8M supply of baricitinib, used to treat complications of COVID-19, to Direct Relief",
+					"Making two equal monetary contributions totaling $500,000 to Direct Relief and to Americares",
+					"Will match eligible Lilly employee donations to all three organizations (Project HOPE, Direct Relief, Americares) up to an additional $500,000"
+				]
+			}]
+		},
+		"links": [
+			"https://www.lilly.com/news/stories/ukraine-support"
 		]
 	}, {
 		"name": "Ericsson",
@@ -1792,6 +1844,31 @@
 			"https://twitter.com/RemingtonArms/status/1499884903676186633"
 		]
 	}, {
+		"name": "Salesforce",
+		"website": "https://www.salesforce.com/",
+		"headquarters": "San Francisco, CA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Began exiting from relationships with 🇷🇺-based customers"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donated $2M to nonprofit relief organizations working to help people in Ukraine and those who are being displaced"
+				] 
+			}]
+		},
+		"links": [
+			"https://www.salesforce.com/news/stories/standing-with-ukraine/?d=cta-eyebrow-1-ungated-stand_with_ukraine"
+		]
+	}, {
 		"name": "Samsung",
 		"website": "https://www.samsung.com/",
 		"headquarters": "Suwon-si, 🇰🇷",
@@ -2023,6 +2100,26 @@
 		},
 		"links": [
 			"https://newsroom.spotify.com/2022-03-02/spotifys-statement-in-response-to-the-war-in-ukraine/"
+		]
+	}, {
+		"name": "SpaceX",
+		"website": "https://www.spacex.com/",
+		"headquarters": "Hawthorne, CA, 🇺🇸",
+		"industry": [
+			"Aerospace",
+			"Telecom"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Activated Starlink services in 🇺🇦",
+					"Sended Starlink terminals to 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://www.nytimes.com/2022/02/28/world/europe/elon-musk-satellite-internet-ukraine.html"
 		]
 	}, {
 		"name": "State of Play",
