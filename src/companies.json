@@ -745,6 +745,31 @@
 			"https://blog.coursera.org/coursera-response-to-the-humanitarian-crisis-in-ukraine/"
 		]
 	}, {
+		"name": "Danone",
+		"website": "https://www.danone.com/",
+		"headquarters": "Paris, 🇫🇷",
+		"industry": [
+			"Food"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Refused to leave 🇷🇺 market"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended all investment projects in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.ft.com/content/a812ec18-058c-49b2-8a70-e8791ea1e43a",
+			"https://www.reuters.com/business/retail-consumer/french-food-group-danone-suspends-investments-russia-2022-03-06/"
+		]
+	}, {
 		"name": "DataArt",
 		"website": "https://www.dataart.com/",
 		"headquarters": "New York, NY, 🇺🇸",
@@ -948,6 +973,34 @@
 		},
 		"links": [
 			"https://www.datacenterdynamics.com/en/news/ericsson-suspends-deliveries-to-russia-is-evaluating-business-there/"
+		]
+	}, {
+		"name": "European Space Agency",
+		"alt_name": [
+			"ESA"
+		],
+		"website": "https://www.esa.int/",
+		"headquarters": "Paris, 🇫🇷",
+		"industry": [
+			"Aerospace"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"ExoMars mission is set on hold",
+					"The International Space Station Programme continues to operate nominally. The main goal is to continue safe operations of the ISS, including maintaining the safety of the crew"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended cooperations with Roscosmos",
+					"All missions scheduled for launch by Soyuz have been put on hold"
+				]
+			}]
+		},
+		"links": [
+			"https://www.esa.int/Newsroom/Press_Releases/ExoMars_suspended"
 		]
 	}, {
 		"name": "Estée Lauder",
@@ -1430,6 +1483,20 @@
 			"https://twitter.com/Mailtrap/status/1499449526599491588"
 		]
 	}, {
+		"name": "Mapbox",
+		"website": "https://www.mapbox.com/",
+		"headquarters": "San Francisco, CA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Did not make any statement"
+				]
+			}]
+		}
+	}, {
 		"name": "Maxar Technologies",
 		"website": "https://www.maxar.com/",
 		"headquarters": "Westminster, CO, 🇺🇸",
@@ -1537,6 +1604,33 @@
 		},
 		"links": [
 			"https://www.medianama.com/2022/03/223-mongodb-terminated-russia-belarus-user-accounts/"
+		]
+	}, {
+		"name": "Nestlé",
+		"alt_name": [
+			"Nestle"
+		],
+		"website": "https://www.nestle.com/",
+		"headquarters": "Vevey, 🇨🇭",
+		"industry": [
+			"Food"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Refused to leave 🇷🇺 market"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Will match all donations made by employees to International Federation of Red Cross Societies up to 1M CHF"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/Nestle/status/1498976828530253829",
+			"https://twitter.com/Denys_Shmyhal/status/1504384528806297604"
 		]
 	}, {
 		"name": "Netflix",
@@ -1691,13 +1785,16 @@
 			"support": [{
 				"country": "🇺🇦",
 				"measures": [
-					"Launched campaigns for donation to charities that provides humanitarian support withing 🇺🇦"
+					"Launched campaigns for donation to charities that provides humanitarian support withing 🇺🇦",
+					"Enabled receiving money feature for Ukrainian account holders",
+					"Temporarily removed fees for sending money to Ukrainian accounts"
 				]
 			}]
 		},
 		"links": [
 			"https://twitter.com/FedorovMykhailo/status/1500022660952203266",
-			"https://www.ukrinform.net/rubric-polytics/3427854-paypal-to-block-russians-ewallets-from-march-18.html"
+			"https://www.ukrinform.net/rubric-polytics/3427854-paypal-to-block-russians-ewallets-from-march-18.html",
+			"https://twitter.com/FedorovMykhailo/status/1504540605703241736"
 		]
 	}, {
 		"name": "People Can Fly",
@@ -2248,6 +2345,42 @@
 		"links": [
 			"https://news.ubisoft.com/en-gb/article/2dkkIG51BCP24JwGGvDry9/how-ubisoft-is-supporting-our-teams-and-the-people-of-ukraine",
 			"https://gamedev.dou.ua/news/ubisoft-ukrainian-store/"
+		]
+	}, {
+		"name": "Univeler",
+		"website": "https://www.unilever.com/",
+		"headquarters": "London, 🇬🇧",
+		"industry": [
+			"Food"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended all imports and exports of products into and out of 🇷🇺",
+					"Halted investment in 🇷🇺",
+					"Will stop media and advertising spending in 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"\"Business operations\" in 🇺🇦 have ceased"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will continue to supply everyday essential food and hygiene products made in 🇷🇺 to people in the country"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Provides additional financial support to help with relocation to employees in 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://www.just-food.com/special-focus/ukraine-crisis/unilever-stops-russia-exports-but-maintains-essential-food-supply/"
 		]
 	}, {
 		"name": "Upwork",

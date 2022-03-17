@@ -90,7 +90,7 @@
 		<actionsList :actions-list='activeOrganization.actions.general'>Actions in general:</actionsList>
 		<actionsList :actions-list='activeOrganization.actions.support'>Actions of support:</actionsList>
 		<actionsList :actions-list='activeOrganization.actions.sanctions'>Sanctions and forced actions:</actionsList>
-		<linksList :links-list='activeOrganization.links'>Links: </linksList>
+		<linksList v-if='activeOrganization.links' :links-list='activeOrganization.links'>Links: </linksList>
 	</section>
 	<section class='info-section'>
 		<h2 class='section-heading'>
