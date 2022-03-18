@@ -167,6 +167,24 @@
 			"https://www.akamai.com/blog/news/ukraine-statement"
 		]
 	}, {
+		"name": "Alchemy",
+		"website": "https://www.trustalchemy.com/",
+		"headquarters": "Irvine, CA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Fired entire QA-team without notice"
+				]
+			}]
+		},
+		"links": [
+			"https://dou.ua/lenta/articles/dismissal-ukrainian-qa-in-alchemy/"
+		]
+	}, {
 		"name": "Alstom",
 		"website": "https://www.alstom.com/",
 		"headquarters": "Saint-Ouen, 🇫🇷",
@@ -844,6 +862,36 @@
 			"https://www2.deloitte.com/global/en/pages/about-deloitte/press-releases/deloitte-statement-on-ukraine-deloitte-global.html"
 		]
 	}, {
+		"name": "Docker",
+		"website": "https://www.docker.com/",
+		"headquarters": "Palo Alto, CA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Removed the ability to purchase Docker subscriptions from 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Removed the ability to purchase Docker subscriptions from 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Making donations to UNICEF, Razom and Doctors without Borders earmarked to help Ukrainian citizens"
+				]
+			}]
+		},
+		"links": [
+			"https://www.docker.com/blog/dockers-response-to-the-invasion-of-ukraine/"
+		]
+	}, {
 		"name": "DuckDuckGo",
 		"website": "https://duckduckgo.com/",
 		"headquarters": "Paoli, PA, 🇺🇸",
@@ -1388,6 +1436,12 @@
 			"Retail"
 		],
 		"actions": {
+			"sanctions": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Disconnected 🇺🇦 employees from corporate services"
+				]
+			}],
 			"support": [{
 				"country": "🇷🇺",
 				"measures": [
@@ -1398,7 +1452,8 @@
 		},
 		"links": [
 			"https://www.lasicilia.it/adnkronos/news/-ucraina-leroy-merlin-non-lascia-la-russia-non-sospendiamo-attivita-ampliamo-la-gamma--1514278/",
-			"https://www.epravda.com.ua/news/2022/03/11/683776/"
+			"https://www.epravda.com.ua/news/2022/03/11/683776/",
+			"https://biz.liga.net/ua/all/all/novosti/leroy-merlin-do-sih-por-rabotayuschaya-v-rf-otklyuchila-ot-korporativnoy-sistemy-ukrainskuyu-d"
 		]
 	}, {
 		"name": "London Internet Exchange",
@@ -1768,6 +1823,37 @@
 			"https://www.facebook.com/outdooractive/posts/10157903928364058"
 		]
 	}, {
+		"name": "Patreon",
+		"website": "https://www.patreon.com/",
+		"headquarters": "San Francisco, CA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanction": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Removed page of \"Cone Back Alive\" from service"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will keep operations in 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Removed platform fees for 🇺🇦 creators for 3 month"
+				]
+			}]
+		},
+		"links": [
+			"https://blog.patreon.com/on-the-removal-of-come-back-alive",
+			"https://www.businessinsider.com/why-patreon-continued-to-support-russian-creators-despite-us-sanctions-2022-3",
+			"https://support.patreon.com/hc/en-us/articles/4683438165261-Ukraine-Fee-Waiver"
+		]
+	}, {
 		"name": "PayPal",
 		"website": "https://www.paypal.com/",
 		"headquarters": "Palo Alto, CA, 🇺🇸",
@@ -1869,6 +1955,32 @@
 		},
 		"links": [
 			"https://www.marketwatch.com/story/puma-closes-russia-stores-271646635007"
+		]
+	}, {
+		"name": "Qualcomm",
+		"website": "https://www.qualcomm.com/",
+		"headquarters": "San Diego, CA, 🇺🇸",
+		"industry": [
+			"Electronics"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Comply with 🇺🇸 sanctions on 🇷🇺",
+					"Stopped selling products to 🇷🇺 companies"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Made direct donations to relief organizations", 
+					"Matching employee contributions"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/NateTibbits/status/1504126498017583108"
 		]
 	}, {
 		"name": "Readdle",
@@ -2445,6 +2557,32 @@
 		},
 		"links": [
 			"https://news.vmware.com/releases/vmware-statement-regarding-ukraine"
+		]
+	}, {
+		"name": "Xerox",
+		"website": "https://www.xerox.com/",
+		"headquarters": "Norwalk, CT, 🇺🇸",
+		"industry": [
+			"Electronics"
+		],
+		"actions": {
+			"sanction": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped all shipments to 🇷🇺",
+					"Comply with all sanctions"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Provided cash grants to each employee in 🇺🇦",
+					"Provided additional contributions to the Red Cross and Save the Children"
+				]
+			}]
+		},
+		"links": [
+			"https://www.news.xerox.com/news/xerox-releases-statement-on-conflict-in-ukraine"
 		]
 	}]
 }
