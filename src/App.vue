@@ -168,7 +168,7 @@ export default {
 				let isAnyCountrySelected = activeCountries.length > 0;
 
 				let isCategoriesApplied = isAnyCategorySelected ? el.industry.some(item => activeCategories.includes(item)) : null;
-				let isCountriesApplied = isAnyCountrySelected ? activeCountries.some(item => el.headquarters.includes(item)) : null;
+				let isCountriesApplied = isAnyCountrySelected ? activeCountries.some(item => el.headquarters.includes(item.emoji)) : null;
 
 				if (isAnyCategorySelected && isAnyCountrySelected) {
 					return (isFoundByName && isCategoriesApplied && isCountriesApplied) ||
