@@ -15,32 +15,39 @@
 			@input='searchCompany'
 		>
 	</div>
+
+	<div class='mx-10'>
+		<span>Available filters:</span>
+		<div class='filters-container ml-10'>
+			<div class='filter'>
+				<input type='checkbox' name='industry' id='industry' v-model='showIndustries' >
+				<label for='industry'>Industry</label>
+			</div>
+			<div class='filter'>
+				<input type='checkbox' name='country' id='country' v-model='showCountries' >
+				<label for='country'>Country</label>
+			</div>
+		</div>
+	</div>
+
+	<div 
+		v-if='showIndustries || showCountries'
+		class='filters-options-container mb-10' 
+	>
+		<template v-if='showIndustries'>
+			<filterOptionsList
+				:filter-options='industries'
+				@toggle='toggleFilterOptionsList(activeCategories, $event)'
+			/>
+		</template>
 	
-	<p style='margin: 10px 0;'>Also, you can sort companies by industries:</p>
-
-	<ul class='categories-list'>
-		<li
-			v-for='item of industries'
-			:key='item'
-			class='category'
-			@click='toggleCategory($event, item)'
-		>
-			{{ item }}
-		</li>
-	</ul>
-
-	<p style='margin: 10px 0;text-align: center;'>Filter companies by country of headquarter location:</p>
-
-	<ul class='categories-list'>
-		<li
-			v-for='item of countries'
-			:key='item'
-			class='category'
-			@click='toggleCountry($event, item)'
-		>
-			{{ item }}
-		</li>
-	</ul>
+		<template v-if='showCountries'>
+			<filterOptionsList
+				:filter-options='countries'
+				@toggle='toggleFilterOptionsList(activeCountries, $event)'
+			/>
+		</template>
+	</div>
 
 	<ul class='organizations-list'>
 		<template v-if='searchText.length === 0 && activeCategories.size === 0 && activeCountries.size === 0'>
@@ -100,62 +107,7 @@
 			We can't cover every company by ourselves, and we would be happy for your help. If you discovered a company that is declared its position about the current war or made some actions, please don't hesitate to create an issue for it on <a class='link' href='https://github.com/Syarol/how-did-they-respond'>GitHub</a> or add missing information by yourself by creating a pull request.
 		</p>
 	</section>
-	<section class='info-section'>
-		<h2 class='section-heading'>
-			Want to help Ukraine?
-		</h2>
-		<p>There is plenty of organization that helps the Ukrainian army and refugees. If you can help financially, the fastest way for them to receive your help is to donate to local funds. There is some of them:</p>
-		<ul>
-			<li>
-				The Come Back Alive Foundation: <a
-					class='link'
-					href='https://www.comebackalive.in.ua/'
-				>link</a>
-			</li>
-			<li>
-				Foundation of Serhii Prytula: <a
-					class='link'
-					href='https://www.prytula-co.org/'
-				>link</a>
-			</li>
-			<li>
-				Hospitallers: <a
-					class='link'
-					href='https://www.facebook.com/1554490484835854/posts/3152910124993874/'
-				>link</a>
-			</li>
-			<li>
-				Army SOS: <a
-					class='link'
-					href='https://armysos.com.ua/en'
-				>link</a>
-			</li>
-			<li>
-				<a
-					class='link'
-					href='https://en.wikipedia.org/wiki/National_Bank_of_Ukraine'
-				>NBU</a> Special Account to Raise Funds for Ukraine's Armed Forces: <a
-					class='link'
-					href='https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi'
-				>link</a>
-			</li>
-			<li>
-				Volunteer Special Forces: Ivano–Frankivsk: <a
-					class='link'
-					href='https://purring-sceptre-959.notion.site/Volunteer-Special-Forces-Ivano-Frankivsk-458d4e959ec5441cae23ccc7a2570da6'
-				>link</a>
-			</li>
-			<li>
-				<a
-					class='link'
-					href='https://en.wikipedia.org/wiki/Ukrspetsexport'
-				>Ukrspecexport</a> State Enterprise: <a
-					class='link'
-					href='https://ukroboronprom.com.ua/en/'
-				>link</a>
-			</li>
-		</ul>
-	</section>
+	<waysToSupportBlock />
 	<section class='info-section'>
 		<h3 class='section-heading'>
 			Searching for another ways to help?
@@ -175,12 +127,16 @@ import industries from './industries.json';
 import countries from './countries.json';
 
 import actionsList from './components/actionsList.vue';
+import filterOptionsList from './components/filterOptionsList.vue'
 import linksList from './components/linksList.vue';
+import waysToSupportBlock from './components/waysOfSupportBlock.vue';
 
 export default {
 	components: {
 		actionsList,
+		filterOptionsList,
 		linksList,
+		waysToSupportBlock,
 	},
 	data() {
 		return {
@@ -193,6 +149,8 @@ export default {
 			industries: industries,
 			organizations: [],
 			searchText: '',
+			showCountries: false,
+			showIndustries: false,
 		};
 	},
 	methods: {
@@ -224,24 +182,11 @@ export default {
 				}
 			});
 		},
-		toggleCategory(e, category){
-			e.target.classList.toggle('active');
-
-			if (this.activeCategories.has(category)) {
-				this.activeCategories.delete(category);
+		toggleFilterOptionsList(activeItemsList, filterOption){ 
+			if (activeItemsList.has(filterOption)) {
+				activeItemsList.delete(filterOption);
 			} else {
-				this.activeCategories.add(category);
-			}
-
-			this.searchCompany();
-		},
-		toggleCountry(e, country){
-			e.target.classList.toggle('active');
-
-			if (this.activeCountries.has(country)) {
-				this.activeCountries.delete(country);
-			} else {
-				this.activeCountries.add(country);
+				activeItemsList.add(filterOption);
 			}
 
 			this.searchCompany();
@@ -252,6 +197,8 @@ export default {
 	},
 };
 </script>
+
+<style src='./styles/utilities.css'></style>
 
 <style>
 *,
@@ -317,6 +264,10 @@ a,
 	background-color: #bd000033;
 }
 
+input[type=checkbox] {
+	display: none;
+}
+
 .search-field {
 	background: #00000020;
 	border-bottom: 2px solid #7f7f7f;
@@ -353,13 +304,37 @@ a,
 	}
 }
 
+.filters-container {
+	display: inline-flex;
+	gap: 10px;
+}
+
+.filter label{
+	border-radius: 15px;
+	border: 1px solid #f5f51f;
+	cursor: pointer;
+	display: inline-block;
+	padding: 0 7px;
+}
+
+.filter input[type='checkbox']:checked + label {
+	background: #f5f51f;
+	color: #181818;
+}
+
+.filters-options-container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
 .organizations-list {
 	column-gap: 10px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	list-style: none;
-	margin: 10px 10%;
+	margin: 0 10% 10px 10%;
 	padding: 0;
 	row-gap: 5px;
 }
@@ -425,10 +400,6 @@ a,
 	font-weight: 500;
 	text-align: center;
 	margin-bottom: 5px;
-}
-
-.text-center {
-	text-align: center;
 }
 
 .list {

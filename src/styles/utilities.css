@@ -1,0 +1,26 @@
+/* 
+	Margin
+	x - x axis
+	b - bottom
+	l - left
+*/
+
+.mx-10 {
+	margin: 10px 0;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
+}
+
+.ml-10 {
+	margin-left: 10px;
+}
+
+/* 
+	Text align
+*/
+
+.text-center {
+	text-align: center;
+}
