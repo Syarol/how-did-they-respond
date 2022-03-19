@@ -1226,6 +1226,25 @@
 			"https://www.halfords.com/news/ukraine-crisis-appeal.html"
 		]
 	}, {
+		"name": "Halliburton",
+		"website": "https://www.halliburton.com/",
+		"headquarters": "Houston, TX, 🇺🇸",
+		"industry": [
+			"Oil"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Halted all shipments of specific sanctioned parts and products to 🇷🇺",
+					"Suspended all business in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.halliburton.com/en/about-us/press-release/halliburton-announces-update-russia-operations-sanctions-compliance"
+		]
+	}, {
 		"name": "Huuuge Games",
 		"website": "https://huuugegames.com/",
 		"headquarters": "Warsaw, 🇵🇱",
@@ -1404,6 +1423,31 @@
 			"https://cphpost.dk/?p=131956"
 		]
 	}, {
+		"name": "LG",
+		"website": "https://www.lg.com/",
+		"headquarters": "Seoul, 🇰🇷",
+		"industry": [
+			"Electronics"
+		],
+		"actions": {
+			"general": [{
+				"country": "🇺🇦",
+				"measures": [
+					"For a long time ignored appeals of 🇺🇦 employees to shut down business in 🇷🇺"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended all shipments to 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://mezha.media/2022/03/10/lg-helps-russia-to-kill-ukrainians/",
+			"https://www.lgnewsroom.com/2022/03/lg-suspends-shipments-to-russia/"
+		]
+	}, {
 		"name": "LEGO",
 		"website": "https://www.lego.com/",
 		"headquarters": "Billund, 🇩🇰",
@@ -1552,6 +1596,24 @@
 			}]
 		}
 	}, {
+		"name": "Marin Bikes",
+		"website": "https://www.marinbikes.com/",
+		"headquarters": "Novato, CA, 🇺🇸",
+		"industry": [
+			"Machinery"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Set a dove of peace with 🇺🇦 flag as logo on website and socials"
+				]
+			}]
+		},
+		"links": [
+			"https://www.facebook.com/marinbikesfb/posts/10160021699905600"
+		]
+	}, {
 		"name": "Maxar Technologies",
 		"website": "https://www.maxar.com/",
 		"headquarters": "Westminster, CO, 🇺🇸",
@@ -1595,6 +1657,12 @@
 			"Retail"
 		],
 		"actions": {
+			"sanctions": [{
+				"country": "🇺🇦",
+				"measures": [
+					"In response to a demand of 🇺🇦 office to shut down Metro AG operation in 🇷🇺, headquarters office has started threatening the 🇺🇦 office that if they do not stop the pressure, 🇺🇦 will be cut off from centralized procurement and supply of goods, which could lead to a complete shutdown of business in 🇺🇦"
+				]
+			}],
 			"support": [{
 				"country": "🇷🇺",
 				"measures": [
@@ -1608,7 +1676,8 @@
 			}]
 		},
 		"links": [
-			"https://newsroom.metroag.de/en/news/2022/03/11/statement-on-war-in-ukraine"
+			"https://newsroom.metroag.de/en/news/2022/03/11/statement-on-war-in-ukraine",
+			"https://t.me/dmytro_dubilet/751"
 		]
 	}, {
 		"name": "Microsoft",
@@ -1830,10 +1899,10 @@
 			"Software"
 		],
 		"actions": {
-			"sanction": [{
+			"sanctions": [{
 				"country": "🇺🇦",
 				"measures": [
-					"Removed page of \"Cone Back Alive\" from service"
+					"Removed page of \"Come Back Alive\" from service"
 				]
 			}],
 			"support": [{
@@ -2053,6 +2122,24 @@
 			"https://twitter.com/RemingtonArms/status/1499884903676186633"
 		]
 	}, {
+		"name": "RuTracker",
+		"website": "http://rutracker.org/",
+		"headquarters": "Full remote",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will block access to tracker from 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.independent.co.uk/tech/rutracker-kremlin-torrent-movies-ukraine-russia-b2038875.html"
+		]
+	}, {
 		"name": "Salesforce",
 		"website": "https://www.salesforce.com/",
 		"headquarters": "San Francisco, CA, 🇺🇸",
@@ -2212,6 +2299,24 @@
 		},
 		"links": [
 			"https://www.sketch.com/blog/2022/03/08/we-stand-with-ukraine/"
+		]
+	}, {
+		"name": "Schlumberger",
+		"website": "https://www.slb.com/",
+		"headquarters": "Houston, TX, 🇺🇸",
+		"industry": [
+			"Oil"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended new investment and technology deployment to 🇷🇺 operations"
+				]
+			}]
+		},
+		"links": [
+			"https://www.slb.com/newsroom/press-release/2022/pr-2022-0318-update-on-russia"
 		]
 	}, {
 		"name": "Snap",
@@ -2566,7 +2671,7 @@
 			"Electronics"
 		],
 		"actions": {
-			"sanction": [{
+			"sanctions": [{
 				"country": "🇷🇺",
 				"measures": [
 					"Stopped all shipments to 🇷🇺",
