@@ -369,6 +369,51 @@
 			"https://twitter.com/ASUS/status/1503320037708689410"
 		]
 	}, {
+		"name": "Atlassian",
+		"website": "https://www.atlassian.com/",
+		"headquarters": "Sydney, 🇦🇺",
+		"industry": [
+			"Software"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"general": [{
+				"measures": [
+					"Changed Atlassian network infrastructure to ensure customer data will not transit through the affected regions",
+					"Added enhanced 24/7 security monitoring for all customers"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Pausing the sale of all new software to 🇷🇺",
+					"Suspending existing 🇷🇺 government-owned licenses as well as licenses to specific 🇷🇺 businesses that support the war, including third-party Marketplace apps"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Removed access of contractors located in 🇺🇦 to Atlassian internal systems"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"After 2 weeks of sanctions declaration, none of them was applied"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Providing ongoing support for employees with impacted family and friends",
+					"For customers operating in 🇺🇦 Atlassian creating emergency concessions to ensure they can continue operating",
+					"Will be matching all employee donations to eligible organisations via Atlassian Foundation"
+				]
+			}]
+		},
+		"links": [
+			"https://www.atlassian.com/blog/announcements/atlassian-stands-with-ukraine",
+			"https://www.afr.com/rear-window/atlassian-takes-the-long-road-out-of-russia-20220315-p5a4wp"
+		]
+	}, {
 		"name": "Auchan",
 		"website": "https://www.auchan.fr/",
 		"headquarters": "Croix, 🇫🇷",
@@ -411,6 +456,42 @@
 		},
 		"links": [
 			"https://adsknews.autodesk.com/views/crisis-in-ukraine"
+		]
+	}, {
+		"name": "Baker Hughes",
+		"website": "https://www.bakerhughes.com/",
+		"headquarters": "Houston, TX, 🇺🇸",
+		"industry": [
+			"Oil"
+		],
+		"actions": {
+			"actions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended new investments for its 🇷🇺 operations"
+				]
+			}]
+		},
+		"links": [
+			"https://investors.bakerhughes.com/news-releases/news-release-details/baker-hughes-announces-update-russia-operations"
+		]
+	}, {
+		"name": "Barilla",
+		"website": "https://www.barilla.com/",
+		"headquarters": "Parma, 🇮🇹",
+		"industry": [
+			"Food"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Continuing its production and operation in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.just-food.com/news/barilla-maintains-russia-production/"
 		]
 	}, {
 		"name": "Bayer",
@@ -1086,6 +1167,36 @@
 			"https://www.elcompanies.com/en/news-and-media/newsroom/company-features/2022/update-on-ukraine-invasion-and-business-in-russia"
 		]
 	}, {
+		"name": "Ferrero SpA",
+		"website": "https://www.ferrero.com/",
+		"headquarters": "Alba, 🇮🇹",
+		"industry": [
+			"Food"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Decided to temporarily pause all non-essential activities and development plans in 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Temporary closed offices in 🇺🇦"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Helping 🇺🇦 employees to reach safety zones, providing them with emergency cash, fuel for their cars, food, medicines, basic supplies, and shelter",
+					"Donated €1M to UNICEF"
+				]
+			}]
+		},
+		"links": [
+			"https://www.just-food.com/special-focus/ukraine-crisis/ferrero-pauses-non-essential-activities-in-russia/"
+		]
+	}, {
 		"name": "Figma",
 		"website": "https://www.figma.com/",
 		"headquarters": "San Francisco, CA, 🇺🇸",
@@ -1423,31 +1534,6 @@
 			"https://cphpost.dk/?p=131956"
 		]
 	}, {
-		"name": "LG",
-		"website": "https://www.lg.com/",
-		"headquarters": "Seoul, 🇰🇷",
-		"industry": [
-			"Electronics"
-		],
-		"actions": {
-			"general": [{
-				"country": "🇺🇦",
-				"measures": [
-					"For a long time ignored appeals of 🇺🇦 employees to shut down business in 🇷🇺"
-				]
-			}],
-			"sanctions": [{
-				"country": "🇷🇺",
-				"measures": [
-					"Suspended all shipments to 🇷🇺"
-				]
-			}]
-		},
-		"links": [
-			"https://mezha.media/2022/03/10/lg-helps-russia-to-kill-ukrainians/",
-			"https://www.lgnewsroom.com/2022/03/lg-suspends-shipments-to-russia/"
-		]
-	}, {
 		"name": "LEGO",
 		"website": "https://www.lego.com/",
 		"headquarters": "Billund, 🇩🇰",
@@ -1498,6 +1584,53 @@
 			"https://www.lasicilia.it/adnkronos/news/-ucraina-leroy-merlin-non-lascia-la-russia-non-sospendiamo-attivita-ampliamo-la-gamma--1514278/",
 			"https://www.epravda.com.ua/news/2022/03/11/683776/",
 			"https://biz.liga.net/ua/all/all/novosti/leroy-merlin-do-sih-por-rabotayuschaya-v-rf-otklyuchila-ot-korporativnoy-sistemy-ukrainskuyu-d"
+		]
+	}, {
+		"name": "LG",
+		"website": "https://www.lg.com/",
+		"headquarters": "Seoul, 🇰🇷",
+		"industry": [
+			"Electronics"
+		],
+		"actions": {
+			"general": [{
+				"country": "🇺🇦",
+				"measures": [
+					"For a long time ignored appeals of 🇺🇦 employees to shut down business in 🇷🇺"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended all shipments to 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://mezha.media/2022/03/10/lg-helps-russia-to-kill-ukrainians/",
+			"https://www.lgnewsroom.com/2022/03/lg-suspends-shipments-to-russia/"
+		]
+	}, {
+		"name": "Lindt & Sprüngli",
+		"alt_name": [
+			"Lindt & Sprungli"
+		],
+		"website": "https://www.lindt-spruengli.com/",
+		"headquarters": "Kilchberg, 🇨🇭",
+		"industry": [
+			"Food"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Closed shops in 🇷🇺",
+					"Suspended all deliveries to 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.candyindustry.com/articles/90282-lindt-and-sprungli-suspends-business-in-russia"
 		]
 	}, {
 		"name": "London Internet Exchange",
@@ -1612,6 +1745,45 @@
 		},
 		"links": [
 			"https://www.facebook.com/marinbikesfb/posts/10160021699905600"
+		]
+	}, {
+		"name": "Mars",
+		"website": "https://www.mars.com/",
+		"headquarters": "McLean, VA, 🇺🇸",
+		"industry": [
+			"Food"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Social media and advertising activity in 🇧🇾 will remain suspended"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Decided to scale back business and will refocus efforts in 🇷🇺 on their essential role in feeding the 🇷🇺 people and pets",
+					"Suspended new investments in 🇷🇺",
+					"Will not import or export products in or out of 🇷🇺",
+					"Social media and advertising activity in 🇷🇺 will remain suspended"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will continue to support employees from 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Any profits from 🇷🇺 business will be used for humanitarian causes",
+					"Increased cash and in-kind donation to humanitarian causes by $10M",
+					"Donated $2M to organizations that helps affected people and pets"
+				]
+			}]
+		},
+		"links": [
+			"https://www.mars.com/news-and-stories/press-releases-statements/mars-update-russia-and-ukraine"
 		]
 	}, {
 		"name": "Maxar Technologies",
