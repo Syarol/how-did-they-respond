@@ -35,7 +35,7 @@
 		class='filters-options-container mb-10' 
 	>
 		<template v-if='showIndustries'>
-			<filterOptionsList
+			<simpleFilterOptionsList
 				:filter-options='industries'
 				@toggle='toggleFilterOptionsList(activeCategories, $event)'
 			/>
@@ -127,8 +127,9 @@ import industries from './industries.json';
 import countries from './countries.json';
 
 import actionsList from './components/actionsList.vue';
-import filterOptionsList from './components/filterOptionsList.vue'
+import filterOptionsList from './components/filterOptionsList.vue';
 import linksList from './components/linksList.vue';
+import simpleFilterOptionsList from './components/simpleFilterOptionsList.vue';
 import waysToSupportBlock from './components/waysOfSupportBlock.vue';
 
 export default {
@@ -136,6 +137,7 @@ export default {
 		actionsList,
 		filterOptionsList,
 		linksList,
+		simpleFilterOptionsList,
 		waysToSupportBlock,
 	},
 	data() {

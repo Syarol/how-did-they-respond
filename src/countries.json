@@ -1,23 +1,69 @@
 [
-	"🇧🇾",
-	"🇨🇦",
-	"🇨🇭",
-	"🇨🇳",
-	"🇩🇪",
-	"🇩🇰",
-	"🇪🇪",
-	"🇫🇮",
-	"🇫🇷",
-	"🇬🇧",
-	"🇯🇵",
-	"🇰🇷",
-	"🇱🇻",
-	"🇳🇱",
-	"🇵🇱",
-	"🇷🇺",
-	"🇸🇪",
-	"🇹🇼",
-	"🇺🇦",
-	"🇺🇸",
-	"Full remote"
+	{
+		"name": "Belarus",
+		"emoji": "🇧🇾"
+	}, {
+		"name": "Canada",
+		"emoji": "🇨🇦"
+	}, {
+		"name": "Switzerland",
+		"emoji": "🇨🇭"
+	}, {
+		"name": "China",
+		"emoji": "🇨🇳"
+	}, {
+		"name": "Germany",
+		"emoji": "🇩🇪"
+	}, {
+		"name": "Denmark",
+		"emoji": "🇩🇰"
+	}, {
+		"name": "Estonia",
+		"emoji": "🇪🇪"
+	}, {
+		"name": "Finland",
+		"emoji": "🇫🇮"
+	}, {
+		"name": "France",
+		"emoji": "🇫🇷"
+	}, {
+		"name": "United Kingdom",
+		"emoji": "🇬🇧"
+	}, {
+		"name": "Italy",
+		"emoji": "🇮🇹"
+	}, {
+		"name": "Japan",
+		"emoji": "🇯🇵"
+	}, {
+		"name": "South Korea",
+		"emoji": "🇰🇷"
+	}, {
+		"name": "Latvia",
+		"emoji": "🇱🇻"
+	}, {
+		"name": "Netherlands",
+		"emoji": "🇳🇱"
+	}, {
+		"name": "Poland",
+		"emoji": "🇵🇱"
+	}, {
+		"name": "Russia",
+		"emoji": "🇷🇺"
+	}, {
+		"name": "Sweden",
+		"emoji": "🇸🇪"
+	}, {
+		"name": "Taiwan",
+		"emoji": "🇹🇼"
+	}, {
+		"name": "Ukraine",
+		"emoji": "🇺🇦"
+	}, {
+		"name": "USA",
+		"emoji": "🇺🇸"
+	}, {
+		"name": "Full remote",
+		"emoji": "Full remote"
+	}
 ]

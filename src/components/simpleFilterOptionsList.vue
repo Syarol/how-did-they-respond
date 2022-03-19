@@ -3,11 +3,10 @@
 		<li
 			v-for='item of filterOptions'
 			:key='item'
-			:title='item.name'
 			class='category'
 			@click='toggleCategory($event, item)'
 		>
-			{{ item.emoji }}
+			{{ item }}
 		</li>
 	</ul>
 </template>
