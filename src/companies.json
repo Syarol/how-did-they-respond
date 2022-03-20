@@ -465,7 +465,7 @@
 			"Oil"
 		],
 		"actions": {
-			"actions": [{
+			"sanctions": [{
 				"country": "🇷🇺",
 				"measures": [
 					"Suspended new investments for its 🇷🇺 operations"
@@ -735,6 +735,31 @@
 		},
 		"links": [
 			"https://home.cern/news/news/cern/cern-council-responds-russian-invasion-ukraine"
+		]
+	}, {
+		"name": "Clarivate",
+		"website": "https://clarivate.com/",
+		"headquarters": "London, 🇬🇧",
+		"industry": [
+			"Research"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspended all evaluation of new journal submissions from 🇧🇾 in the Web of Science"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Closed its office in 🇷🇺",
+					"Will work to cease commercial activity in 🇷🇺",
+					"Suspended all evaluation of new journal submissions from 🇷🇺 in the Web of Science"
+				]
+			}]
+		},
+		"links": [
+			"https://clarivate.com/ukraine-resources/"
 		]
 	}, {
 		"name": "Clearview AI",
@@ -1084,6 +1109,26 @@
 		},
 		"links": [
 			"https://www.lilly.com/news/stories/ukraine-support"
+		]
+	}, {
+		"name": "Elsevier",
+		"website": "https://www.elsevier.com/",
+		"headquarters": "Amsterdam, 🇳🇱",
+		"industry": [
+			"Research"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donating $1M to the UNICEF Ukraine Appeal, Red Cross and other aid organizations in 🇺🇦 and bordering countries",
+					"Will match employees donations",
+					"Made their products freely available to medical students, nurses and clinicians in 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://www.elsevier.com/connect/elsevier-condemns-russian-invasion-of-ukraine?SQ_VARIATION_1240637=0"
 		]
 	}, {
 		"name": "Ericsson",
@@ -1500,6 +1545,24 @@
 			"https://www.intel.com/content/www/us/en/newsroom/news/intel-statement-war-ukraine.html"
 		]
 	}, {
+		"name": "Journal of Molecular Structure",
+		"website": "https://www.journals.elsevier.com/journal-of-molecular-structure",
+		"headquarters": "Full remote",
+		"industry": [
+			"Research"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will not consider manuscripts authored by scientists working at 🇷🇺 Institutions"
+				]
+			}]
+		},
+		"links": [
+			"https://retractionwatch.com/2022/03/04/journal-editor-explains-ban-on-manuscripts-from-russian-institutions/"
+		]
+	}, {
 		"name": "Jysk",
 		"website": "https://www.jysk.com/",
 		"headquarters": "Brabrand, 🇩🇰",
@@ -1900,6 +1963,24 @@
 		},
 		"links": [
 			"https://www.medianama.com/2022/03/223-mongodb-terminated-russia-belarus-user-accounts/"
+		]
+	}, {
+		"name": "Nature",
+		"website": "https://www.nature.com/",
+		"headquarters": "London, 🇬🇧",
+		"industry": [
+			"Research"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will continue to consider manuscripts from 🇷🇺 researchers"
+				]
+			}]
+		},
+		"links": [
+			"https://www.nature.com/articles/d41586-022-00647-w"
 		]
 	}, {
 		"name": "Nestlé",
@@ -2489,6 +2570,24 @@
 		},
 		"links": [
 			"https://www.slb.com/newsroom/press-release/2022/pr-2022-0318-update-on-russia"
+		]
+	}, {
+		"name": "Science",
+		"website": "https://www.science.org/",
+		"headquarters": "Washington, DC, 🇺🇸",
+		"industry": [
+			"Research"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Spoke out against condemning 🇷🇺 scientists"
+				]
+			}]
+		},
+		"links": [
+			"https://www.science.org/doi/10.1126/science.abp8817"
 		]
 	}, {
 		"name": "Snap",
