@@ -1754,6 +1754,34 @@
 			"https://www.facebook.com/macpaw/posts/5003329553038886"
 		]
 	}, {
+		"name": "Maersk",
+		"alt_name": [
+			"A.P. Møller – Mærsk A/S"
+		],
+		"website": "https://www.maersk.com/",
+		"headquarters": "Copenhagen, 🇩🇰",
+		"industry": [
+			"Logistics"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Completely closes all activity in 🇷🇺",
+					"Will sell all 🇷🇺 assets"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will support 🇷🇺 employees up to 6 month"
+				]
+			}]
+		},
+		"links": [
+			"https://www.facebook.com/photo/?fbid=10166227355510125&set=a.10150624518410125"
+		]
+	}, {
 		"name": "Mailtrap",
 		"website": "https://mailtrap.io/",
 		"headquarters": "Danbury, CT, 🇺🇸",
@@ -2010,6 +2038,33 @@
 			"https://twitter.com/Denys_Shmyhal/status/1504384528806297604"
 		]
 	}, {
+		"name": "Netcracker",
+		"website": "https://www.netcracker.com/",
+		"headquarters": "Waltham, MA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions":[{
+				"country": "🇷🇺",
+				"measures": [
+					"Directing operations away from 🇷🇺",
+					"Suspended sales and investments to 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measure": [
+					"Providing aid and support to 🇺🇦 employees",
+					"Matching employees donations on 2:1 basis"
+				]
+			}]
+		},
+		"links": [
+			"https://www.linkedin.com/feed/update/urn:li:activity:6910766785222877184/",
+			"https://ain.ua/2022/03/20/kompaniya-netcracker-jde-z-rosijskogo-rynku/"
+		]
+	}, {
 		"name": "Netflix",
 		"website": "https://www.netflix.com/",
 		"headquarters": "Los Gatos, CA, 🇺🇸",
@@ -2259,6 +2314,31 @@
 		},
 		"links": [
 			"https://www.pfizer.com/news/press-release/press-release-detail/pfizer-updates-company-position-russia"
+		]
+	}, {
+		"name": "Prosus",
+		"website": "https://www.prosus.com/",
+		"headquarters": "🇳🇱",
+		"industry": [
+			"Software"
+		],
+		"actinos": {
+			"general": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will be writing down the full value of its 25.7% stake in 🇷🇺 biggest internet company, the VK Group"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Allows advertises of 🇷🇺 army on their Avito platform"
+				]
+			}]
+		},
+		"links": [
+			"https://www.news24.com/fin24/companies/ict/just-in-prosus-writes-off-r10bn-stake-in-russian-social-media-site-directors-resign-20220307",
+			"https://www.pravda.com.ua/eng/news/2022/03/19/7332763/"
 		]
 	}, {
 		"name": "Puma",
@@ -2933,6 +3013,43 @@
 		},
 		"links": [
 			"https://news.vmware.com/releases/vmware-statement-regarding-ukraine"
+		]
+	}, {
+		"name": "Weatherford",
+		"website": "https://www.weatherford.com/",
+		"headquarters": "Houston, TX, 🇺🇸",
+		"industry": [
+			"Oil"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Placed a hold on shipments in 🇷🇺",
+					"Suspended making any new investments or deploying new technology in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.weatherford.com/investor-relations/investor-news-and-events/news/news-article/?ItemID=15476"
+		]
+	}, {
+		"name": "XDynamics",
+		"website": "https://www.xdynamics.com/",
+		"headquarters": "Hong Kong, 🇭🇰",
+		"industry": [
+			"Aerospace"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"🇹🇼 branch will donate 10 Evolve 2 drones worth a total of NT$1 million (US$35,000) to 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://www.taiwannews.com.tw/en/news/4479918"
 		]
 	}, {
 		"name": "Xerox",
