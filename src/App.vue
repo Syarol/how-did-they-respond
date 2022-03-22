@@ -83,13 +83,24 @@
 			{{ activeOrganization.name }}
 		</h2>
 		<p>
-			Website: <a
-				class='link'
-				:href='activeOrganization.website'
-			>link</a>
+			Website: <a class='link' :href='activeOrganization.website'>link</a>
 		</p>
 		<p v-if='activeOrganization.headquarters'>
 			Headquarters: {{ activeOrganization.headquarters }}
+		</p>
+		<p v-if='activeOrganization?.brands?.length > 0'>
+			Related companies and brands:  
+			<ul class='brands-list'>
+				<li v-for='brand of activeOrganization.brands' :key='brand' :class='isCompanyHasStatement(brand) ? "available-brand-container" : ""'>
+					<template v-if='isCompanyHasStatement(brand)'>
+						<span class='available-brand' @click='searchSpecificCompany(brand)'> {{ brand }} </span>
+						<span class='available-brand-underline' />
+					</template>
+					<template v-else>
+						{{ brand }}
+					</template>
+				</li>
+			</ul>
 		</p>
 		<p v-if='activeOrganization.side'>
 			Sided with: {{ activeOrganization.side }}
@@ -156,6 +167,12 @@ export default {
 		};
 	},
 	methods: {
+		isCompanyHasStatement(company){
+			return this.companies.some(el => el.name === company);
+		},
+		searchSpecificCompany(company){
+			this.activeOrganization = this.companies.find(el => el.name === company);
+		},
 		searchCompany(){
 			let activeCategories = Array.from(this.activeCategories);
 			let activeCountries = Array.from(this.activeCountries);
@@ -407,5 +424,49 @@ input[type=checkbox] {
 .list {
 	list-style: none;
 	padding: 0 0 0 1em;
+}
+
+.brands-list {
+	column-gap: 8px;
+	display: inline-flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	row-gap: 2px;
+}
+
+.available-brand-container {
+	cursor: pointer;
+	position: relative;
+}
+
+.available-brand-container > .available-brand {
+	padding: 0 2px;
+	position: relative;
+	transition: 1s ease;
+	z-index: 2;
+}
+
+.available-brand-container:hover > .available-brand {
+	color: #242424;
+}
+
+.available-brand-container > .available-brand-underline {
+	width: 100%;
+}
+
+.available-brand-container:hover > .available-brand-underline {
+	height: 100%;
+}
+
+.available-brand-underline {
+	background-color: #eaea1b;
+	bottom: 0;
+	display: inline-block;
+	height: 2px;
+	left: 0;
+	position: absolute;
+	transition: .5s ease-in-out;
+	z-index: 1;
 }
 </style>

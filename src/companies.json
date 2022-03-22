@@ -217,6 +217,11 @@
 			"Gaming",
 			"Software"
 		],
+		"brands": [
+			"AWS",
+			"Prime Video",
+			"Ring"
+		],
 		"actions": {
 			"sanctions": [{
 				"country": "🇧🇾",
@@ -1948,6 +1953,18 @@
 		"headquarters": "Redmond, WA, 🇺🇸",
 		"industry": [
 			"Software"
+		],
+		"brands": [
+			"Azure",
+			"Bing",
+			"GitHub",
+			"LinkedIn",
+			"Office",
+			"Skype",
+			"Surface",
+			"Visual Studio",
+			"Windows",
+			"Xbox"
 		],
 		"actions": {
 			"sanctions": [{

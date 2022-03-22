@@ -48,6 +48,7 @@ module.exports = {
 			'error', 'tab',
 		],
 		'vue/html-quotes': [ 'error', 'single' ],
+		'vue/max-attributes-per-line': 0,
 		'vue/require-default-prop': 0,
 	},
 };
