@@ -176,10 +176,11 @@ export default {
 		searchCompany(){
 			let activeCategories = Array.from(this.activeCategories);
 			let activeCountries = Array.from(this.activeCountries);
+			let query = this.searchText.toLowerCase();
 
 			this.organizations = this.companies.filter(el => {
-				let isFoundByName = el.name.toLowerCase().includes(this.searchText);
-				let isFoundByAltName = isFoundByName ? null : el?.alt_name?.some(item => item.toLowerCase().includes(this.searchText));
+				let isFoundByName = el.name.toLowerCase().includes(query);
+				let isFoundByAltName = isFoundByName ? null : el?.alt_name?.some(item => item.toLowerCase().includes(query));
 
 				let isAnyCategorySelected = activeCategories.length > 0;
 				let isAnyCountrySelected = activeCountries.length > 0;
