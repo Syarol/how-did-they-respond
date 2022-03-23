@@ -37,6 +37,7 @@
 		<template v-if='showIndustries'>
 			<simpleFilterOptionsList
 				:filter-options='industries'
+				:active-options='activeCategories'
 				@toggle='toggleFilterOptionsList(activeCategories, $event)'
 			/>
 		</template>
@@ -44,6 +45,7 @@
 		<template v-if='showCountries'>
 			<filterOptionsList
 				:filter-options='countries'
+				:active-options='activeCountries'
 				@toggle='toggleFilterOptionsList(activeCountries, $event)'
 			/>
 		</template>
