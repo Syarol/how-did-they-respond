@@ -820,6 +820,25 @@
 			"https://blog.cloudflare.com/steps-taken-around-cloudflares-services-in-ukraine-belarus-and-russia/"
 		]
 	}, {
+		"name": "ConforMIS",
+		"website": "https://www.conformis.com/",
+		"headquarters": "Billerica, MA, 🇺🇸",
+		"industry": [
+			"Manufacturing"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspending all distribution operations to 🇷🇺 and any 🇷🇺-based entities",
+					"Will no longer pursue future business development opportunities in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://finance.yahoo.com/news/conformis-suspends-distribution-operations-business-130000701.html"
+		]
+	}, {
 		"name": "Coupler.io",
 		"website": "https://www.coupler.io/",
 		"headquarters": "Danbury, CT, 🇺🇸",
@@ -1152,6 +1171,34 @@
 		},
 		"links": [
 			"https://www.datacenterdynamics.com/en/news/ericsson-suspends-deliveries-to-russia-is-evaluating-business-there/"
+		]
+	}, {
+		"name": "European Organisation for the Exploitation of Meteorological Satellites",
+		"alt_name": [
+			"EUMETSAT"
+		],
+		"website": "https://www.eumetsat.int/",
+		"headquarters": "Darmstadt, 🇩🇪",
+		"industry": [
+			"Research"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Stopped sending data from EU satellites to 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped sending data from EU satellites to 🇷🇺",
+					"Suspended the licences of 🇷🇺 users",
+					"Suspended a bilateral cooperation agreement with 🇷🇺 top meteorological agency, including all exchange of data and training activities"
+				]
+			}]
+		},
+		"links": [
+			"https://www.reuters.com/world/europe/russia-receives-western-weather-data-that-some-fear-could-aide-attack-planning-2022-03-22/"
 		]
 	}, {
 		"name": "European Space Agency",
@@ -2168,6 +2215,12 @@
 			"Software"
 		],
 		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Included speaker to GTC conference from 🇷🇺 company \"Severstal\" that is part of 🇷🇺 military complex"
+				]
+			}],
 			"sanctions": [{
 				"country": "🇷🇺",
 				"measures": [
@@ -2176,7 +2229,8 @@
 			}]
 		},
 		"links": [
-			"https://in.pcmag.com/graphics-cards/148243/nvidia-to-stop-all-product-sales-to-russia"
+			"https://in.pcmag.com/graphics-cards/148243/nvidia-to-stop-all-product-sales-to-russia",
+			"https://dou.ua/lenta/news/nvidia-admits-severstal-representatives-to-conference/?from=tge&utm_source=telegram&utm_medium=social"
 		]
 	}, {
 		"name": "Oracle",
@@ -2333,13 +2387,36 @@
 			"https://www.pfizer.com/news/press-release/press-release-detail/pfizer-updates-company-position-russia"
 		]
 	}, {
+		"name": "PostNord",
+		"website": "https://www.postnord.se/",
+		"headquarters": "Solna, 🇸🇪",
+		"industry": [
+			"Logistics"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspends all deliveries of postal items to and from 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Suspends all deliveries of postal items to and from 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://postandparcel.info/147418/news/e-commerce/postnord-in-sweden-suspends-all-postal-items-to-and-from-russia-and-belarus/"
+		]
+	}, {
 		"name": "Prosus",
 		"website": "https://www.prosus.com/",
 		"headquarters": "🇳🇱",
 		"industry": [
 			"Software"
 		],
-		"actinos": {
+		"actions": {
 			"general": [{
 				"country": "🇷🇺",
 				"measures": [
@@ -2724,6 +2801,9 @@
 		"industry": [
 			"Entertainment"
 		],
+		"brands": [
+			"PlayStation"
+		],
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
@@ -2740,14 +2820,17 @@
 				"country": "🇺🇦",
 				"measures": [
 					"Donated $2M to organization that are providing humanitarian aid to the affected populations in 🇺🇦 and countries in the region",
-					"Will match donations from employees"
+					"Will match donations from employees",
+					"Added Ukrainian language support for PlayStation 4 and 5",
+					"For 🇺🇦 users PlayStation Plus will be free for 30 days"
 				]
 			}]
 		},
 		"links": [
 			"https://www.sony.com/en/SonyInfo/News/Press/202203/22-007E/",
 			"https://variety.com/2022/film/news/sony-pictures-russia-spider-man-no-way-home-crunchyroll-1235202319/",
-			"https://www.washingtonpost.com/video-games/2022/03/09/sony-state-of-play-recap-2022/"
+			"https://www.washingtonpost.com/video-games/2022/03/09/sony-state-of-play-recap-2022/",
+			"https://mezha.media/2022/03/23/playstation-ua/"
 		]
 	}, {
 		"name": "Spotify",
@@ -2855,6 +2938,27 @@
 			"https://thehill.com/policy/international/597956-strava-ending-service-in-russia-belarus"
 		]
 	}, {
+		"name": "The Farm 51",
+		"website": "https://www.thefarm51.com/",
+		"headquarters": "Gliwice, 🇵🇱",
+		"industry": [
+			"Gaming",
+			"Software"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donated 1-week proceeds from the sales of Chernobylite to the Ukrainian Red Cross",
+					"Launched a Chernobylite Digital Charity Pack DLC.The total net income of which will be donated to the Pure Heart Foundation"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/ChernobylGame/status/1497288140259794947",
+			"https://www.marketscreener.com/quote/stock/THE-FARM-51-GROUP-SP-LKA-20707625/news/The-Farm-51-and-All-in-Games-Announces-Digital-Charity-Pack-DLC-For-Ukrainian-Pure-Heart-Foundation-39824145/"
+		]
+	}, {
 		"name": "TikTok",
 		"website": "https://www.tiktok.com/",
 		"headquarters": "Beijing, 🇨🇳",
@@ -2871,6 +2975,34 @@
 		},
 		"links": [
 			"https://twitter.com/TikTokComms/status/1500535434610368518"
+		]
+	}, {
+		"name": "TotalEnergies",
+		"website": "https://totalenergies.com/",
+		"headquarters": "Courbevoie, 🇫🇷",
+		"industry": [
+			"Oil"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will gradual suspend of its activities in 🇷🇺",
+					"Put on hold its business developments for batteries and lubricants in 🇷🇺",
+					"Will no longer record proved reserves for Arctic LNG 2 in its accounts and will not provide any more capital for this project",
+					"Decided to no longer enter into or renew contracts to purchase 🇷🇺 oil and petroleum products, in order to halt all its purchases of 🇷🇺 oil and petroleum products as soon as possible and by the end of 2022 at the latest"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will not withdraw from 🇷🇺 companies where TotalEnergies is having minority interests",
+					"Continuing to supply Europe with liquefied natural gas from the Yamal LNG plant"
+				]
+			}]
+		},
+		"links": [
+			"https://totalenergies.com/media/news/press-releases/russia-totalenergies-shares-its-principles-conduct"
 		]
 	}, {
 		"name": "TunnelBear",
@@ -3049,6 +3181,37 @@
 		},
 		"links": [
 			"https://www.weatherford.com/investor-relations/investor-news-and-events/news/news-article/?ItemID=15476"
+		]
+	}, {
+		"name": "Wirex",
+		"website": "https://wirexapp.com/en-ua",
+		"headquarters": "London, 🇬🇧",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Block users from this country"
+				]
+			}],
+			"support": [{
+				"country": "🇵🇱",
+				"measures": [
+					"Opens R&D centre in Wrocław"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"On March 24th, and on the 24th of each month thereafter while the conflict continues, Wirex will donate all of the revenue earned from in-app transactions to 🇺🇦 humanitarian efforts",
+					"Opens R&D centre in Lviv"
+				]
+			}]
+		},
+		"links": [
+			"https://wirexapp.com/blog/post/ukraine-crisis-transact-to-donate-0554",
+			"https://dou.ua/lenta/news/wirex-lviv-wroclaw-development-centers"
 		]
 	}, {
 		"name": "XDynamics",
