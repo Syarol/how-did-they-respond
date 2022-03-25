@@ -992,6 +992,45 @@
 			"https://www2.deloitte.com/global/en/pages/about-deloitte/press-releases/deloitte-statement-on-ukraine-deloitte-global.html"
 		]
 	}, {
+		"name": "Deutsche Telekom",
+		"website": "https://www.telekom.com/",
+		"headquarters": "Bonn, 🇩🇪",
+		"industry": [
+			"Telecom"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Closing their software development activities in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇩🇪",
+				"measures": [
+					"Made a donation of €1M to the German Red Cross"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Gave employees from 🇷🇺 opportunity to work outside 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Calls and text messages to 🇺🇦 are free of charge from February 23, and initially until the end of March 31, 2022",
+					"Customers who are in 🇺🇦 will not incur any roaming charges",
+					"Distributing SIM cards with unlimited data volume and unlimited telephony to refugees in 🇩🇪 and its national companies",
+					"Provided accommodation for refugees with free Wi-fi access"
+				]
+			}]
+		},
+		"links": [
+			"https://www.telekom.com/en/company/details/ukraine-deutsche-telekom-connections-free-of-charge-648958",
+			"https://www.telekom.com/en/media/media-information/archive/deutsche-telekom-supports-refugees-from-ukraine-649652",
+			"https://www.telekom.com/en/media/media-information/archive/ukraine-deutsche-telekom-donates-one-million-euros-to-the-german-red-cross-992732"
+		]
+	}, {
 		"name": "Docker",
 		"website": "https://www.docker.com/",
 		"headquarters": "Palo Alto, CA, 🇺🇸",
@@ -2018,7 +2057,8 @@
 				"country": "🇷🇺",
 				"measures": [
 					"Suspended all new sales of Microsoft products and services in Russia",
-					"Stopping many aspects of business in Russia in compliance with governmental sanctions decisions"
+					"Stopping many aspects of business in Russia in compliance with governmental sanctions decisions",
+					"Disconnected Mail.ru from their servers"
 				]
 			}],
 			"support": [{
@@ -2031,7 +2071,39 @@
 		},
 		"links": [
 			"https://blogs.microsoft.com/on-the-issues/2022/02/28/ukraine-russia-digital-war-cyberattacks/",
-			"https://blogs.microsoft.com/on-the-issues/2022/03/04/microsoft-suspends-russia-sales-ukraine-conflict/"
+			"https://blogs.microsoft.com/on-the-issues/2022/03/04/microsoft-suspends-russia-sales-ukraine-conflict/",
+			"https://dou.ua/lenta/news/microsoft-has-disconnected-mailru-from-servers/?from=tge&utm_source=telegram&utm_medium=social"
+		]
+	}, {
+		"name": "MikroTik",
+		"website": "https://mikrotik.com/",
+		"headquarters": "Riga, 🇱🇻",
+		"industry": [
+			"Software"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Stopped all shipments and licensing to 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped all shipments and licensing to 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Provided over 300 000 EUR worth of networking devices to the humanitarian efforts"
+				]
+			}]
+		},
+		"link": [
+			"https://twitter.com/mikrotik_com/status/1507308221379354626",
+			"https://twitter.com/mikrotik_com/status/1500806788727386114"
 		]
 	}, {
 		"name": "MongoDB",
@@ -2627,14 +2699,31 @@
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Stopped sales in 🇧🇾"
+				]
+			}, {
 				"country": "🇷🇺",
 				"measures": [
-					"Pause sales to Russia"
+					"Stopped sales in 🇷🇺",
+					"Shutting down cloud operations in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Enabled suppliers on SAP Business Network to declare their readiness to provide humanitarian aid",
+					"Helping the 🇺🇦 government order supplies for hospitals",
+					"Total donations from SAP and employees have surpassed €3M",
+					"Over 4,000 employees have offered housing and other aid to refugees",
+					"Providing SAP office space to store donations such as medicine and food"
 				]
 			}]
 		},
 		"links": [
-			"https://www.marketwatch.com/story/sap-pauses-sales-to-russia-271646301894"
+			"https://www.marketwatch.com/story/sap-pauses-sales-to-russia-271646301894",
+			"https://news.sap.com/2022/03/sap-continues-to-stand-in-solidarity-with-ukraine/"
 		]
 	}, {
 		"name": "Shell",
@@ -2701,6 +2790,37 @@
 		},
 		"links": [
 			"https://news.shopify.com/supporting-ukraine"
+		]
+	}, {
+		"name": "Signet Jewelers",
+		"website": "https://www.signetjewelers.com/",
+		"headquarters": "Hamilton, 🇧🇲",
+		"industry": [
+			"Retail"
+		],
+		"brands": [
+			"Kay Jewelers",
+			"Zales"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended business interaction with 🇷🇺-owned entities",
+					"Would no longer buy stones mined as of February 24 from 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Will donate $1M to the Red Cross Ukraine",
+					"Will match donations from employees by 2:1 up to $1,000 per person per year, to the Red Cross and other qualifying organizations"
+				]
+			}]
+		},
+		"links": [
+			"https://www.signetjewelers.com/investors/financial-news-releases/financial-news-release/2022/Signet-Love-Inspires-Foundation-Helps-Victims-in-Ukraine/default.aspx",
+			"https://www.bloomberg.com/news/articles/2022-03-17/signet-shocks-diamond-trade-with-refusal-to-buy-russian-gems"
 		]
 	}, {
 		"name": "Sketch",
@@ -2852,7 +2972,8 @@
 				"measures": [
 					"Closed office in Russia",
 					"Restricted the discoverability of shows owned and operated by Russian state-affiliated media",
-					"Removed all RT and Sputnik content from Spotify in the EU and other markets"
+					"Removed all RT and Sputnik content from Spotify in the 🇪🇺 and other markets",
+					"Fully suspended its services in 🇷🇺"
 				]
 			}],
 			"support": [{
@@ -2864,7 +2985,8 @@
 			}]
 		},
 		"links": [
-			"https://newsroom.spotify.com/2022-03-02/spotifys-statement-in-response-to-the-war-in-ukraine/"
+			"https://newsroom.spotify.com/2022-03-02/spotifys-statement-in-response-to-the-war-in-ukraine/",
+			"https://www.theverge.com/2022/3/25/22996412/spotify-russia-suspending-services"
 		]
 	}, {
 		"name": "SpaceX",
@@ -2957,6 +3079,24 @@
 		"links": [
 			"https://twitter.com/ChernobylGame/status/1497288140259794947",
 			"https://www.marketscreener.com/quote/stock/THE-FARM-51-GROUP-SP-LKA-20707625/news/The-Farm-51-and-All-in-Games-Announces-Digital-Charity-Pack-DLC-For-Ukrainian-Pure-Heart-Foundation-39824145/"
+		]
+	}, {
+		"name": "Tiffany",
+		"website": "https://www.tiffany.com/",
+		"headquarters": "New York, NY, 🇺🇸",
+		"industry": [
+			"Retail"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped buying new diamonds mined as of March 21 from 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.businessinsider.com/tiffany-bans-new-diamonds-mined-from-russia-2022-3"
 		]
 	}, {
 		"name": "TikTok",
@@ -3256,6 +3396,24 @@
 		},
 		"links": [
 			"https://www.news.xerox.com/news/xerox-releases-statement-on-conflict-in-ukraine"
+		]
+	}, {
+		"name": "Yokohama",
+		"website": "https://www.y-yokohama.com/",
+		"headquarters": "Tokyo, 🇯🇵",
+		"industry": [
+			"Manufacturing"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Halted production at the Lipetsk plant"
+				]
+			}]
+		},
+		"links": [
+			"https://www.tirebusiness.com/russia-war-ukraine/yokohama-latest-tire-maker-stop-production-russia"
 		]
 	}]
 }
