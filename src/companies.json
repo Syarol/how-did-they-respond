@@ -98,6 +98,36 @@
 			"https://blog.adobe.com/en/publish/2022/03/04/adobe-foundation-response-humanitarian-crisis-ukraine"
 		]
 	}, {
+		"name": "AGC",
+		"website": "https://www.agc.com/",
+		"headquarters": "Tokyo, 🇯🇵",
+		"industry": [
+			"Manufacturing"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspend investments in the country including the periodic repair of glass manufacturing furnaces",
+					"Largely scaled down the production and shipments to automobile manufacturers in 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Business operations have been suspended due to hostilities"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Ensured safety of its 24 employees in 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://www.agc.com/en/news/detail/1202857_2814.html"
+		]
+	}, {
 		"name": "Airbnb",
 		"website": "https://www.airbnb.com",
 		"headquarters": "San Francisco, CA, 🇺🇸",
@@ -207,6 +237,29 @@
 		},
 		"links": [
 			"https://www.alstom.com/press-releases-news/2022/3/alstom-statement-ukraine"
+		]
+	}, {
+		"name": "Amanita Design",
+		"website": "https://amanita-design.net/",
+		"headquarters": "Brno, 🇨🇿",
+		"industry": [
+			"Gaming",
+			"Software"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Week's earnings (25/02-06/03) from Machinarium, CHUCHEL, and Creaks ($21,000 (500 000 CZK)) was donated to Člověk v tísni to support 🇺🇦",
+					"All earning from Botanicula, Samorost 2, Samorost 3 between 21/03 and 28/03will be donated to Charita Česká republika"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/Amanita_Design/status/1500798015606607878",
+			"https://twitter.com/Amanita_Design/status/1497225550150123546",
+			"https://twitter.com/Amanita_Design/status/1505967477070598145"
 		]
 	}, {
 		"name": "Amazon",
@@ -720,26 +773,39 @@
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspended the participation of CERN scientists in all scientific committees of institutions located in the 🇧🇾, and vice versa",
+					"Suspended or, failing that, cancel all events jointly arranged between CERN and institutions located in the 🇧🇾",
+					"Suspended the granting of contracts of association as associated members of the CERN personnel to any new individuals affiliated to home institutions in 🇧🇾"
+				]
+			}, {
 				"country": "🇷🇺",
 				"measures": [
-					"The Observer status of the Russia is suspended",
-					"CERN will not engage in new collaborations with the Russian Federation and its institutions"
+					"The Observer status of the 🇷🇺 is suspended",
+					"CERN will not engage in new collaborations with the 🇷🇺 and its institutions, including Joint Institute for Nuclear Research (JINR)",
+					"Suspended the participation of CERN scientists in all scientific committees of institutions located in the 🇷🇺, and vice versa",
+					"Suspend or, failing that, cancel all events jointly arranged between CERN and institutions located in the 🇷🇺",
+					"Suspended the granting of contracts of association as associated members of the CERN personnel to any new individuals affiliated to home institutions in 🇷🇺",
+					"Observer status of JINR at the Council is suspended",
+					"CERN will not exercise the rights resulting from its Observer status at JINR"
 				]
 			}],
 			"support": [{
 				"country": "🇷🇺",
 				"measures": [
-					"Expresses support to the many members of CERN's Russian scientific community who reject invasion"
+					"Expresses support to the many members of CERN's 🇷🇺 scientific community who reject invasion"
 				]
 			}, {
 				"country": "🇺🇦",
 				"measures": [
-					"Will promote initiatives to support Ukrainian collaborators and Ukrainian scientific activity in the field of high-energy physics"
+					"Will promote initiatives to support 🇺🇦 collaborators and 🇺🇦 scientific activity in the field of high-energy physics"
 				]
 			}]
 		},
 		"links": [
-			"https://home.cern/news/news/cern/cern-council-responds-russian-invasion-ukraine"
+			"https://home.cern/news/news/cern/cern-council-responds-russian-invasion-ukraine",
+			"https://home.cern/news/news/cern/cern-council-takes-further-measures-response-invasion-ukraine"
 		]
 	}, {
 		"name": "Clarivate",
@@ -893,6 +959,27 @@
 			"https://blog.coursera.org/coursera-response-to-the-humanitarian-crisis-in-ukraine/"
 		]
 	}, {
+		"name": "Crytivo",
+		"website": "https://crytivo.com/",
+		"headquarters": "San Diego, CA, 🇺🇸",
+		"industry": [
+			"Gaming",
+			"Software"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Will donate all profits from their store from February and March to Ukrainian Red Cross",
+					"Provided employees in 🇺🇦 paid leave"
+				]
+			}]
+		},
+		"link": [
+			"https://twitter.com/Crytivo/status/1496948130272579615"
+		]
+	}, {
 		"name": "Danone",
 		"website": "https://www.danone.com/",
 		"headquarters": "Paris, 🇫🇷",
@@ -942,6 +1029,24 @@
 		},
 		"links": [
 			"https://www.dataart.com/our-statement-on-ukraine"
+		]
+	}, {
+		"name": "Decathlon",
+		"website": "https://www.decathlon.com/",
+		"headquarters": "Villeneuve-d'Ascq, 🇫🇷",
+		"industry": [
+			"Retail"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will continue to operate at 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.telegraph.co.uk/business/2022/03/19/french-founders-decathlon-face-outrage-russian-expansion-plan/"
 		]
 	}, {
 		"name": "Deloitte",
@@ -1605,6 +1710,42 @@
 			"https://twitter.com/Imperva/status/1501581093803331585"
 		]
 	}, {
+		"name": "ING",
+		"website": "https://www.ing.com/",
+		"headquarters": "Amsterdam, 🇳🇱",
+		"industry": [
+			"Finance"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Won't do any new business with any 🇧🇾 companies"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Won't do any new business with any 🇷🇺 companies"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will continue to support international clients in 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Removed fees for transactions to 🇺🇦 for personal customers",
+					"Made a €3M donation to UNICEF's humanitarian relief efforts"
+				]
+			}]
+		},
+		"links": [
+			"https://www.facebook.com/NationalBankOfUkraine/posts/335261155311204",
+			"https://www.ing.com/Newsroom/News/ING-stands-with-the-people-of-Ukraine.htm"
+		]
+	}, {
 		"name": "Intel",
 		"website": "https://www.intel.com/",
 		"headquarters": "Santa Clara, CA, 🇺🇸",
@@ -2157,6 +2298,12 @@
 			"Food"
 		],
 		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Halts the sale of several non-essential products including KitKat and Nesquik"
+				]
+			}],
 			"support": [{
 				"country": "🇷🇺",
 				"measures": [
@@ -2171,7 +2318,8 @@
 		},
 		"links": [
 			"https://twitter.com/Nestle/status/1498976828530253829",
-			"https://twitter.com/Denys_Shmyhal/status/1504384528806297604"
+			"https://twitter.com/Denys_Shmyhal/status/1504384528806297604",
+			"https://www.business-standard.com/article/international/nestle-suspends-brands-in-russia-ing-group-ends-new-financing-122032400062_1.html"
 		]
 	}, {
 		"name": "Netcracker",
@@ -2459,6 +2607,32 @@
 			"https://www.pfizer.com/news/press-release/press-release-detail/pfizer-updates-company-position-russia"
 		]
 	}, {
+		"name": "Philip Morris International",
+		"website": "https://www.pmi.com/",
+		"headquarters": "Stamford, CT, 🇺🇸",
+		"industry": [
+			"Manufacturing"
+		],
+		"actions": {
+			"sanctions" : [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspending all planned investments in 🇷🇺",
+					"Reduced manufacturing operations in 🇷🇺",
+					"Canceling the planned 🇷🇺 launch of IQOS ILUMA"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Suspended operations in 🇺🇦, including Kharkiv factory"
+				]
+			}]
+		},
+		"links": [
+			"https://www.marketwatch.com/story/philip-morris-suspends-operations-in-ukraine-amid-russia-conflict-271645798220",
+			"https://www.barrons.com/articles/philip-morris-stock-russia-51648144241"
+		]
+	}, {
 		"name": "PostNord",
 		"website": "https://www.postnord.se/",
 		"headquarters": "Solna, 🇸🇪",
@@ -2645,6 +2819,13 @@
 		"industry": [
 			"Software"
 		],
+		"brands": [
+			"Heroku",
+			"MuleSoft",
+			"Quip",
+			"Slack",
+			"Tableau"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
@@ -2724,6 +2905,42 @@
 		"links": [
 			"https://www.marketwatch.com/story/sap-pauses-sales-to-russia-271646301894",
 			"https://news.sap.com/2022/03/sap-continues-to-stand-in-solidarity-with-ukraine/"
+		]
+	}, {
+		"name": "Schlumberger",
+		"website": "https://www.slb.com/",
+		"headquarters": "Houston, TX, 🇺🇸",
+		"industry": [
+			"Oil"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended new investment and technology deployment to 🇷🇺 operations"
+				]
+			}]
+		},
+		"links": [
+			"https://www.slb.com/newsroom/press-release/2022/pr-2022-0318-update-on-russia"
+		]
+	}, {
+		"name": "Science",
+		"website": "https://www.science.org/",
+		"headquarters": "Washington, DC, 🇺🇸",
+		"industry": [
+			"Research"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Spoke out against condemning 🇷🇺 scientists"
+				]
+			}]
+		},
+		"links": [
+			"https://www.science.org/doi/10.1126/science.abp8817"
 		]
 	}, {
 		"name": "Shell",
@@ -2848,40 +3065,28 @@
 			"https://www.sketch.com/blog/2022/03/08/we-stand-with-ukraine/"
 		]
 	}, {
-		"name": "Schlumberger",
-		"website": "https://www.slb.com/",
-		"headquarters": "Houston, TX, 🇺🇸",
+		"name": "Slack",
+		"website": "https://slack.com/",
+		"headquarters": "San Francisco, CA, 🇺🇸",
 		"industry": [
-			"Oil"
+			"Software"
 		],
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
 				"measures": [
-					"Suspended new investment and technology deployment to 🇷🇺 operations"
+					"Blocked access to Slack within occupied by 🇷🇺 regions of 🇺🇦",
+					"Disabled the accounts of sanctioned 🇷🇺-related entities and individuals",
+					"Exiting its small number of business relationships in 🇷🇺",
+					"Paid plans will no longer be offered in the country",
+					"Will not allow the creation of new workspaces from within 🇷🇺",
+					"Will prohibit creation of new user accounts on Free workspaces from within the country"
 				]
 			}]
 		},
 		"links": [
-			"https://www.slb.com/newsroom/press-release/2022/pr-2022-0318-update-on-russia"
-		]
-	}, {
-		"name": "Science",
-		"website": "https://www.science.org/",
-		"headquarters": "Washington, DC, 🇺🇸",
-		"industry": [
-			"Research"
-		],
-		"actions": {
-			"support": [{
-				"country": "🇷🇺",
-				"measures": [
-					"Spoke out against condemning 🇷🇺 scientists"
-				]
-			}]
-		},
-		"links": [
-			"https://www.science.org/doi/10.1126/science.abp8817"
+			"https://slack.com/blog/news/access-restricted-russia-embargoed-regions-ukraine",
+			"https://www.axios.com/slack-disconnecting-russia-customers-bbac4f2b-37cf-47a9-bfff-66c41337e47f.html"
 		]
 	}, {
 		"name": "Snap",
