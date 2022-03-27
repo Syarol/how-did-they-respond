@@ -599,6 +599,25 @@
 			"https://twitter.com/krajzeg/status/1499725855391637508"
 		]
 	}, {
+		"name": "bet365",
+		"website": "https://www.bet365.com/",
+		"headquarters": "Stoke-on-Trent, 🇬🇧",
+		"industry": [
+			"Gambling"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended its betting services in the country",
+					"Requested that its partners remove logos, banners and marketing materials that could be used to promote its brand in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://sbcnews.co.uk/sportsbook/2022/03/02/parimatch-and-bet365-close-russian-operations-as-ukraine-invasion-intensifies/"
+		]
+	}, {
 		"name": "Boeing",
 		"website": "https://www.boeing.com/",
 		"headquarters": "Seattle, WA, 🇺🇸",
@@ -957,6 +976,35 @@
 		},
 		"links": [
 			"https://blog.coursera.org/coursera-response-to-the-humanitarian-crisis-in-ukraine/"
+		]
+	}, {
+		"name": "Crédit Agricole",
+		"alt_name": [
+			"Credit Agricole"
+		],
+		"website": "https://www.credit-agricole.com/",
+		"headquarters": "Montrouge, 🇫🇷",
+		"industry": [
+			"Finance"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped new financing to 🇷🇺 companies",
+					"Stopped all commercial activity in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Provided equipment and financial support to 2,400 employees from 🇺🇦",
+					"A €10M solidarity fund has been set up to meet the needs of employees and Ukrainians who are victims of the war"
+				]
+			}]
+		},
+		"links": [
+			"https://pressroom.credit-agricole.com/news/conflict-ukraine-russia-groups-policy-be8e-94727.html"
 		]
 	}, {
 		"name": "Crytivo",
@@ -1461,6 +1509,30 @@
 		},
 		"links": [
 			"https://www.figma.com/blog/our-response-to-ukraine/"
+		]
+	}, {
+		"name": "Geberit",
+		"website": "https://www.geberit.com/",
+		"headquarters": "Rapperswil-Jona, Switzerland",
+		"industry": [
+			"Manufacturing"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Discontinued all business activities in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Salaries of the 70 employees in 🇷🇺 will continue to be paid"
+				]
+			}]
+		},
+		"links": [
+			"https://assets.geberit.com/local-media/files/downloads/media-releases/2022/media-release-activities-russia-2022.pdf"
 		]
 	}, {
 		"name": "GitHub",
@@ -2338,7 +2410,7 @@
 			}],
 			"support": [{
 				"country": "🇺🇦",
-				"measure": [
+				"measures": [
 					"Providing aid and support to 🇺🇦 employees",
 					"Matching employees donations on 2:1 basis"
 				]
@@ -2489,6 +2561,40 @@
 		},
 		"links": [
 			"https://www.facebook.com/outdooractive/posts/10157903928364058"
+		]
+	}, {
+		"name": "Parimatch",
+		"website": "https://parimatch.com/",
+		"headquarters": "Limassol, 🇨🇾",
+		"industry": [
+			"Gambling"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Withdrawing the franchise from Betring LLC, which owned the rights to use the Parimatch brand in the territory of the 🇷🇺",
+					"Parimatch platform is not available in 🇷🇺, company stopped all software developments, improvements, and operational process support"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"15% of employees were laid off"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Parimatch Foundation launched a charitable fundraiser to help purchase and deliver food, medicine, and the evacuation of victims",
+					"Provided UAH 60M ($2M) for humanitarian aid and the needs of the 🇺🇦 defenders"
+				]
+			}]
+		},
+		"links": [
+			"https://parimatch.tech/the-parimatch-brand-withdraws-franchise-from-russia-no-rebranding/",
+			"https://parimatch.tech/parimatch-tech-provides-uah-60-million-to-support-ukraine/",
+			"https://dou.ua/lenta/articles/parimatch-tech-dismissal-tech-specialists/"
 		]
 	}, {
 		"name": "Patreon",
@@ -3234,6 +3340,42 @@
 			"https://twitter.com/State_of_Play/status/1497178102841192451"
 		]
 	}, {
+		"name": "Statscore",
+		"website": "https://www.statscore.com/",
+		"headquarters": "Katowice, 🇵🇱",
+		"industry": [
+			"Software"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"general": [{
+				"measures": [
+					"Postponed STATSCORE Day until further notice"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Stopping providing sports data from 🇧🇾 competitions until the end of the invasion of 🇺🇦"
+				]
+			},{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopping providing sports data from 🇷🇺 competitions until the end of the invasion of 🇺🇦"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Launching a \"STATSCORE HELPS UKRAINE\" initiative, whose aim is to provide the refugees with all the necessary aid"
+				]
+			}]
+		},
+		"links": [
+			"https://blog.statscore.com/statscore-day-postponed-due-to-russian-invasion-of-ukraine/",
+			"https://blog.statscore.com/statscore-wont-provide-russian-or-belarusian-sports-data-until-the-invasion-ends/"
+		]
+	}, {
 		"name": "Strava",
 		"website": "https://www.strava.com/",
 		"headquarters": "San Francisco, CA, 🇺🇸",
@@ -3509,6 +3651,40 @@
 			"https://news.vmware.com/releases/vmware-statement-regarding-ukraine"
 		]
 	}, {
+		"name": "VR Group",
+		"website": "https://www.vrgroup.fi/",
+		"headquarters": "Helsinki, 🇫🇮",
+		"industry": [
+			"Logistics"
+		],
+		"brands": [
+			"VR Passenger Services",
+			"VR Track",
+			"VR Transpoint"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"VR Transpoint is suspending the traffic of freight wagons from 🇷🇺",
+					"VR will discontinue the Allegro-train service which connects Helsinki and St Petersburg",
+					"Ended communication with Russian Railways, excluding the necessary communication required for cross-border traffic"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Passengers with a 🇺🇦 passport can travel free of charge on VR Group trains in 🇫🇮",
+					"The clock tower of Helsinki Central Railway Station will be illuminated in Ukrainian national colors"
+				]
+			}]
+		},
+		"links": [
+			"https://www.vrgroup.fi/en/vrgroup/news/vr-transpoint-is-suspending-freight-traffic-from-russia-until-further-notice-due-to-sanctions--260320221420/",
+			"https://www.vrgroup.fi/en/vrgroup/news/vr-groups-actions-due-to-russian-attack-on-ukraine--010320221735/",
+			"https://www.vrgroup.fi/en/vrgroup/news/-vr-will-discontinue-the-allegro-train-service-starting-from-march-28th-2022-250320221234/"
+		]
+	}, {
 		"name": "Weatherford",
 		"website": "https://www.weatherford.com/",
 		"headquarters": "Houston, TX, 🇺🇸",
@@ -3619,6 +3795,33 @@
 		},
 		"links": [
 			"https://www.tirebusiness.com/russia-war-ukraine/yokohama-latest-tire-maker-stop-production-russia"
+		]
+	}, {
+		"name": "Zurich Insurance",
+		"website": "https://www.zurich.com/",
+		"headquarters": "Zürich, 🇨🇭",
+		"industry": [
+			"Insurance"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Will comply with all sanctions against 🇷🇺, 🇧🇾 and other regimes",
+					"Removed its Z logo from social media after the letter became a symbol of support in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Announced a major fundraising effort to mobilize support across their businesses globally for humanitarian relief efforts",
+					"Will match all donations to Z Zurich Foundation until the end of March 2022"
+				]
+			}]
+		},
+		"links": [
+			"https://www.zurich.com/media/news-releases/2022/2022-0228-01",
+			"https://twitter.com/Zurich/status/1503350093621207043",
+			"https://www.reuters.com/world/europe/zurich-insurance-removes-z-symbol-after-letter-used-show-support-ukraine-war-2022-03-26/"
 		]
 	}]
 }
