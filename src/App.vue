@@ -28,6 +28,11 @@
 				<label for='country'>Country</label>
 			</div>
 		</div>
+		<button 
+			v-if='isFiltersApplied'
+			class='clear-filters-btn ml-10'
+			@click='clearFilters'
+		>&#10060; Clear filters</button>
 	</div>
 
 	<div 
@@ -168,6 +173,12 @@ export default {
 			showIndustries: false,
 		};
 	},
+	computed: {
+		isFiltersApplied(){
+			return this.activeCategories.size > 0 ||
+				this.activeCountries.size > 0;
+		},
+	},
 	methods: {
 		isCompanyHasStatement(company){
 			return this.companies.some(el => el.name === company);
@@ -215,6 +226,10 @@ export default {
 		},
 		selectOrganization(e){
 			this.activeOrganization = e;
+		},
+		clearFilters(){
+			this.activeCategories.clear();
+			this.activeCountries.clear();
 		},
 	},
 };
@@ -348,6 +363,16 @@ input[type=checkbox] {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
+}
+
+.clear-filters-btn {
+	background: transparent;
+	border: 0;
+	color: white;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 15px;
+	padding: 0;
 }
 
 .organizations-list {

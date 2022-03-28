@@ -4,6 +4,7 @@
 			v-for='item of filterOptions'
 			:key='item'
 			:title='item.name'
+			:class='isActiveOne(item) ? "active" : ""'
 			class='category'
 			@click='toggleCategory($event, item)'
 		>
@@ -15,12 +16,16 @@
 <script>
 export default {
 	props: {
+		activeOptions: Set,
 		filterOptions: Array,
 	},
 	emits: [
 		'toggle',
 	],
 	methods: {
+		isActiveOne(item) {
+			return this.activeOptions.has(item);
+		},
 		toggleCategory(e, item) {
 			e.target.classList.toggle('active');
 
