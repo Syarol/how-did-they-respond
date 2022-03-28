@@ -16,9 +16,9 @@
 		>
 	</div>
 
-	<div class='mx-10'>
+	<div class='filters-container mx-10'>
 		<span>Available filters:</span>
-		<div class='filters-container ml-10'>
+		<div class='filters-list'>
 			<div class='filter'>
 				<input type='checkbox' name='industry' id='industry' v-model='showIndustries' >
 				<label for='industry'>Industry</label>
@@ -30,7 +30,7 @@
 		</div>
 		<button 
 			v-if='isFiltersApplied'
-			class='clear-filters-btn ml-10'
+			class='clear-filters-btn'
 			@click='clearFilters'
 		>&#10060; Clear filters</button>
 	</div>
@@ -78,7 +78,7 @@
 			</li>
 		</template>
 		<template v-else>
-			<span>Sorry, but I can't find this company statement</span>
+			<span class='text-center'>Sorry, but I can't find statements of such companies </span>
 		</template>
 	</ul>
 
@@ -342,6 +342,14 @@ input[type=checkbox] {
 }
 
 .filters-container {
+	display: flex;
+	column-gap: 10px;
+	flex-wrap: wrap;
+	justify-content: center;
+	row-gap: 5px;
+}
+
+.filters-list {
 	display: inline-flex;
 	gap: 10px;
 }
@@ -368,11 +376,17 @@ input[type=checkbox] {
 .clear-filters-btn {
 	background: transparent;
 	border: 0;
-	color: white;
+	color: #2c3e50;
 	cursor: pointer;
 	font-family: inherit;
 	font-size: 15px;
 	padding: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+	.clear-filters-btn {
+		color: #fff;
+	}
 }
 
 .organizations-list {
