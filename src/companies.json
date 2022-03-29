@@ -618,6 +618,48 @@
 			"https://sbcnews.co.uk/sportsbook/2022/03/02/parimatch-and-bet365-close-russian-operations-as-ukraine-invasion-intensifies/"
 		]
 	}, {
+		"name": "Bloomberg",
+		"website": "https://www.bloomberg.com/",
+		"headquarters": "New York, NY, 🇺🇸",
+		"industry": [
+			"Mass media"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspended operations in 🇧🇾, which means that users withing 🇧🇾 will be unable to access any of Bloomberg's financial products"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended operations in 🇷🇺, which means that users withing 🇷🇺 will be unable to access any of Bloomberg's financial products",
+					"Trading functions for a range of 🇷🇺 securities have been disabled",
+					"🇷🇺 stocks were removed from Bloomberg's global equity indexes on March 9, while its bonds are being removed from fixed-income indexes at the month-end re-balancing",
+					"Suspended the work of its journalists in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Bloomberg.com is still available"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Bloomberg.com is still available"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"has pledged $40M to the International Rescue Committee and the World Central Kitchen to provide support, supplies and meals to Ukrainians and refugees in the region and elsewhere"
+				]
+			}]
+		},
+		"links": [
+			"https://www.bloomberg.com/news/articles/2022-03-28/bloomberg-suspends-operations-in-russia-belarus-on-ukraine-war"
+		]
+	}, {
 		"name": "Boeing",
 		"website": "https://www.boeing.com/",
 		"headquarters": "Seattle, WA, 🇺🇸",
@@ -1184,6 +1226,41 @@
 			"https://www.telekom.com/en/media/media-information/archive/ukraine-deutsche-telekom-donates-one-million-euros-to-the-german-red-cross-992732"
 		]
 	}, {
+		"name": "DHL",
+		"website": "https://www.dhl.com",
+		"headquarters": "Bonn, 🇩🇪",
+		"industry": [
+			"Logistics"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspended deliveries to 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended deliveries to 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Closed its operation and offices in 🇺🇦 to protect the \"safety of our employees\""
+				] 
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Deliveries within and from 🇷🇺 is still available"
+				]
+			}]
+		},
+		"links": [
+			"https://www.channelnewsasia.com/business/dhl-suspends-deliveries-russia-and-belarus-2532696",
+			"https://twitter.com/thevillageua/status/1508362871868207109"
+		]
+	}, {
 		"name": "Docker",
 		"website": "https://www.docker.com/",
 		"headquarters": "Palo Alto, CA, 🇺🇸",
@@ -1535,6 +1612,40 @@
 			"https://assets.geberit.com/local-media/files/downloads/media-releases/2022/media-release-activities-russia-2022.pdf"
 		]
 	}, {
+		"name": "GetResponse",
+		"website": "https://www.getresponse.com/",
+		"headquarters": "Gdańsk, 🇵🇱",
+		"industry": [
+			"Software"
+		],
+		"side": "🇺🇦",
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Stopped new sales of their products in 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped new sales of their products in 🇷🇺",
+					"Severed ties with all 🇷🇺 government agencies and companies that are suspected of being actors in war effort"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Send 200,000 PLN (~$50,000) worth of medical aid relief to 🇺🇦",
+					"Allocated 20,000 PLN to provide housing to women and children fleeing from the warzone to 🇵🇱",
+					"Promoted cooperation with 🇺🇦 tech companies"
+				]
+			}]
+		},
+		"links": [
+			"https://www.getresponse.com/blog/getresponse-solidarity-ukraine",
+			"https://www.getresponse.com/blog/support-ukrainian-tech-companies"
+		]
+	}, {
 		"name": "GitHub",
 		"website": "https://www.github.com/",
 		"headquarters": "San Francisco, CA, 🇺🇸",
@@ -1667,6 +1778,37 @@
 		},
 		"links": [
 			"https://www.halliburton.com/en/about-us/press-release/halliburton-announces-update-russia-operations-sanctions-compliance"
+		]
+	}, {
+		"name": "Heineken",
+		"website": "https://www.theheinekencompany.com",
+		"headquarters": "Amsterdam, 🇳🇱",
+		"industry": [
+			"Food"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Will not profit from any transfer of ownership in 🇷🇺 and expect an impairment and other non-cash exceptional charges of approximately €0.4 billion in total"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped new investments and exports to 🇷🇺",
+					"Stopped production, sale and advertising of the Heineken® brand in 🇷🇺",
+					"Decided to leave 🇷🇺."
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Guarantee the salaries of their 1,800 employees in 🇷🇺 will be paid to the end of 2022"
+				]
+			}]
+		},
+		"links": [
+			"https://www.theheinekencompany.com/newsroom/heineken-nv-announces-decision-to-leave-russia/"
 		]
 	}, {
 		"name": "Huuuge Games",
@@ -3579,12 +3721,14 @@
 			}, {
 				"country": "🇺🇦",
 				"measures": [
-					"Provides additional financial support to help with relocation to employees in 🇺🇦"
+					"Provides additional financial support to help with relocation to employees in 🇺🇦",
+					"Committed to donate €5M of essential Unilever products to the humanitarian relief effort"
 				]
 			}]
 		},
 		"links": [
-			"https://www.just-food.com/special-focus/ukraine-crisis/unilever-stops-russia-exports-but-maintains-essential-food-supply/"
+			"https://www.just-food.com/special-focus/ukraine-crisis/unilever-stops-russia-exports-but-maintains-essential-food-supply/",
+			"https://www.unilever.com/news/news-search/2022/updated-unilever-statement-on-the-war-in-ukraine/"
 		]
 	}, {
 		"name": "Upwork",
