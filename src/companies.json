@@ -2019,7 +2019,7 @@
 			"sanctions": [{
 				"country": "🇷🇺",
 				"measures": [
-					"Closed all stores in 🇷🇺"
+					"Will permanently slose all stores in 🇷🇺"
 				]
 			}, {
 				"country": "🇺🇦",
@@ -2030,7 +2030,8 @@
 			"support": [{
 				"country": "🇷🇺",
 				"measures": [
-					"Employees of closed stores will receive their pay"
+					"Employees of closed stores will receive their pay",
+					"31 March, the JYSK stores in 🇷🇺 will reopen temporarily to carry out a discontinuation sale to empty the stores"
 				]
 			}, {
 				"country": "🇺🇦",
@@ -2040,7 +2041,8 @@
 			}]
 		},
 		"links": [
-			"https://cphpost.dk/?p=131956"
+			"https://cphpost.dk/?p=131956",
+			"https://www.mynewsdesk.com/jysk/pressreleases/jysk-will-permanently-close-in-russia-3172243"
 		]
 	}, {
 		"name": "LEGO",
@@ -2482,6 +2484,52 @@
 		},
 		"links": [
 			"https://www.medianama.com/2022/03/223-mongodb-terminated-russia-belarus-user-accounts/"
+		]
+	}, {
+		"name": "Mondelēz International",
+		"alt_name": [
+			"Mondelez International"
+		],
+		"website": "https://www.mondelezinternational.com/",
+		"headquarters": "Chicago, IL, 🇺🇸",
+		"industry": [
+			"Food"
+		],
+		"brands": [
+			"Halls",
+			"Milka",
+			"Oreo",
+			"Toblerone"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Donated to Save The Children and other aid organizations",
+					"Double-match employees donations to International Federation of the Red Cross(IFRC)"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Scaling back all non-essential activities in 🇷🇺",
+					"Discontinue all new capital investments",
+					"Suspend advertising media spending"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Operations in country are suspended"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Continuing to maintain continuity of the food supply"
+				]
+			}]
+		},
+		"links": [
+			"https://www.mondelezinternational.com/News/Statement-on-War-in-Ukraine"
 		]
 	}, {
 		"name": "Nature",
@@ -3043,6 +3091,34 @@
 			"https://twitter.com/RemingtonArms/status/1499884903676186633"
 		]
 	}, {
+		"name": "Ritter Sport",
+		"alt_name": [
+			"Alfred Ritter GmbH & Co. KG"
+		],
+		"website": "https://www.ritter-sport.com/",
+		"headquarters": "Waldenbuch, 🇩🇪",
+		"industry": [
+			"Food"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Halted investments in the 🇷🇺 market",
+					"Stoped advertising in the country"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will continue supplying goods to 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.urdupoint.com/en/sports/german-chocolate-producer-ritter-sport-will-n-1489698.html"
+		]
+	}, {
 		"name": "RuTracker",
 		"website": "http://rutracker.org/",
 		"headquarters": "Full remote",
@@ -3547,6 +3623,37 @@
 		},
 		"links": [
 			"https://thehill.com/policy/international/597956-strava-ending-service-in-russia-belarus"
+		]
+	}, {
+		"name": "The Kraft Heinz Company",
+		"website": "https://www.kraftheinzcompany.com/",
+		"headquarters": "Chicago, IL, 🇺🇸",
+		"industry": [
+			"Food"
+		],
+		"brands": [
+			"Pudliszki"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended all new investments in 🇷🇺",
+					"suspended all exports of Kraft Heinz products to 🇷🇺",
+					"suspended all imports of products from 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donated $1M to the Red Cross",
+					"Will match donations from employees by 2:1 the Red Cross",
+					"Pudliszki brand in 🇵🇱 donated food products to the Polish Red Cross"
+				]
+			}]
+		},
+		"links": [
+			"https://news.kraftheinzcompany.com/press-releases-details/2022/Kraft-Heinz-Statement-Related-to-Our-Business-in-Russia/default.aspx"
 		]
 	}, {
 		"name": "The Farm 51",
