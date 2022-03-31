@@ -791,6 +791,24 @@
 			"https://www.caterpillar.com/en/news/corporate-press-releases/h/caterpillar-foundation-supports-needs-ukrainian-people.html"
 		]
 	}, {
+		"name": "CCC",
+		"website": "https://corporate.ccc.eu/",
+		"headquarters": "Polkowice, 🇵🇱",
+		"industry": [
+			"Fashion"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Temporarily extended its GiveYourShoesASecondLife campaign of collecting, refreshing and handing out shoes to 🇺🇦 refugees"
+				]
+			}]
+		},
+		"links": [
+			"https://corporate.ccc.eu/en/giveyourshoesasecondlife-and-donate-them-to-ukrainian-refugees"
+		]
+	}, {
 		"name": "CD Project",
 		"website": "https://cdprojektred.com/",
 		"headquarters": "Warsaw, 🇵🇱",
@@ -1991,6 +2009,42 @@
 			"https://www.intel.com/content/www/us/en/newsroom/news/intel-statement-war-ukraine.html"
 		]
 	}, {
+		"name": "Johnson & Johnson",
+		"alt_name": [
+			"JnJ"
+		],
+		"website": "https://www.jnj.com/",
+		"headquarters": "New Brunswick, NJ, 🇺🇸",
+		"industry": [
+			"Pharmaceutical"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Donating $10M to support the work of the International Rescue Committee (IRC) and International Federation of Red Cross (IFRC) and Red Crescent"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended all advertising in 🇷🇺",
+					"Suspended all enrollment in clinical trials in 🇷🇺",
+					"Suspended any additional investment in 🇷🇺",
+					"Suspended supply of their personal care products in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Providing product donations including hygiene kits, health packets and medical supplies",
+					"Launching an unlimited matching program for our global employees with Global Giving Ukraine Crisis Relief Fund"
+				]
+			}]
+		},
+		"links": [
+			"https://www.jnj.com/johnson-johnson-statement-on-war-in-ukraine"
+		]
+	}, {
 		"name": "Journal of Molecular Structure",
 		"website": "https://www.journals.elsevier.com/journal-of-molecular-structure",
 		"headquarters": "Full remote",
@@ -2163,6 +2217,40 @@
 		},
 		"links": [
 			"https://twitter.com/razhael/status/1502304088188465154"
+		]
+	}, {
+		"name": "LPP Group",
+		"website": "https://www.lppsa.com/",
+		"headquarters": "Gdańsk, 🇵🇱",
+		"industry": [
+			"Fashion"
+		],
+		"brands": [
+			"Cropp",
+			"House",
+			"Mohito",
+			"Reserved",
+			"Sinsay"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Halted investments in the 🇷🇺 market",
+					"Suspended all exports to 🇷🇺",
+					"Closed all stores in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donated more than 40 thousand pieces of clothing of their brands to the Małopolski PKK branch"
+				]
+			}]
+		},
+		"links": [
+			"https://www.facebook.com/DiscoverLPP/posts/5399953006695854",
+			"https://www.lppsa.com/informacje-prasowe/lpp-zamknelo-wszystkie-sklepy-w-rosji"
 		]
 	}, {
 		"name": "MacPaw",
@@ -3021,6 +3109,43 @@
 			"https://twitter.com/NateTibbits/status/1504126498017583108"
 		]
 	}, {
+		"name": "Rabobank",
+		"website": "https://www.rabobank.com/en/home/index.html",
+		"headquarters": "Utrecht, 🇳🇱",
+		"industry": [
+			"Finance"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Employees are given the space and time to spend on local initiatives"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will wind down all activities in Russia and will leave the country"
+				]
+			}],
+			"support": [{
+				"country": "🇳🇱",
+				"measures": [
+					"Will increase the cooperative dividend this year in order to be able to support local initiatives in the 🇳🇱"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Offers various locations to shelter 🇺🇦 refugees in 🇳🇱",
+					"Removed fees for transactions to 🇺🇦 by private individuals",
+					"Will offer for 🇺🇦 refugees an online onboarding process for opening a bank account"
+				]
+			}]
+		},
+		"links": [
+			"https://www.rabobank.com/en/about-rabobank/articles/20220304-rabobank-deeply-shocked-by-war-employees-in-action-for-ukrainians.html",
+			"https://www.rabobank.com/en/press/search/2022/20220330-rabobank-withdraws-from-russia.html"
+		]
+	}, {
 		"name": "Readdle",
 		"website": "https://readdle.com/",
 		"headquarters": "Odesa, 🇺🇦",
@@ -3265,6 +3390,33 @@
 		},
 		"links": [
 			"https://www.science.org/doi/10.1126/science.abp8817"
+		]
+	}, {
+		"name": "Serpstat",
+		"website": "https://serpstat.com/",
+		"headquarters": "Odesa, 🇺🇦",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Blocked the accounts of users from 🇷🇺",
+					"Stopped updating SERPs for Yandex, Google \"ru\" and Google \"by\" databases and the search volume in Yandex databases"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Financial supporting 🇺🇦 Armed Forces and volunteer initiatives",
+					"Taking part in information resistance to the enemy on the digital area"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/serpstat/status/1499454483277008897",
+			"https://serpstat.com/blog/inside-the-ukrainian-it-businesses-during-russian-invasion/"
 		]
 	}, {
 		"name": "Shell",
