@@ -1829,6 +1829,30 @@
 			"https://www.theheinekencompany.com/newsroom/heineken-nv-announces-decision-to-leave-russia/"
 		]
 	}, {
+		"name": "Honeywell",
+		"website": "https://www.honeywell.com/",
+		"headquarters": "Charlotte, NC, 🇺🇸",
+		"industry": [
+			"Aerospace",
+			"Manufacturing"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspended substantially all of sales, distribution and service activities in 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended substantially all of sales, distribution and service activities in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.honeywell.com/us/en/press/2022/03/statement-about-our-business-in-russia-and-belarus"
+		]
+	}, {
 		"name": "Huuuge Games",
 		"website": "https://huuugegames.com/",
 		"headquarters": "Warsaw, 🇵🇱",
@@ -2043,6 +2067,30 @@
 		},
 		"links": [
 			"https://www.jnj.com/johnson-johnson-statement-on-war-in-ukraine"
+		]
+	}, {
+		"name": "Johnson Controls",
+		"website": "https://www.johnsoncontrols.com/",
+		"headquarters": "Cork, 🇮🇪",
+		"industry": [
+			"Manufacturing"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspending business in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Will donate $350,000 to assist critical humanitarian relief efforts on the ground in 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://www.johnsoncontrols.com/insights/2022/feature-story/statement-on-ukraine"
 		]
 	}, {
 		"name": "Journal of Molecular Structure",
@@ -2411,6 +2459,29 @@
 		},
 		"links": [
 			"https://www.mars.com/news-and-stories/press-releases-statements/mars-update-russia-and-ukraine"
+		]
+	}, {
+		"name": "Marvell Technology",
+		"website": "https://www.marvell.com/",
+		"headquarters": "Wilmington, DE, 🇺🇸",
+		"industry": [
+			"Manufacturing"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Stopping all transactions of its products directly and indirectly to customers based in 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Stopping all transactions of its products directly and indirectly to customers based in 🇷🇺 and 🇷🇺-occupied regions of 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://www.marvell.com/content/dam/marvell/en/company/assets/marvell-russia-sanctions-general.pdf"
 		]
 	}, {
 		"name": "Maxar Technologies",
@@ -2839,6 +2910,30 @@
 		},
 		"links": [
 			"https://www.facebook.com/outdooractive/posts/10157903928364058"
+		]
+	}, {
+		"name": "Panduit",
+		"website": "https://www.panduit.com/",
+		"headquarters": "Tinley Park, IL, 🇺🇸",
+		"industry": [
+			"Manufacturing"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended the acceptance of orders and shipments to customers in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will continue to pay salaries and benefits for its 🇷🇺 employees"
+				]
+			}]
+		},
+		"links": [
+			"https://www.panduit.com/en/about/media-resources/panduit-suspends-order-and-shipment-activities-in-russia.html"
 		]
 	}, {
 		"name": "Parimatch",
@@ -3563,6 +3658,34 @@
 		"links": [
 			"https://slack.com/blog/news/access-restricted-russia-embargoed-regions-ukraine",
 			"https://www.axios.com/slack-disconnecting-russia-customers-bbac4f2b-37cf-47a9-bfff-66c41337e47f.html"
+		]
+	}, {
+		"name": "Smurfit Карра Group PLC",
+		"alt_name": [
+			"SKG"
+		],
+		"website": "https://www.smurfitkappa.com/",
+		"headquarters": "Dublin, 🇮🇪",
+		"industry": [
+			"Manufacturing"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended support for its 🇷🇺 operations including any imports and exports and any short or long term funding",
+					"Exiting 🇷🇺 market"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measure": [
+					"Providing humanitarian support"
+				]
+			}]
+		},
+		"links": [
+			"https://www.smurfitkappa.com/newsroom/2022/statement-re-russian-operations"
 		]
 	}, {
 		"name": "Snap",
