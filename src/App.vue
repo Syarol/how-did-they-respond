@@ -179,12 +179,34 @@ export default {
 				this.activeCountries.size > 0;
 		},
 	},
+	created() {
+		this.$watch(
+			() => this.$route.params,
+			() => {
+				if (this.$route.params?.company) {
+					this.searchSpecificCompany(this.$route.params?.company);
+				}
+			},
+			{ 
+				immediate: true,
+			},
+		);
+	},
 	methods: {
 		isCompanyHasStatement(company){
 			return this.companies.some(el => el.name === company);
 		},
+		async updatePath(company){
+			await this.$router.push({
+				name: 'app',
+				params: {
+					company,
+				},
+			});
+		},
 		searchSpecificCompany(company){
-			this.activeOrganization = this.companies.find(el => el.name === company);
+			this.activeOrganization = this.companies.find(el => el.name.toLowerCase() === company.toLowerCase());
+			this.updatePath(this.activeOrganization.name);
 		},
 		searchCompany(){
 			let activeCategories = Array.from(this.activeCategories);
@@ -226,6 +248,7 @@ export default {
 		},
 		selectOrganization(e){
 			this.activeOrganization = e;
+			this.updatePath(this.activeOrganization.name);
 		},
 		clearFilters(){
 			this.activeCategories.clear();
