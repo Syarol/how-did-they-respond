@@ -184,7 +184,7 @@ export default {
 			() => this.$route.params,
 			() => {
 				if (this.$route.params?.company) {
-					this.searchSpecificCompany(this.$route.params?.company);
+					this.searchSpecificCompany(decodeURIComponent(this.$route.params?.company));
 				}
 			},
 			{ 
@@ -200,7 +200,7 @@ export default {
 			await this.$router.push({
 				name: 'app',
 				params: {
-					company,
+					company: encodeURIComponent(company),
 				},
 			});
 		},
