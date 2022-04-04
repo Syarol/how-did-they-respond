@@ -2187,6 +2187,41 @@
 			"https://www.mynewsdesk.com/jysk/pressreleases/jysk-will-permanently-close-in-russia-3172243"
 		]
 	}, {
+		"name": "Kerry Group",
+		"website": "https://www.kerrygroup.com/",
+		"headquarters": "Tralee, 🇮🇪",
+		"industry": [
+			"Food"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspended operations in 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended operations in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Will continue to pay employees from 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Will continue to pay employees from 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.kerrygroup.com/media/Kerry-Group-Statement-re-Russian-and-Belarus-Operations.pdf",
+			"https://www.rte.ie/news/business/2022/0404/1290307-kerry-group-suspends-operations-in-russia-and-belarus/"
+		]
+	}, {
 		"name": "LEGO",
 		"website": "https://www.lego.com/",
 		"headquarters": "Billund, 🇩🇰",
@@ -2729,6 +2764,24 @@
 		},
 		"links": [
 			"https://www.mondelezinternational.com/News/Statement-on-War-in-Ukraine"
+		]
+	}, {
+		"name": "Mubadala Investment Company",
+		"website": "https://www.mubadala.com/",
+		"headquarters": "Abu Dhabi, 🇦🇪",
+		"industry": [
+			"Finance"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will pause its investments in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.spglobal.com/commodity-insights/en/market-insights/latest-news/oil/032822-abu-dhabis-mubadala-to-pause-investments-in-russia"
 		]
 	}, {
 		"name": "Nature",
@@ -4160,6 +4213,25 @@
 			"https://gamedev.dou.ua/news/ubisoft-ukrainian-store/"
 		]
 	}, {
+		"name": "United Group",
+		"website": "https://united.group/",
+		"headquarters": "Amsterdam, 🇳🇱",
+		"industry": [
+			"Mass media",
+			"Telecom"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"uDonated a total of €1M to International Medical Corps and Bright Kids Charity to support humanitarian relief efforts related to the war in 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://united.group/united-group-donates-e1-million-to-support-relief-efforts-in-ukraine/"
+		]
+	}, {
 		"name": "Univeler",
 		"website": "https://www.unilever.com/",
 		"headquarters": "London, 🇬🇧",
@@ -4294,6 +4366,44 @@
 			"https://www.vrgroup.fi/en/vrgroup/news/vr-transpoint-is-suspending-freight-traffic-from-russia-until-further-notice-due-to-sanctions--260320221420/",
 			"https://www.vrgroup.fi/en/vrgroup/news/vr-groups-actions-due-to-russian-attack-on-ukraine--010320221735/",
 			"https://www.vrgroup.fi/en/vrgroup/news/-vr-will-discontinue-the-allegro-train-service-starting-from-march-28th-2022-250320221234/"
+		]
+	}, {
+		"name": "Wargaming",
+		"website": "https://wargaming.com/",
+		"headquarters": "Nicosia, 🇨🇾",
+		"industry": [
+			"Software",
+			"Gaming"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Company transferred its live games business in 🇷🇺 and 🇧🇾 to local management of Lesta Studio that is no longer affiliated with Wargaming. The company will not profit from this process either today or going forward"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Will leave the country",
+					"Started the process of closing its studio in Minsk"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Will leave the country"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donated UAH 30M to Ukrainian Red Cross"
+				]
+			}]
+		},
+		"links": [
+			"https://wargaming.com/en/news/business-operations-worldwide/",
+			"https://www.pcgamer.com/wargaming-pulls-out-of-russia-and-its-home-nation-of-belarus/",
+			"https://gamedev.dou.ua/news/wargaming-kyiv-red-cross/"
 		]
 	}, {
 		"name": "Weatherford",
