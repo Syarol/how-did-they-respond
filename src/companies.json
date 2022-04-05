@@ -137,14 +137,16 @@
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
-				"country": "🇷🇺",
-				"measures": [
-					"Ceased cooperation with country"
-				]
-			}, {
 				"country": "🇧🇾",
 				"measures": [
-					"Ceased cooperation with country"
+					"Ceased cooperation with country",
+					"Suspended operations in 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Ceased cooperation with country",
+					"Suspended operations in 🇷🇺"
 				]
 			}],
 			"support": [{
@@ -156,7 +158,8 @@
 		},
 		"links": [
 			"https://twitter.com/bchesky/status/1498214180674965504",
-			"https://ua.interfax.com.ua/news/general/807433.html"
+			"https://ua.interfax.com.ua/news/general/807433.html",
+			"https://www.airbnb.com/help/article/3211/suspension-of-airbnb-operations-in-russia-and-belarus"
 		]
 	}, {
 		"name": "Akamai Technologies",
@@ -1347,6 +1350,44 @@
 			"https://twitter.com/yegg/status/1501716484761997318"
 		]
 	}, {
+		"name": "Duolingo",
+		"website": "https://www.duolingo.com/",
+		"headquarters": "Pittsburgh, PA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Duolingo reports 577% global increase in Ukrainian language learners since the war is start"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Disabling all monetization in 🇧🇾 to ensure that Duolingo are not paying any taxes to the 🇧🇾 government"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Disabling all monetization in 🇷🇺 to ensure that Duolingo are not paying any taxes to the 🇷🇺 government"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Will be donating all of the ad revenue from people studying Ukrainian on Duolingo to Ukraine relief",
+					"Will distribute codes for Duolingo Plus to refugees and their hosts through UNHCR, IRC and other organization",
+					"Will provide fee waivers to Ukrainian students, so they are could take an English proficiency test",
+					"Freezing streaks for all learners in 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://blog.duolingo.com/duolingo-statement-ukraine/",
+			"https://www.foxbusiness.com/lifestyle/duolingo-increase-ukrainian-language-learners"
+		]
+	}, {
 		"name": "eBay",
 		"website": "https://www.ebay.com/",
 		"headquarters": "San Jose, CA, 🇺🇸",
@@ -1406,6 +1447,33 @@
 		},
 		"links": [
 			"https://blog.edx.org/standing-with-ukraine-supporting-displaced-learners"
+		]
+	}, {
+		"name": "Electronic Arts",
+		"website": "https://www.ea.com/",
+		"headquarters": "Redwood City, CA, 🇺🇸",
+		"industry": [
+			"Gaming",
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Stopped sales of their games and content, including virtual currency bundles, in 🇧🇾 while war continues",
+					"Removed 🇧🇾 as eligible country in EA esports programs"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped sales of their games and content, including virtual currency bundles, in 🇷🇺 while war continues",
+					"Removed 🇷🇺 as eligible country in EA esports programs"
+				]
+			}]
+		},
+		"links": [
+			"https://www.ea.com/news/update-on-electronic-arts-titles-in-russia-and-belarus",
+			"https://www.ea.com/news/ea-esports-update-on-russia-and-belarus"
 		]
 	}, {
 		"name": "Eli Lilly and Company",
@@ -1745,7 +1813,7 @@
 			"support": [{
 				"country": "🇺🇦",
 				"measures": [
-					"he Sijbrandij Foundation will match donations from GitLab team members to the selected charities"
+					"The Sijbrandij Foundation will match donations from GitLab team members to the selected charities"
 				]
 			}]
 		},
@@ -1867,6 +1935,37 @@
 		},
 		"links": [
 			"https://www.theheinekencompany.com/newsroom/heineken-nv-announces-decision-to-leave-russia/"
+		]
+	}, {
+		"name": "Henkel",
+		"website": "https://www.henkel.com/",
+		"headquarters": "Düsseldorf, 🇩🇪",
+		"industry": [
+			"Manufacturing"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Launched a financial aid package of more than €1M. This contains financial emergency aid for each affected employee, a financial donation to the International Red Cross and paid time-off for all volunteers who support refugees or aid organizations at the borders"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped new investments in 🇷🇺",
+					"Stopped advertising in state-owned media and sponsoring activities in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Refused to leave 🇷🇺 market"
+				]
+			}]
+		},
+		"links": [
+			"https://www.reuters.com/business/retail-consumer/henkel-continue-business-russia-now-2022-04-04/",
+			"https://www.henkel.com/press-and-media/press-releases-and-kits/2022-03-04-henkel-to-stop-investments-in-russia-1626160"
 		]
 	}, {
 		"name": "Honeywell",
@@ -4349,12 +4448,17 @@
 			"sanctions": [{
 				"country": "🇷🇺",
 				"measures": [
-					"VR Transpoint is suspending the traffic of freight wagons from 🇷🇺",
+					"[Since 04/05 not actual] VR Transpoint is suspending the traffic of freight wagons from 🇷🇺",
 					"VR will discontinue the Allegro-train service which connects Helsinki and St Petersburg",
 					"Ended communication with Russian Railways, excluding the necessary communication required for cross-border traffic"
 				]
 			}],
 			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"[04/05] Resumed cargo traffic to 🇷🇺, after suspending the shipments"
+				]
+			}, {
 				"country": "🇺🇦",
 				"measures": [
 					"Passengers with a 🇺🇦 passport can travel free of charge on VR Group trains in 🇫🇮",
@@ -4365,7 +4469,26 @@
 		"links": [
 			"https://www.vrgroup.fi/en/vrgroup/news/vr-transpoint-is-suspending-freight-traffic-from-russia-until-further-notice-due-to-sanctions--260320221420/",
 			"https://www.vrgroup.fi/en/vrgroup/news/vr-groups-actions-due-to-russian-attack-on-ukraine--010320221735/",
-			"https://www.vrgroup.fi/en/vrgroup/news/-vr-will-discontinue-the-allegro-train-service-starting-from-march-28th-2022-250320221234/"
+			"https://www.vrgroup.fi/en/vrgroup/news/-vr-will-discontinue-the-allegro-train-service-starting-from-march-28th-2022-250320221234/",
+			"https://yle.fi/news/3-12383309"
+		]
+	}, {
+		"name": "VyOS",
+		"website": "https://vyos.io/",
+		"headquarters": "Barcelona, 🇪🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will bot provide their services to any organizations in the 🇷🇺, and all existing subscriptions for such organizations will be terminated"
+				]
+			}]
+		},
+		"links": [
+			"https://blog.vyos.io/global-security-issue-with-russian-federation-invasion-into-ukraine"
 		]
 	}, {
 		"name": "Wargaming",
