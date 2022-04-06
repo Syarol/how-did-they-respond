@@ -1714,6 +1714,24 @@
 			"https://www.figma.com/blog/our-response-to-ukraine/"
 		]
 	}, {
+		"name": "Games Workshop",
+		"website": "https://www.games-workshop.com/",
+		"headquarters": "Nottingham, 🇬🇧",
+		"industry": [
+			"Gaming"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended all sales of Warhammer products into 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.warhammer-community.com/2022/03/16/an-important-note-on-russia-and-ukraine/"
+		]
+	}, {
 		"name": "Geberit",
 		"website": "https://www.geberit.com/",
 		"headquarters": "Rapperswil-Jona, Switzerland",
@@ -1770,6 +1788,30 @@
 		"links": [
 			"https://www.getresponse.com/blog/getresponse-solidarity-ukraine",
 			"https://www.getresponse.com/blog/support-ukrainian-tech-companies"
+		]
+	}, {
+		"name": "Giant Bicycles",
+		"website": "https://www.giant-bicycles.com/",
+		"headquarters": "Taichung, 🇹🇼",
+		"industry": [
+			"Machinery"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended business operations with their 🇷🇺 distributor"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Working with some of their 🇪🇺 sales companies to provide resources and help for Giant retail partners who have been forced to flee 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://www.bicycleretailer.com/international/2022/03/23/giant-and-orbea-says-they-have-stopped-business-russia"
 		]
 	}, {
 		"name": "GitHub",
@@ -2152,7 +2194,8 @@
 			"sanctions": [{
 				"country": "🇷🇺",
 				"measures": [
-					"Suspending all shipments to this country"
+					"Suspending all shipments to this country",
+					"Suspended all business operations in 🇷🇺"
 				]
 			}, {
 				"country": "🇧🇾",
@@ -2169,7 +2212,8 @@
 			}]
 		},
 		"links": [
-			"https://www.intel.com/content/www/us/en/newsroom/news/intel-statement-war-ukraine.html"
+			"https://www.intel.com/content/www/us/en/newsroom/news/intel-statement-war-ukraine.html",
+			"https://www.intel.com/content/www/us/en/newsroom/news/russia-business-statement.html"
 		]
 	}, {
 		"name": "Johnson & Johnson",
@@ -3103,6 +3147,24 @@
 			"https://www.reuters.com/business/oracle-says-it-has-suspended-all-operations-russia-2022-03-02/"
 		]
 	}, {
+		"name": "Orbea",
+		"website": "https://www.orbea.com/",
+		"headquarters": "Mallabia, 🇪🇸",
+		"industry": [
+			"Machinery"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped all the operations with the local importer"
+				]
+			}]
+		},
+		"links": [
+			"https://www.bicycleretailer.com/international/2022/03/23/giant-and-orbea-says-they-have-stopped-business-russia"
+		]
+	}, {
 		"name": "Outdooractive",
 		"website": "https://www.outdooractive.com/",
 		"headquarters": "Allgäu, 🇩🇪",
@@ -3320,6 +3382,32 @@
 		"links": [
 			"https://www.marketwatch.com/story/philip-morris-suspends-operations-in-ukraine-amid-russia-conflict-271645798220",
 			"https://www.barrons.com/articles/philip-morris-stock-russia-51648144241"
+		]
+	}, {
+		"name": "Pirelli",
+		"website": "https://www.pirelli.com/",
+		"headquarters": "Milan, 🇮🇹",
+		"industry": [
+			"Manufacturing"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Halted investments in 🇷🇺, excluding those linked to security",
+					"Activities of the factories in 🇷🇺 will be progressively limited to those needed to guarantee the financing of salaries and social services for employees"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donated €500,000 to help Ukrainian refugees"
+				]
+			}]
+		},
+		"links": [
+			"https://press.pirelli.com/pirelli-donates-500000-euro-to-aid-ukranian-refugees/",
+			"https://www.saltwire.com/newfoundland-labrador/business/pirelli-puts-brake-on-russian-activities-100707498/"
 		]
 	}, {
 		"name": "PostNord",
@@ -4048,6 +4136,30 @@
 		},
 		"links": [
 			"https://www.nytimes.com/2022/02/28/world/europe/elon-musk-satellite-internet-ukraine.html"
+		]
+	}, {
+		"name": "SRAM",
+		"website": "https://www.sram.com/",
+		"headquarters": "Chicago, IL, 🇺🇸",
+		"industry": [
+			"Machinery"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended shipments to 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Matching employees donations towards humanitarian organizations aiding Ukrainians (UNHCR, UNICEF Ukraine, Doctors without Borders)"
+				]
+			}]
+		},
+		"links": [
+			"https://www.sram.com/en/company/campaigns/ukraine-statement"
 		]
 	}, {
 		"name": "State of Play",
