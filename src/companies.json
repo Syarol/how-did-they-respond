@@ -1006,6 +1006,25 @@
 			"https://finance.yahoo.com/news/conformis-suspends-distribution-operations-business-130000701.html"
 		]
 	}, {
+		"name": "Coop Himmelb(l)au",
+		"website": "https://coop-himmelblau.at/",
+		"headquarters": "Vienna, 🇦🇹",
+		"industry": [
+			"Architecture"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Decided to continue working in 🇷🇺",
+					"Designing an opera house in occupied Crimea"
+				]
+			}]
+		},
+		"links": [
+			"https://www.dezeen.com/2022/04/05/wolf-prix-coop-himmelblau-russian-projects/"
+		]
+	}, {
 		"name": "Coupler.io",
 		"website": "https://www.coupler.io/",
 		"headquarters": "Danbury, CT, 🇺🇸",
@@ -1159,6 +1178,25 @@
 		},
 		"links": [
 			"https://www.dataart.com/our-statement-on-ukraine"
+		]
+	}, {
+		"name": "David Chipperfield Architects",
+		"website": "https://davidchipperfield.com/",
+		"headquarters": "London, 🇬🇧",
+		"industry": [
+			"Architecture"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Decided to suspend all work in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.dezeen.com/2022/03/02/david-chipperfield-zaha-hadid-architects-suspend-work-russia/",
+			"https://davidchipperfield.com/news/2022/the-situation-in-ukraine"
 		]
 	}, {
 		"name": "Decathlon",
@@ -1861,6 +1899,33 @@
 		},
 		"links": [
 			"https://about.gitlab.com/blog/2022/03/11/gitlab-actions-to-date-regarding-russian-invasion-of-ukraine/"
+		]
+	}, {
+		"name": "GlaxoSmithKline",
+		"website": "https://www.gsk.com/",
+		"headquarters": "Brentford, 🇬🇧",
+		"industry": [
+			"Pharmaceutical"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Halted new clinical trials and would not enrol new patients into existing trials in 🇷🇺",
+					"Stopped advertising its products in 🇷🇺",
+					"Stopped imports of supplements and vitamins into 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Will donate any profits made in 🇷🇺 to humanitarian relief efforts"
+				]
+			}]
+		},
+		"links": [
+			"https://www.theguardian.com/business/2022/mar/17/glaxosmithkline-says-it-will-not-start-any-new-clinical-trials-in-russia",
+			"https://www.yahoo.com/news/drugmaker-gsk-cuts-ties-russia-143406596.html"
 		]
 	}, {
 		"name": "Globus",
@@ -2925,6 +2990,30 @@
 		},
 		"links": [
 			"https://www.spglobal.com/commodity-insights/en/market-insights/latest-news/oil/032822-abu-dhabis-mubadala-to-pause-investments-in-russia"
+		]
+	}, {
+		"name": "MVRDV",
+		"website": "https://www.mvrdv.nl/",
+		"headquarters": "Rotterdam, 🇳🇱",
+		"industry": [
+			"Architecture"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped their involvement in projects in 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Ukrainian projects (an urban masterplan and a private home in Kyiv) have been halted directly due to the invasion"
+				]
+			}]
+		},
+		"links": [
+			"https://www.dezeen.com/2022/03/01/mvrdv-halts-russia-projects-ukraine-invasion/",
+			"https://www.mvrdv.nl/news/4091/mvrdv-statement-war-ukraine"
 		]
 	}, {
 		"name": "Nature",
@@ -4660,6 +4749,31 @@
 			"https://www.weatherford.com/investor-relations/investor-news-and-events/news/news-article/?ItemID=15476"
 		]
 	}, {
+		"name": "Weblium",
+		"website": "https://weblium.com/",
+		"headquarters": "Fort Lauderdale, FL, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Terminating all cooperation with 🇷🇺 clients. All services provided to those users will be canceled and their websites will be disabled"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Providing FREE access to Pro subscription for all of those who create web-sites to support refugees and help the Armed Forces of Ukraine or portals for information warfare with the aggressor"
+				]
+			}]
+		},
+		"links": [
+			"https://weblium.com/official-statement",
+			"https://mezha.media/2022/03/28/konstruktor-saytiv-weblium/"
+		]
+	}, {
 		"name": "Wirex",
 		"website": "https://wirexapp.com/en-ua",
 		"headquarters": "London, 🇬🇧",
@@ -4751,6 +4865,24 @@
 		},
 		"links": [
 			"https://www.tirebusiness.com/russia-war-ukraine/yokohama-latest-tire-maker-stop-production-russia"
+		]
+	}, {
+		"name": "Zaha Hadid Architects",
+		"website": "https://www.zaha-hadid.com/",
+		"headquarters": "London, 🇬🇧",
+		"industry": [
+			"Architecture"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Paused work on its projects in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.dezeen.com/2022/03/02/david-chipperfield-zaha-hadid-architects-suspend-work-russia/"
 		]
 	}, {
 		"name": "Zurich Insurance",
