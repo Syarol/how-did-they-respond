@@ -54,6 +54,12 @@
 				>link</a>
 			</li>
 		</ul>
+		<figure class='quote'>
+			<blockquote>
+				<p>In order not to raise money for orphans later, it is necessary to help the Armed Forces now</p>
+			</blockquote>
+			<figcaption>- Taras Chmut</figcaption>
+		</figure>
 	</section>
 </template>
 

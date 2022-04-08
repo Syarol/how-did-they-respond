@@ -534,4 +534,16 @@ input[type=checkbox] {
 	transition: .5s ease-in-out;
 	z-index: 1;
 }
+
+.quote {
+	margin-top: 25px;
+	border-left: 1px solid #2c3e50;
+	padding-left: 15px;
+}
+
+@media (prefers-color-scheme: dark) {
+	.quote {
+		border-left: 1px solid #fff;
+	}
+}
 </style>
