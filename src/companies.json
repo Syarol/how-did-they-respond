@@ -4648,8 +4648,11 @@
 		"actions": {
 			"sanctions": [{
 				"country": "🇷🇺",
-				"measures": [
-					"[Since 04/05 not actual] VR Transpoint is suspending the traffic of freight wagons from 🇷🇺",
+				"measures": [{
+					"outdated": true,
+					"date": "04/05",
+					"desc": "VR Transpoint is suspending the traffic of freight wagons from 🇷🇺"
+				},
 					"VR will discontinue the Allegro-train service which connects Helsinki and St Petersburg",
 					"Ended communication with Russian Railways, excluding the necessary communication required for cross-border traffic"
 				]

@@ -15,7 +15,15 @@
 							v-for='action of org?.measures'
 							:key='action'
 						>
-							{{ action }}
+							<template v-if='isObject(action)'>
+								<template v-if='action.outdated'>
+									<span>Until [{{ action.date }}] </span>
+									<s>{{ action.desc }}</s>
+								</template>
+							</template>
+							<template v-else>
+								{{ action }}
+							</template>
 						</li>
 					</ol>
 				</template>
@@ -34,6 +42,11 @@ export default {
 		showOneActionNumber: {
 			type: Boolean,
 			default: false,
+		},
+	},
+	methods: {
+		isObject(item){
+			return item instanceof Object;
 		},
 	},
 };
