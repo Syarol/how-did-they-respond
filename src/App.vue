@@ -216,6 +216,7 @@ export default {
 			this.organizations = this.companies.filter(el => {
 				let isFoundByName = el.name.toLowerCase().includes(query);
 				let isFoundByAltName = isFoundByName ? null : el?.alt_name?.some(item => item.toLowerCase().includes(query));
+				let isFoundByRelatedBrand = isFoundByName && isFoundByAltName ? null : el?.brands?.some(item => item.toLowerCase().includes(query));
 
 				let isAnyCategorySelected = activeCategories.length > 0;
 				let isAnyCountrySelected = activeCountries.length > 0;
@@ -225,15 +226,20 @@ export default {
 
 				if (isAnyCategorySelected && isAnyCountrySelected) {
 					return (isFoundByName && isCategoriesApplied && isCountriesApplied) ||
-						(isFoundByAltName && isCategoriesApplied && isCountriesApplied);
+						(isFoundByAltName && isCategoriesApplied && isCountriesApplied) ||
+						(isFoundByRelatedBrand && isCategoriesApplied && isCountriesApplied);
 				} else if (isAnyCategorySelected && !isAnyCountrySelected) {
 					return (isFoundByName && isCategoriesApplied) ||
-						(isFoundByAltName && isCategoriesApplied);
+						(isFoundByAltName && isCategoriesApplied) ||
+						(isFoundByRelatedBrand && isCategoriesApplied);
 				} else if (!isAnyCategorySelected && isAnyCountrySelected) {
 					return (isFoundByName && isCountriesApplied) ||
-						(isFoundByAltName && isCountriesApplied);
+						(isFoundByAltName && isCountriesApplied) ||
+						(isFoundByRelatedBrand && isCountriesApplied);
 				} else {
-					return isFoundByName || isFoundByAltName;
+					return isFoundByName || 
+						isFoundByAltName || 
+						isFoundByRelatedBrand;
 				}
 			});
 		},
