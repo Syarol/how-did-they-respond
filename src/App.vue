@@ -1,4 +1,5 @@
 <template>
+	<mode-switch />
 	<div>
 		<h1 class='app-heading text-center'>
 			<a
@@ -147,6 +148,7 @@ import countries from './countries.json';
 import actionsList from './components/actionsList.vue';
 import filterOptionsList from './components/filterOptionsList.vue';
 import linksList from './components/linksList.vue';
+import modeSwitch from './components/modeSwitch.vue';
 import simpleFilterOptionsList from './components/simpleFilterOptionsList.vue';
 import waysToSupportBlock from './components/waysOfSupportBlock.vue';
 
@@ -155,6 +157,7 @@ export default {
 		actionsList,
 		filterOptionsList,
 		linksList,
+		modeSwitch,
 		simpleFilterOptionsList,
 		waysToSupportBlock,
 	},
@@ -217,6 +220,9 @@ export default {
 				let isFoundByName = el.name.toLowerCase().includes(query);
 				let isFoundByAltName = isFoundByName ? null : el?.alt_name?.some(item => item.toLowerCase().includes(query));
 				let isFoundByRelatedBrand = isFoundByName && isFoundByAltName ? null : el?.brands?.some(item => item.toLowerCase().includes(query));
+				let isFoundByAnyName = isFoundByName || 
+						isFoundByAltName || 
+						isFoundByRelatedBrand;
 
 				let isAnyCategorySelected = activeCategories.length > 0;
 				let isAnyCountrySelected = activeCountries.length > 0;
@@ -225,21 +231,13 @@ export default {
 				let isCountriesApplied = isAnyCountrySelected ? activeCountries.some(item => el.headquarters.includes(item.emoji)) : null;
 
 				if (isAnyCategorySelected && isAnyCountrySelected) {
-					return (isFoundByName && isCategoriesApplied && isCountriesApplied) ||
-						(isFoundByAltName && isCategoriesApplied && isCountriesApplied) ||
-						(isFoundByRelatedBrand && isCategoriesApplied && isCountriesApplied);
+					return isCategoriesApplied && isCountriesApplied && isFoundByAnyName;
 				} else if (isAnyCategorySelected && !isAnyCountrySelected) {
-					return (isFoundByName && isCategoriesApplied) ||
-						(isFoundByAltName && isCategoriesApplied) ||
-						(isFoundByRelatedBrand && isCategoriesApplied);
+					return isCategoriesApplied && isFoundByAnyName;
 				} else if (!isAnyCategorySelected && isAnyCountrySelected) {
-					return (isFoundByName && isCountriesApplied) ||
-						(isFoundByAltName && isCountriesApplied) ||
-						(isFoundByRelatedBrand && isCountriesApplied);
+					return isCountriesApplied && isFoundByAnyName;
 				} else {
-					return isFoundByName || 
-						isFoundByAltName || 
-						isFoundByRelatedBrand;
+					return isFoundByAnyName;
 				}
 			});
 		},
@@ -289,11 +287,9 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-color-scheme: dark) {
-	body {
-		color: #fff;
-		background: #181818;
-	}
+:root[data-mode="dark"] body {
+	color: #fff;
+	background: #181818;
 }
 
 #app {
@@ -314,15 +310,18 @@ a,
 	color: #2a2cc3;
 }
 
-@media (prefers-color-scheme: dark) {
-	.link,
-	.link:visited {
-		color: #b5b51b;
-	}
+:root[data-mode="dark"] .link,
+:root[data-mode="dark"] .link:visited {
+	color: #b5b51b;
 }
 
 .link--red,
 .link--red:visited {
+	color: #bd0000;
+}
+
+:root[data-mode="dark"] .link--red,
+:root[data-mode="dark"] .link--red:visited {
 	color: #bd0000;
 }
 
@@ -363,11 +362,9 @@ input[type=checkbox] {
 	}
 }
 
-@media (prefers-color-scheme: dark) {
-	.search-field {
-		background: #ffffff0d;
-		color: #7f7f7f;
-	}
+:root[data-mode="dark"] .search-field {
+	background: #ffffff0d;
+	color: #7f7f7f;
 }
 
 .filters-container {
@@ -412,10 +409,8 @@ input[type=checkbox] {
 	padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-	.clear-filters-btn {
-		color: #fff;
-	}
+:root[data-mode="dark"] .clear-filters-btn {
+	color: #fff;
 }
 
 .organizations-list {
@@ -437,10 +432,8 @@ input[type=checkbox] {
 	color: #000;
 }
 
-@media (prefers-color-scheme: dark) {
-	.organization:hover {
-		color: #ebebeb;
-	}
+:root[data-mode="dark"] .organization:hover {
+	color: #ebebeb;
 }
 
 .categories-list {
@@ -480,10 +473,8 @@ input[type=checkbox] {
 	padding: 30px 15px;
 }
 
-@media (prefers-color-scheme: dark) {
-	.info-section {
-		background: #ffffff0d;
-	}
+:root[data-mode="dark"] .info-section {
+	background: #ffffff0d;
 }
 
 .section-heading {
@@ -547,9 +538,7 @@ input[type=checkbox] {
 	padding-left: 15px;
 }
 
-@media (prefers-color-scheme: dark) {
-	.quote {
-		border-left: 1px solid #fff;
-	}
+:root[data-mode="dark"] .quote {
+	border-left: 1px solid #fff;
 }
 </style>
