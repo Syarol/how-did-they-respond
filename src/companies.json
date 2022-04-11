@@ -1916,6 +1916,9 @@
 		],
 		"website": "https://www.gaz-system.pl/",
 		"headquarters": "Warsaw, 🇵🇱",
+		"industry": [
+			"Logistics"
+		],
 		"actions": {
 			"support": [{
 				"country": "🇺🇦",
