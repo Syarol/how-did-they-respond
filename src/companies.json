@@ -799,6 +799,47 @@
 			"https://www.businesswire.com/news/home/20220314005327/en/Bridgestone-to-Suspend-Manufacturing-Activities-in-and-Export-to-Russia"
 		]
 	}, {
+		"name": "Bungie",
+		"website": "https://www.bungie.net/",
+		"headquarters": "Bellevue, WA, 🇺🇸",
+		"industry": [
+			"Software",
+			"Gaming"
+		],
+		"brands": [
+			"Destiny",
+			"Halo"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspended all Destiny 2 sales and commerce in 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended all Destiny 2 sales and commerce in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donated $120,000 to humanitarian aid",
+					"Introduced the Cоняшник emblem for Destiny 2"
+				]
+			}, {
+				"country": "🇺🇸",
+				"measures": [
+					"Will match employees donations to U.S. based charitable organizations"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/Bungie/status/1496999197559693321",
+			"https://www.bungie.net/en/News/Article/51156"
+		]
+	}, {
 		"name": "Busuu",
 		"website": "https://www.busuu.com/",
 		"headquarters": "London, 🇬🇧",
@@ -1869,6 +1910,25 @@
 			"https://www.figma.com/blog/our-response-to-ukraine/"
 		]
 	}, {
+		"name": "Gaz-System S.A.",
+		"alt_name": [
+			"Gaz System S.A."
+		],
+		"website": "https://www.gaz-system.pl/",
+		"headquarters": "Warsaw, 🇵🇱",
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Provided 13 generators and computer equipment to Gas Transmission System Operator of Ukraine"
+				]
+			}]
+		},
+		"links": [
+			"https://t.me/gastsoua/497",
+			"https://www.epravda.com.ua/news/2022/04/10/685507/"
+		]
+	}, {
 		"name": "Games Workshop",
 		"website": "https://www.games-workshop.com/",
 		"headquarters": "Nottingham, 🇬🇧",
@@ -2091,6 +2151,50 @@
 		},
 		"links": [
 			"https://www.grammarly.com/stand-with-ukraine"
+		]
+	}, {
+		"name": "GSC Game World",
+		"website": "https://gsc-game.com/",
+		"headquarters": "Kyiv, 🇺🇦",
+		"industry": [
+			"Gaming",
+			"Software"
+		],
+		"brands": [
+			"Cossacks",
+			"S.T.A.L.K.E.R. (Stalker)"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Renamed Stalker 2 subtitle to \"Heart Of Chornobyl\" (was \"Heart Of Chernobyl\")",
+					"Part of studios employees relocated to 🇨🇿 to continue development of S.T.A.L.K.E.R. 2"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Cancelled all physical pre-orders in 🇷🇺",
+					"No further pre-orders from 🇷🇺 would be accepted",
+					"Stopped sales of all their games in 🇷🇺 region on digital markets (Steam, Epic, etc.)",
+					"Stopped communication in VK, which is used mainly by 🇷🇺 audience"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Calls on to help 🇺🇦 and Ukrainian Armed Forces",
+					"Started charity sales of their games, all gained money from which will be transferred to the \"Come back alive\""
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/GSC_GW/status/1496841871041216514",
+			"https://twitter.com/GSC_GW/status/1511038716084727812",
+			"https://www.nme.com/news/gaming-news/stalker-2-renamed-to-heart-of-chornobyl-as-developer-halts-sales-in-russia-3182745",
+			"https://gamedev.dou.ua/news/gsc-game-world-game-stops-sales-in-russia/",
+			"https://vk.com/stalker2?w=wall-172977273_152424",
+			"https://www.vortex.cz/autori-s-t-a-l-k-e-r-2-mohou-zamirit-do-ceska-potvrzuji-zdroje-vortexu/"
 		]
 	}, {
 		"name": "Halfords",
@@ -2551,6 +2655,24 @@
 		"links": [
 			"https://www.kerrygroup.com/media/Kerry-Group-Statement-re-Russian-and-Belarus-Operations.pdf",
 			"https://www.rte.ie/news/business/2022/0404/1290307-kerry-group-suspends-operations-in-russia-and-belarus/"
+		]
+	}, {
+		"name": "Kyushu Electric Power",
+		"website": "https://www.kyuden.co.jp/",
+		"headquarters": "Fukuoka, 🇯🇵",
+		"industry": [
+			"Electric"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended import of 🇷🇺 coal"
+				]
+			}]
+		},
+		"links": [
+			"https://www3.nhk.or.jp/news/html/20220408/k10013573611000.html"
 		]
 	}, {
 		"name": "LEGO",
@@ -3095,6 +3217,31 @@
 		},
 		"links": [
 			"https://www.mondelezinternational.com/News/Statement-on-War-in-Ukraine"
+		]
+	}, {
+		"name": "Mozilla",
+		"website": "https://www.mozilla.org/",
+		"headquarters": "Mountain View, CA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"brands": [
+			"Bugzilla",
+			"Firefox",
+			"Pocket",
+			"SeaMonkey",
+			"Thunderbird"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Removed Yandex from search settings"
+				]
+			}]
+		},
+		"links": [
+			"https://www.republicworld.com/world-news/russia-ukraine-crisis/mozilla-firefox-removes-russia-based-search-engine-yandex-from-settings-amid-ukraine-war-articleshow.html"
 		]
 	}, {
 		"name": "Mubadala Investment Company",
@@ -4082,11 +4229,6 @@
 		],
 		"side": "Condems war in general",
 		"actions": {
-			"general": [{
-				"measures": [
-					"Bought 100,000 metric tons of Russian Urals crude oil"
-				]
-			}],
 			"sanctions": [{
 				"country": "🇷🇺",
 				"measures": [
@@ -4099,6 +4241,7 @@
 			"support": [{
 				"country": "🇷🇺",
 				"measures": [
+					"Bought 100,000 metric tons of Russian Urals crude oil",
 					"Continuing to buy 🇷🇺 oil by using \"Latvian blend\" scheme to circumvent sanctions"
 				]
 			}, {
