@@ -55,15 +55,17 @@ export default {
 
 <style scoped>
 .switcher {
+	cursor: pointer;
+	height: 25px;
 	position: fixed;
 	right: 2rem;
 	top: 2rem;
-	cursor: pointer;
+	width: 25px;
 	z-index: 100;
 }
 
 .switcher svg {
 	height: 25px;
-	fill: yellow;
+	fill: var(--color-yellow);
 	}
 </style>

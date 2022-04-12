@@ -1,12 +1,12 @@
 <template>
 	<mode-switch />
-	<div>
+	<div class='text-center'>
 		<h1 class='app-heading text-center'>
 			<a
 				class='link link--red'
 				href='https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine'
 				style='font-weight: 800;'
-			>24 February</a>,<br> after 8 years of semi-frozen war, russia🇷🇺 initiated a full-scale invasion of Ukraine🇺🇦. In addition to sanctions initiated by many countries, a lot of companies have their own response to war. Here, you can take a look at it
+			>24 February</a>,<br> after 8 years of semi-frozen war, russia🇷🇺 started a full-scale invasion of Ukraine🇺🇦. In addition to sanctions imposed by governments, a lot of companies have their response to war. Here you can take a look at them
 		</h1>
 		<input 
 			v-model='searchText' 
@@ -138,6 +138,7 @@
 			>#CloseTheSky</a>
 		</p>
 	</section>
+	<span class='copyright'>2022</span>
 </template>
 
 <script>
@@ -227,7 +228,7 @@ export default {
 				let isAnyCategorySelected = activeCategories.length > 0;
 				let isAnyCountrySelected = activeCountries.length > 0;
 
-				let isCategoriesApplied = isAnyCategorySelected ? el?.industry.some(item => activeCategories.includes(item)) : null;
+				let isCategoriesApplied = isAnyCategorySelected ? el.industry.some(item => activeCategories.includes(item)) : null;
 				let isCountriesApplied = isAnyCountrySelected ? activeCountries.some(item => el.headquarters.includes(item.emoji)) : null;
 
 				if (isAnyCategorySelected && isAnyCountrySelected) {
@@ -274,10 +275,17 @@ export default {
 	font-weight: normal;
 }
 
+:root {
+	--color-white: #fff;
+	--color-blue: #2a2cc3;
+	--color-yellow: #f9f91e;
+	--color-red: #bd0000;
+}
+
 body {
 	min-height: 100vh;
 	color: #2c3e50;
-	background: #fff;
+	background: var(--color-white);
 	line-height: 1.6;
 	font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
 		Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -288,7 +296,7 @@ body {
 }
 
 :root[data-mode="dark"] body {
-	color: #fff;
+	color: var(--color-white);
 	background: #181818;
 }
 
@@ -299,7 +307,7 @@ body {
 	font-weight: normal;
 	margin: 0 auto;
 	max-width: 1280px;
-	padding: 2rem;
+	padding: 2rem 2rem 1rem 2rem;
 }
 
 a,
@@ -307,22 +315,19 @@ a,
 .link:visited {
 	text-decoration: none;
 	transition: 0.4s;
-	color: #2a2cc3;
+	color: var(--color-blue);
 }
 
 :root[data-mode="dark"] .link,
 :root[data-mode="dark"] .link:visited {
-	color: #b5b51b;
+	color: var(--color-yellow);
 }
 
 .link--red,
-.link--red:visited {
-	color: #bd0000;
-}
-
+.link--red:visited,
 :root[data-mode="dark"] .link--red,
 :root[data-mode="dark"] .link--red:visited {
-	color: #bd0000;
+	color: var(--color-red);
 }
 
 .link--red:hover {
@@ -338,11 +343,13 @@ input[type=checkbox] {
 	border-bottom: 2px solid #7f7f7f;
 	border: 0;
 	color: #000;
-	font-size: 2.5em;
+	font-size: 2em;
 	height: 60px;
 	margin-top: 20px;
 	text-align: center;
 	width: 100%;
+	max-width: 800px;
+	border-radius: 15px;
 }
 
 @media screen and (max-width: 480px) {
@@ -382,14 +389,14 @@ input[type=checkbox] {
 
 .filter label{
 	border-radius: 15px;
-	border: 1px solid #f5f51f;
+	border: 1px solid var(--color-yellow);
 	cursor: pointer;
 	display: inline-block;
 	padding: 0 7px;
 }
 
 .filter input[type='checkbox']:checked + label {
-	background: #f5f51f;
+	background: var(--color-yellow);
 	color: #181818;
 }
 
@@ -455,14 +462,14 @@ input[type=checkbox] {
 }
 
 .category {
-	border: 1px solid #f5f51f;
+	border: 1px solid var(--color-yellow);
 	padding: 0 7px;
 	border-radius: 15px;
 	cursor: pointer;
 }
 
 .category.active {
-	background: #f5f51f;
+	background: var(--color-yellow);
 	color: #181818;
 }
 
@@ -471,6 +478,7 @@ input[type=checkbox] {
 	margin: 20px 0;
 	max-width: 800px;
 	padding: 30px 15px;
+	border-radius: 15px;
 }
 
 :root[data-mode="dark"] .info-section {
@@ -533,12 +541,16 @@ input[type=checkbox] {
 }
 
 .quote {
-	margin-top: 25px;
+	margin: 25px 25px 0;
 	border-left: 1px solid #2c3e50;
 	padding-left: 15px;
 }
 
 :root[data-mode="dark"] .quote {
 	border-left: 1px solid #fff;
+}
+
+.copyright {
+	font-size: .75em;
 }
 </style>

@@ -14,7 +14,7 @@
 			<li>
 				Foundation of Serhii Prytula: <a
 					class='link'
-					href='https://www.prytula-co.org/'
+					href='https://prytulafoundation.org/'
 				>link</a>
 			</li>
 			<li>

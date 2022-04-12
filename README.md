@@ -6,7 +6,7 @@
 ## How I can help Ukraine?
 Since 2014 in Ukraine act a lot of volunteer funds that help the Ukrainian army, internally displaced persons and refugees. If you can help financially, you can donate to one of them (the list is not complete):
 1. The Come Back Alive Foundation: [link](https://www.comebackalive.in.ua/)
-2. Foundation of Serhii Prytula: [link](https://www.prytula-co.org/)
+2. Foundation of Serhii Prytula: [link](https://prytulafoundation.org/)
 3. Hospitallers: [link](https://www.facebook.com/1554490484835854/posts/3152910124993874/)
 4. Army SOS: [link](https://armysos.com.ua/en)
 5. (🇺🇦 government) NBU Special Account to Raise Funds for Ukraine's Armed Forces: [link](https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi)
