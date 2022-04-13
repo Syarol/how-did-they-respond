@@ -180,6 +180,32 @@
 			"https://www.airbnb.com/help/article/3211/suspension-of-airbnb-operations-in-russia-and-belarus"
 		]
 	}, {
+		"name": "Airbus",
+		"website": "https://www.airbus.com/",
+		"headquarters": "Leiden, 🇳🇱",
+		"industry": [
+			"Aerospace"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Halted supply of aircraft parts to 🇷🇺",
+					"Halted services to Russian airlines"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Urged European leaders to exclude titanium metal from the Russian sanctioned list"
+				]
+			}]
+		},
+		"links": [
+			"https://www.airport-technology.com/news/airbus-urges-europe/",
+			"https://www.theguardian.com/business/2022/mar/02/airbus-and-boeing-to-halt-supply-of-aircraft-parts-to-russian-airlines"
+		]
+	}, {
 		"name": "Akamai Technologies",
 		"website": "https://www.akamai.com/",
 		"headquarters": "Cambridge, MA, 🇺🇸",
@@ -1047,6 +1073,25 @@
 			"https://home.cern/news/news/cern/cern-council-takes-further-measures-response-invasion-ukraine"
 		]
 	}, {
+		"name": "Cersanit",
+		"website": "https://www.cersanit.com/",
+		"headquarters": "Kielce, 🇵🇱",
+		"industry": [
+			"Manufacturing"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped all investments to 🇷🇺",
+					"Declared plans to leave 🇷🇺 and sell all factories there"
+				]
+			}]
+		},
+		"links": [
+			"https://businessinsider.com.pl/biznes/cersanit-wychodzi-michal-solowow-sprzedaje-swoj-biznes-w-rosji-tylko-u-nas/lgglx6w"
+		]
+	}, {
 		"name": "Clarivate",
 		"website": "https://clarivate.com/",
 		"headquarters": "London, 🇬🇧",
@@ -1123,6 +1168,24 @@
 		},
 		"links": [
 			"https://blog.cloudflare.com/steps-taken-around-cloudflares-services-in-ukraine-belarus-and-russia/"
+		]
+	}, {
+		"name": "CodeceptJS",
+		"website": "https://codecept.io/",
+		"headquarters": "Full remote",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Calls on to help 🇺🇦 and Ukrainian Armed Forces"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/CodeceptJS/status/1499143288078704645"
 		]
 	}, {
 		"name": "ConforMIS",
@@ -1791,12 +1854,14 @@
 				"country": "🇷🇺",
 				"measures": [
 					"Suspended cooperations with Roscosmos",
-					"All missions scheduled for launch by Soyuz have been put on hold"
+					"All missions scheduled for launch by Soyuz have been put on hold",
+					"Will discontinue cooperative activities with 🇷🇺 on Luna-25, -26 and -27"
 				]
 			}]
 		},
 		"links": [
-			"https://www.esa.int/Newsroom/Press_Releases/ExoMars_suspended"
+			"https://www.esa.int/Newsroom/Press_Releases/ExoMars_suspended",
+			"https://www.esa.int/Newsroom/Press_Releases/Redirecting_ESA_programmes_in_response_to_geopolitical_crisis"
 		]
 	}, {
 		"name": "Estée Lauder",
@@ -2297,6 +2362,30 @@
 		"links": [
 			"https://www.reuters.com/business/retail-consumer/henkel-continue-business-russia-now-2022-04-04/",
 			"https://www.henkel.com/press-and-media/press-releases-and-kits/2022-03-04-henkel-to-stop-investments-in-russia-1626160"
+		]
+	}, {
+		"name": "Hesburger",
+		"website": "https://www.hesburger.com/",
+		"headquarters": "Turku, 🇫🇮",
+		"industry": [
+			"Food"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Declared plans to close all of its outlets in 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Declared plans to close all of its outlets in 🇷🇺 during April"
+				]
+			}]
+		},
+		"links": [
+			"https://yle.fi/news/3-12381067",
+			"https://yle.fi/news/3-12400214"
 		]
 	}, {
 		"name": "Honeywell",
@@ -3447,22 +3536,26 @@
 		],
 		"side": "Condems war in general",
 		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stop deliveries to this country",
+					"Stopped new business in 🇷🇺",
+					"Moving limited R&D activities out of 🇷🇺",
+					"Declared plans to exit 🇷🇺 market"
+				]
+			}],
 			"support": [{
 				"country": "🇺🇦",
 				"measures": [
 					"Donate €1 million to UNICEF"
 				]
-			}],
-			"sanctions": [{
-				"country": "🇷🇺",
-				"measures": [
-					"Stop deliveries to this country"
-				]
 			}]
 		},
 		"links": [
 			"https://twitter.com/PekkaLundmark/status/1499654011154313216",
-			"https://www.reuters.com/business/media-telecom/nokia-stops-deliveries-russia-2022-03-01/"
+			"https://www.reuters.com/business/media-telecom/nokia-stops-deliveries-russia-2022-03-01/",
+			"https://www.nokia.com/about-us/news/releases/2022/04/12/nokia-to-exit-the-russian-market-no-impact-to-financial-outlook/"
 		]
 	}, {
 		"name": "Nvidia",
@@ -4809,6 +4902,36 @@
 		"links": [
 			"https://news.ubisoft.com/en-gb/article/2dkkIG51BCP24JwGGvDry9/how-ubisoft-is-supporting-our-teams-and-the-people-of-ukraine",
 			"https://gamedev.dou.ua/news/ubisoft-ukrainian-store/"
+		]
+	}, {
+		"name": "Uniper",
+		"website": "https://www.uniper.energy/",
+		"headquarters": "Düsseldorf, 🇩🇪",
+		"industry": [
+			"Electric"
+		],
+		"brands": [
+			"Unipro"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Halted divestment process of Unipro"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended new investments in 🇷🇺",
+					"Suspended funds transfer to Unipro",
+					"Won't sign new contracts on coal deliveries",
+					"Won't sign new long-term contracts on natural gas deliveries"
+				]
+			}]
+		},
+		"links": [
+			"https://www.uniper.energy/news/update-on-unipers-russian-activities-and-way-forward",
+			"https://www.uniper.energy/news/uniper-publishes-sustainability-report-2021-and-sets-itself-new-sustainability-targets"
 		]
 	}, {
 		"name": "United Group",
