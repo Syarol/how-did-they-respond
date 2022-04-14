@@ -1,165 +1,158 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://json-schema.org/draft/2020-12/schema",
-    "title": "Companies",
-    "type": "object",
-    "properties": {
-      "companies": {
-        "description": "Array of companies",
-        "type": "array",
-        "items": {
-          "description": "Company",
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "name": {
-              "type": "string"
-            },
-            "alt_name" : {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
-            },
-            "website": {
-              "type": "string"
-            },
-            "headquarters": {
-              "type": "string"
-            },
-            "industry": {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
-            },
-            "brands": {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
-            },
-            "side": {
-              "type": "string"
-            },
-            "actions": {
-              "type": "object",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"description": "Array of companies",
+	"type": "array",
+	"items": {
+		"description": "Company",
+		"type": "object",
+		"additionalProperties": false,
+		"properties": {
+			"name": {
+				"type": "string"
+			},
+			"alt_name" : {
+				"type": "array",
+				"items": {
+					"type": "string"
+				}
+			},
+			"website": {
+				"type": "string"
+			},
+			"headquarters": {
+				"type": "string"
+			},
+			"industry": {
+				"type": "array",
+				"items": {
+					"type": "string"
+				}
+			},
+			"brands": {
+				"type": "array",
+				"items": {
+					"type": "string"
+				}
+			},
+			"side": {
+				"type": "string"
+			},
+			"actions": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"general": {
+						"type": "array",
+						"items": {
+							"type": "object",
 							"additionalProperties": false,
-              "properties": {
-                "general": {
-                  "type": "array",
-                  "items": {
-                    "type": "object",
-										"additionalProperties": false,
-                    "properties": {
-                      "country": {
-                        "type": "string"
-                      },
-                      "measures": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [{
-                            "type": "string"
-                          }, {
-                            "type": "object",
-                            "properties": {
-                              "outdated": {
-                                "type": "boolean"
-                              },
-                              "date": {
-                                "type": "string"
-                              },
-                              "desc": {
-                                "type": "string"
-                              }
-                            }
-                          }]
-                        }
-                      }
-                    }
-                  }
-                },
-                "sanctions": {
-                  "type": "array",
-                  "items": {
-                    "type": "object",
-										"additionalProperties": false,
-                    "properties": {
-                      "country": {
-                        "type": "string"
-                      },
-                      "measures": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [{
-                            "type": "string"
-                          }, {
-                            "type": "object",
-                            "properties": {
-                              "outdated": {
-                                "type": "boolean"
-                              },
-                              "date": {
-                                "type": "string"
-                              },
-                              "desc": {
-                                "type": "string"
-                              }
-                            }
-                          }]
-                        }
-                      }
-                    }
-                  }
-                },
-                "support": {
-                  "type": "array",
-                  "items": {
-                    "type": "object",
-										"additionalProperties": false,
-                    "properties": {
-                      "country": {
-                        "type": "string"
-                      },
-                      "measures": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [{
-                            "type": "string"
-                          }, {
-                            "type": "object",
-                            "properties": {
-                              "outdated": {
-                                "type": "boolean"
-                              },
-                              "date": {
-                                "type": "string"
-                              },
-                              "desc": {
-                                "type": "string"
-                              }
-                            }
-                          }]
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "links": {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
-            }
-          },
-          "required": [
-            "name",
-            "website",
-            "headquarters"
-          ]
-        }
-      }
-    }
-  }
+							"properties": {
+								"country": {
+									"type": "string"
+								},
+								"measures": {
+									"type": "array",
+									"items": {
+										"oneOf": [{
+											"type": "string"
+										}, {
+											"type": "object",
+											"properties": {
+												"outdated": {
+													"type": "boolean"
+												},
+												"date": {
+													"type": "string"
+												},
+												"desc": {
+													"type": "string"
+												}
+											}
+										}]
+									}
+								}
+							}
+						}
+					},
+					"sanctions": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"additionalProperties": false,
+							"properties": {
+								"country": {
+									"type": "string"
+								},
+								"measures": {
+									"type": "array",
+									"items": {
+										"oneOf": [{
+											"type": "string"
+										}, {
+											"type": "object",
+											"properties": {
+												"outdated": {
+													"type": "boolean"
+												},
+												"date": {
+													"type": "string"
+												},
+												"desc": {
+													"type": "string"
+												}
+											}
+										}]
+									}
+								}
+							}
+						}
+					},
+					"support": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"additionalProperties": false,
+							"properties": {
+								"country": {
+									"type": "string"
+								},
+								"measures": {
+									"type": "array",
+									"items": {
+										"oneOf": [{
+											"type": "string"
+										}, {
+											"type": "object",
+											"properties": {
+												"outdated": {
+													"type": "boolean"
+												},
+												"date": {
+													"type": "string"
+												},
+												"desc": {
+													"type": "string"
+												}
+											}
+										}]
+									}
+								}
+							}
+						}
+					}
+				}
+			},
+			"links": {
+				"type": "array",
+				"items": {
+					"type": "string"
+				}
+			}
+		},
+		"required": [
+			"name",
+			"website",
+			"headquarters"
+		]
+	}
+}

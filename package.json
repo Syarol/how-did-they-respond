@@ -6,7 +6,10 @@
     "build": "vite build",
     "preview": "vite preview --port 5050",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "lint:json": "ajv test -s src/schemas/companies.schema.json -d src/companies.json --valid"
+    "lint:json": "npm run lint:json:companies & npm run lint:json:countries & npm run lint:json:industries",
+    "lint:json:companies": "ajv test -s src/schemas/companies.schema -d src/companies --valid --spec=draft2020",
+    "lint:json:countries": "ajv test -s src/schemas/countries.schema -d src/countries --valid --spec=draft2020",
+    "lint:json:industries": "ajv test -s src/schemas/industries.schema -d src/industries --valid --spec=draft2020"
   },
   "dependencies": {
     "vue": "^3.2.31",

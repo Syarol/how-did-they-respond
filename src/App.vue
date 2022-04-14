@@ -168,7 +168,7 @@ export default {
 			activeCountries: new Set(),
 			activeOrganization: null,
 			categorizedOrganizations: [],
-			companies: companies.companies,
+			companies: companies,
 			countries: countries,
 			industries: industries,
 			organizations: [],

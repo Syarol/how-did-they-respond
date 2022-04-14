@@ -1,5 +1,5 @@
-{
-	"companies": [{
+[
+	{
 		"name": "11 bit studios",
 		"website": "https://11bitstudios.com/",
 		"headquarters": "Warsaw, 🇵🇱",
@@ -4578,7 +4578,7 @@
 			}],
 			"support": [{
 				"country": "🇺🇦",
-				"measure": [
+				"measures": [
 					"Providing humanitarian support"
 				]
 			}]
@@ -5455,5 +5455,5 @@
 			"https://twitter.com/Zurich/status/1503350093621207043",
 			"https://www.reuters.com/world/europe/zurich-insurance-removes-z-symbol-after-letter-used-show-support-ukraine-war-2022-03-26/"
 		]
-	}]
-}
+	}
+]
