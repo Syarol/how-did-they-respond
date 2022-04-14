@@ -1330,6 +1330,43 @@
 			"https://twitter.com/Crytivo/status/1496948130272579615"
 		]
 	}, {
+		"name": "ČEZ Group",
+		"alt_name": [
+			"CEZ Group",
+			"Skupina ČEZ",
+			"České Energetické Závody",
+			"Ceske Energeticke Zavody"
+		],
+		"website": "https://www.cez.cz/",
+		"headquarters": "Prague, 🇨🇿",
+		"industry": [
+			"Electric"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇨🇳",
+				"measures": [
+					"CNG excluded from tender to build a new reactor at the Ducovany station"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Didn't sign a new contract on nuclear fuel shipping to Temelín station",
+					"Rosatom excluded from tender to build a new reactor at the Ducovany station"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will continue to use 🇷🇺 nuclear fuel on Dukovany station as no one else produces fuel with needed properties"
+				]
+			}]
+		},
+		"links": [
+			"https://www.newstream.cz/zpravy-z-firem/palivo-do-temelina-budou-misto-rusu-dodavat-americane-a-francouzi",
+			"https://apnews.com/article/russia-ukraine-business-europe-china-czech-republic-e530cea3935d7fab54055f8e63bca655"
+		]
+	}, {
 		"name": "Danone",
 		"website": "https://www.danone.com/",
 		"headquarters": "Paris, 🇫🇷",
@@ -1795,15 +1832,23 @@
 			"Telecom"
 		],
 		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Employees in 🇷🇺 will be placed on paid leave"
+				]
+			}],
 			"sanctions": [{
 				"country": "🇷🇺",
 				"measures": [
-					"Stop deliveries to this country"
+					"Stop deliveries to this country",
+					"Suspended its affected by sanctions business with customers in 🇷🇺"
 				]
 			}]
 		},
 		"links": [
-			"https://www.datacenterdynamics.com/en/news/ericsson-suspends-deliveries-to-russia-is-evaluating-business-there/"
+			"https://www.datacenterdynamics.com/en/news/ericsson-suspends-deliveries-to-russia-is-evaluating-business-there/",
+			"https://www.ericsson.com/en/press-releases/2022/4/ericsson-suspends-business-in-russia-indefinitely-and-records-provision-in-q1-2022"
 		]
 	}, {
 		"name": "European Organisation for the Exploitation of Meteorological Satellites",
@@ -2765,6 +2810,30 @@
 		},
 		"links": [
 			"https://www3.nhk.or.jp/news/html/20220408/k10013573611000.html"
+		]
+	}, {
+		"name": "Lavazza",
+		"website": "https://www.lavazza.com/",
+		"headquarters": "Turin, 🇮🇹",
+		"industry": [
+			"Food"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspend all its activities in 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Temporarily halt distribution in 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://www.saltwire.com/atlantic-canada/business/coffee-maker-lavazza-sees-challenging-2022-halts-russian-activities-100717882/",
+			"https://www.reuters.com/business/coffee-maker-lavazza-sees-challenging-2022-halts-russian-activities-2022-04-13/"
 		]
 	}, {
 		"name": "LEGO",
@@ -3863,6 +3932,31 @@
 		"links": [
 			"https://press.pirelli.com/pirelli-donates-500000-euro-to-aid-ukranian-refugees/",
 			"https://www.saltwire.com/newfoundland-labrador/business/pirelli-puts-brake-on-russian-activities-100707498/"
+		]
+	}, {
+		"name": "Posti",
+		"website": "https://www.posti.fi/",
+		"headquarters": "Helsinki, 🇫🇮",
+		"industry": [
+			"Logistics"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspended international express item services for companies and consumers to 🇧🇾",
+					"Will suspend all letter and parcel traffic between 🇫🇮 and 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended international express item services for companies and consumers to 🇷🇺",
+					"Will suspend all letter and parcel traffic between 🇫🇮 and 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.posti.fi/en/customer-support/news-releases/posti-is-suspending-letter-and-parcel-traffic-to-russia-and-belarus"
 		]
 	}, {
 		"name": "PostNord",
@@ -5289,6 +5383,32 @@
 		},
 		"links": [
 			"https://www.tirebusiness.com/russia-war-ukraine/yokohama-latest-tire-maker-stop-production-russia"
+		]
+	}, {
+		"name": "Yves Rocher",
+		"website": "https://www.yves-rocher.fr/",
+		"headquarters": "La Gacilly, 🇫🇷",
+		"industry": [
+			"Beauty"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended new investments in 🇷🇺",
+					"Suspended advertising media spending"
+				]
+			}], 
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Continuing its operations in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.lsa-conso.fr/yves-rocher-maintient-toujours-ses-activites-en-russie,406611",
+			"https://newseu.cgtn.com/news/2022-03-31/French-retailers-face-pressure-to-abandon-business-in-Russia-18PJalGCrcs/index.html"
 		]
 	}, {
 		"name": "Zaha Hadid Architects",

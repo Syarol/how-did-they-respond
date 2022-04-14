@@ -6,13 +6,13 @@
 				class='link link--red'
 				href='https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine'
 				style='font-weight: 800;'
-			>24 February</a>,<br> after 8 years of semi-frozen war, russia🇷🇺 started a full-scale invasion of Ukraine🇺🇦. In addition to sanctions imposed by governments, a lot of companies have their response to war. Here you can take a look at them
+			>24 February</a>,<br> after 8 years of semi-frozen war, russia🇷🇺 started a full-scale invasion of Ukraine🇺🇦. In addition to sanctions imposed by governments, a lot of companies have their response to war
 		</h1>
 		<input 
 			v-model='searchText' 
 			class='search-field'
 			type='text' 
-			placeholder='Search...'
+			placeholder='Search for company...'
 			@input='searchCompany'
 		>
 	</div>
