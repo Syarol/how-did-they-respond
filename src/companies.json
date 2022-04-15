@@ -320,7 +320,8 @@
 		"brands": [
 			"AWS",
 			"Prime Video",
-			"Ring"
+			"Ring",
+			"Twitch"
 		],
 		"actions": {
 			"sanctions": [{
@@ -337,7 +338,8 @@
 					"Suspended shipment of retail products to customers based in Russia",
 					"Stopped to accepting new Russia-based AWS customers and Amazon third-party sellers",
 					"Suspending access to Prime Video",
-					"Stopped taking orders for \"New World\""
+					"Stopped taking orders for \"New World\"",
+					"Banned several Twitch accounts for spreading 🇷🇺 propaganda"
 				]
 			}],
 			"support": [{
@@ -357,7 +359,8 @@
 			}]
 		},
 		"links": [
-			"https://www.aboutamazon.com/news/community/amazons-assistance-in-ukraine"
+			"https://www.aboutamazon.com/news/community/amazons-assistance-in-ukraine",
+			"https://www.thegamer.com/amazon-twitch-russia-propaganda-ukraine-invasion/"
 		]
 	}, {
 		"name": "AMD",
@@ -2020,6 +2023,29 @@
 			"https://www.figma.com/blog/our-response-to-ukraine/"
 		]
 	}, {
+		"name": "FMC Corporation",
+		"website": "https://www.fmc.com/",
+		"headquarters": "Philadelphia, PA, 🇺🇸",
+		"industry": [
+			"Manufacturing"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended new capital investments to 🇷🇺",
+					"Suspeneded marketing and advertising in 🇷🇺",
+					"Discontinued R&D activities in 🇷🇺",
+					"Stopped imports of all products to 🇷🇺",
+					"Discontinued its operations and business in 🇷🇺",
+					"The company’s only crop protection packaging and formulation plant in Cheboksary, 🇷🇺, is idled and is being safely closed"
+				]
+			}]
+		},
+		"links": [
+			"https://www.fmc.com/en/fmc-discontinues-operations-and-business-in-russia"
+		]
+	}, {
 		"name": "Gaz-System S.A.",
 		"alt_name": [
 			"Gaz System S.A."
@@ -2455,6 +2481,25 @@
 		},
 		"links": [
 			"https://www.honeywell.com/us/en/press/2022/03/statement-about-our-business-in-russia-and-belarus"
+		]
+	}, {
+		"name": "Huhtamaki",
+		"website": "https://www.huhtamaki.com/",
+		"headquarters": "Espoo, 🇫🇮",
+		"industry": [
+			"Manufacturing"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped all investments to 🇷🇺",
+					"Initiated the process to divest its operations in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.huhtamaki.com/en/media/media/press-release/2022/huhtamaki-to-initiate-process-to-divest-its-russian-operations/"
 		]
 	}, {
 		"name": "Huuuge Games",
@@ -3311,29 +3356,6 @@
 			"https://twitter.com/mikrotik_com/status/1500806788727386114"
 		]
 	}, {
-		"name": "MongoDB",
-		"website": "https://www.mongodb.com/",
-		"headquarters": "New York, NY, 🇺🇸",
-		"industry": [
-			"Software"
-		],
-		"actions": {
-			"sanctions": [{
-				"country": "🇧🇾",
-				"measures": [
-					"Will terminate user accounts from 🇧🇾, which includes their full data deletion"
-				]
-			}, {
-				"country": "🇷🇺",
-				"measures": [
-					"Will terminate user accounts from 🇷🇺, which includes their full data deletion"
-				]
-			}]
-		},
-		"links": [
-			"https://www.medianama.com/2022/03/223-mongodb-terminated-russia-belarus-user-accounts/"
-		]
-	}, {
 		"name": "Mondelēz International",
 		"alt_name": [
 			"Mondelez International"
@@ -3378,6 +3400,47 @@
 		},
 		"links": [
 			"https://www.mondelezinternational.com/News/Statement-on-War-in-Ukraine"
+	]
+	}, {
+		"name": "MongoDB",
+		"website": "https://www.mongodb.com/",
+		"headquarters": "New York, NY, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Will terminate user accounts from 🇧🇾, which includes their full data deletion"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Will terminate user accounts from 🇷🇺, which includes their full data deletion"
+				]
+			}]
+		},
+		"links": [
+			"https://www.medianama.com/2022/03/223-mongodb-terminated-russia-belarus-user-accounts/"
+		]
+	}, {
+		"name": "Monotype Imaging",
+		"website": "https://www.monotype.com/",
+		"headquarters": "Woburn, MA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Restricted access to its library of fonts for 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.republicworld.com/world-news/russia-ukraine-crisis/times-new-roman-arial-and-other-fonts-block-access-for-russians-amid-ukraine-war-report-articleshow.html"
 		]
 	}, {
 		"name": "Mozilla",
@@ -4384,6 +4447,30 @@
 			"https://www.science.org/doi/10.1126/science.abp8817"
 		]
 	}, {
+		"name": "SEB Group",
+		"alt_name": [
+			"Skandinaviska Enskilda Banken AB"
+		],
+		"website": "https://sebgroup.com/",
+		"headquarters": "Stockholm, 🇸🇪",
+		"industry": [
+			"Finance"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Started scaling down operations and presense in 🇷🇺",
+					"Will stop operations with RUB and will close all accounts in this currency"
+				]
+			}]
+		},
+		"links": [
+			"https://sebgroup.com/press/news/2022/seb-is-scaling-down-operations-in-russia",
+			"https://www.bloomberg.com/news/articles/2022-03-21/seb-bank-says-it-s-not-viable-to-maintain-operations-in-russia-l10sprgl",
+			"https://www.seb.ee/en/seb-pank-stops-providing-financial-services-russian-rubles"
+		]
+	}, {
 		"name": "Serpstat",
 		"website": "https://serpstat.com/",
 		"headquarters": "Odesa, 🇺🇦",
@@ -4821,6 +4908,29 @@
 		},
 		"links": [
 			"https://thehill.com/policy/international/597956-strava-ending-service-in-russia-belarus"
+		]
+	}, {
+		"name": "Swedbank",
+		"website": "https://www.swedbank.com/",
+		"headquarters": "Stockholm, 🇸🇪",
+		"industry": [
+			"Finance"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Halted payments to and from 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Halted payments to and from 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.retailbankerinternational.com/news/swedbank-russia-belarus-payment-halted/"
 		]
 	}, {
 		"name": "The Kraft Heinz Company",
