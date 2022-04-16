@@ -8,8 +8,7 @@
 				style='font-weight: 800;'
 			>24 February</a>,<br> after 8 years of semi-frozen war, russia🇷🇺 started a full-scale invasion of Ukraine🇺🇦. In addition to sanctions imposed by governments, a lot of companies have their response to war
 		</h1>
-		<input 
-			v-model='searchText' 
+		<input
 			class='search-field'
 			type='text' 
 			placeholder='Search for company...'
@@ -212,10 +211,12 @@ export default {
 			this.activeOrganization = this.companies.find(el => el.name.toLowerCase() === company.toLowerCase());
 			this.updatePath(this.activeOrganization.name);
 		},
-		searchCompany(){
+		searchCompany(e){
 			let activeCategories = Array.from(this.activeCategories);
 			let activeCountries = Array.from(this.activeCountries);
-			let query = this.searchText.toLowerCase();
+			let query = e.target.value.toLowerCase();
+
+			this.searchText = query;
 
 			this.organizations = this.companies.filter(el => {
 				let isFoundByName = el.name.toLowerCase().includes(query);
@@ -433,6 +434,7 @@ input[type=checkbox] {
 
 .organization {
 	cursor: pointer;
+	text-align: center;
 }
 
 .organization:hover {
