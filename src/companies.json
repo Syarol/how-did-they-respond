@@ -21,6 +21,38 @@
 			"https://twitter.com/11bitstudios/status/1499736525357129730"
 		]
 	}, {
+		"name": "Accenture",
+		"website": "https://www.accenture.com/",
+		"headquarters": "Dublin, 🇮🇪",
+		"industry": [
+			"Consulting",
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Discontinued their business in 🇷🇺 by transfering business in 🇷🇺 to several of Accenture local leaders"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will be providing support to 🇷🇺 empoyees"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Donating $5M to nonprofit relief organizations working to help people in 🇺🇦 and those who are being displaced into 🇵🇱, 🇷🇴, 🇸🇰, 🇭🇺 and 🇨🇿",
+					"Matching 100% of the donations from employees"
+				]
+			}]
+		},
+		"links": [
+			"https://newsroom.accenture.com/news/accenture-to-discontinue-business-in-russia.htm",
+			"https://newsroom.accenture.com/news/accenture-completes-transfer-of-its-business-in-russia.htm"
+		]
+	}, {
 		"name": "Acer",
 		"website": "https://www.acer.com/",
 		"headquarters": "New Taipei City, 🇹🇼",
@@ -667,6 +699,42 @@
 			"https://twitter.com/krajzeg/status/1499725855391637508"
 		]
 	}, {
+		"name": "Berghaus",
+		"website": "https://www.berghaus.com/",
+		"headquarters": "Sunderland, 🇬🇧",
+		"industry": [
+			"Fashion"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Made donation to UNHCR"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended deliveries to 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Suspended deliveries to 🇺🇦"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donated apparel and backpacks to displaced people"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/TheRealBerghaus/status/1500784293777391616",
+			"https://www.facebook.com/berghaus/posts/10160022423494443",
+			"http://web.archive.org/web/20220417095934/https://www.berghaus.com/international-delivery.list"
+		]
+	}, {
 		"name": "bet365",
 		"website": "https://www.bet365.com/",
 		"headquarters": "Stoke-on-Trent, 🇬🇧",
@@ -907,6 +975,30 @@
 		},
 		"links": [
 			"https://globalnews.ca/news/8720223/calfrac-suspends-russia-investments/"
+		]
+	}, {
+		"name": "Canada Goose",
+		"website": "https://www.canadagoose.com/",
+		"headquarters": "Toronto, 🇨🇦",
+		"industry": [
+			"Fashion"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Donated $100,000 CAD to the United Nations High Commissioner for Refugees"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended all wholesale and e-commerce sales to 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.canadagoose.com/on/demandware.static/-/Library-Sites-CG-Global/default/dwb28ff8b5/press/CANADA_GOOSE_ANNOUNCES_DONATION_TO_UNITED_NATIONS.pdf",
+			"https://www.ctvnews.ca/business/these-canadian-companies-are-cutting-ties-with-russia-over-invasion-of-ukraine-1.5839194"
 		]
 	}, {
 		"name": "Carlsberg",
@@ -2262,6 +2354,35 @@
 			"https://newswep.com/globus-and-auchan-denied-rumors-about-leaving-the-russian-market-news-news/"
 		]
 	}, {
+		"name": "GoDaddy",
+		"website": "https://godaddy.com/",
+		"headquarters": "Tempe, AZ, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Removed 🇷🇺 version of website",
+					"No longer supporting new registrations of .ru and .ru.com",
+					"Removing all .ru domain names from their domain name aftermarket",
+					"Removing the Russian Ruble"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"For Ukrainian customers renewing, at no cost to them, any products or services that are set to expire in the next 60 days (from 3 March)",
+					"Donated $500,000 to humanitarian relief in 🇺🇦",
+					"Partnering with contractors' companies to help them pay their workers through the next 60 days (from 3 March)"
+				]
+			}]
+		},
+		"links": [
+			"https://aboutus.godaddy.net/newsroom/company-news/news-details/2022/How-GoDaddy-is-Supporting-Ukrainian-Customers/default.aspx"
+		]
+	}, {
 		"name": "Grammarly",
 		"website": "https://grammarly.com/",
 		"headquarters": "San Francisco, CA, 🇺🇸",
@@ -2323,7 +2444,7 @@
 				"country": "🇺🇦",
 				"measures": [
 					"Calls on to help 🇺🇦 and Ukrainian Armed Forces",
-					"Started charity sales of their games, all gained money from which will be transferred to the \"Come back alive\""
+					"Started charity sales of their games, all gained money from which will be transferred to the \"Come back alive\". UPD: in result $800,000 were raised"
 				]
 			}]
 		},
@@ -2333,7 +2454,8 @@
 			"https://www.nme.com/news/gaming-news/stalker-2-renamed-to-heart-of-chornobyl-as-developer-halts-sales-in-russia-3182745",
 			"https://gamedev.dou.ua/news/gsc-game-world-game-stops-sales-in-russia/",
 			"https://vk.com/stalker2?w=wall-172977273_152424",
-			"https://www.vortex.cz/autori-s-t-a-l-k-e-r-2-mohou-zamirit-do-ceska-potvrzuji-zdroje-vortexu/"
+			"https://www.vortex.cz/autori-s-t-a-l-k-e-r-2-mohou-zamirit-do-ceska-potvrzuji-zdroje-vortexu/",
+			"https://twitter.com/GSC_GW/status/1514967006663036933"
 		]
 	}, {
 		"name": "Halfords",
@@ -3216,6 +3338,37 @@
 		},
 		"links": [
 			"https://www.marvell.com/content/dam/marvell/en/company/assets/marvell-russia-sanctions-general.pdf"
+		]
+	}, {
+		"name": "Massachusetts Institute of Technology",
+		"alt_name": [
+			"MIT"
+		],
+		"website": "https://www.mit.edu/",
+		"headquarters": "Cambridge, MA, 🇺🇸",
+		"industry": [
+			"Education",
+			"Research"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Terminated the MIT Skoltech Program"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"In honor of Yulia Zdanovska, Department of Mathematics launches \"Yulia's Dream\" - a free math enrichment and research program for Ukrainian high school students and refugees",
+					"Providing support to MIT students from 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://news.mit.edu/2022/mit-responding-ukraine-0228",
+			"https://news.mit.edu/2022/yulias-dream-support-ukrainian-students-mathematics-0330",
+			"https://news.mit.edu/2022/mit-community-stands-ukraine-candlelight-rally-0307"
 		]
 	}, {
 		"name": "Maxar Technologies",
@@ -4821,6 +4974,36 @@
 		},
 		"links": [
 			"https://www.sram.com/en/company/campaigns/ukraine-statement"
+		]
+	}, {
+		"name": "Stack Exchange",
+		"website": "https://stackexchange.com/",
+		"headquarters": "New York, NY, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Making donations to Doctors Without Borders, the International Rescue Committee, and UNICEF"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Prohibited usage of \"Z\"-symbolics, which is used as support of invasion"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Won't restrict access to SE resources from 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://meta.stackexchange.com/questions/376743/stack-exchange-public-qa-access-will-not-be-restricted-in-russia",
+			"https://dou.ua/lenta/news/stackoverflow-prohibits-any-use-of-z-symbols/"
 		]
 	}, {
 		"name": "State of Play",

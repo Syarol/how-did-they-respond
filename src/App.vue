@@ -9,6 +9,7 @@
 			>24 February</a>,<br> after 8 years of semi-frozen war, russia🇷🇺 started a full-scale invasion of Ukraine🇺🇦. In addition to sanctions imposed by governments, a lot of companies have their response to war
 		</h1>
 		<input
+			v-model='searchText'
 			class='search-field'
 			type='text' 
 			placeholder='Search for company...'
@@ -214,7 +215,7 @@ export default {
 		searchCompany(e){
 			let activeCategories = Array.from(this.activeCategories);
 			let activeCountries = Array.from(this.activeCountries);
-			let query = e.target.value.toLowerCase();
+			let query = e?.target?.value?.toLowerCase() || this.searchText.toLowerCase();
 
 			this.searchText = query;
 
