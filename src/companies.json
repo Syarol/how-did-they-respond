@@ -2806,6 +2806,30 @@
 			"https://www.intel.com/content/www/us/en/newsroom/news/russia-business-statement.html"
 		]
 	}, {
+		"name": "JetBrains",
+		"website": "https://www.jetbrains.com/",
+		"headquarters": "Prague, 🇨🇿",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspended sales in 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended sales in 🇷🇺",
+					"Suspended R&D activities in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://blog.jetbrains.com/blog/2022/03/11/jetbrains-statement-on-ukraine/"
+		]
+	}, {
 		"name": "Johnson & Johnson",
 		"alt_name": [
 			"JnJ"
@@ -3001,6 +3025,38 @@
 		"links": [
 			"https://www.saltwire.com/atlantic-canada/business/coffee-maker-lavazza-sees-challenging-2022-halts-russian-activities-100717882/",
 			"https://www.reuters.com/business/coffee-maker-lavazza-sees-challenging-2022-halts-russian-activities-2022-04-13/"
+		]
+	}, {
+		"name": "Leaflet",
+		"website": "https://leafletjs.com/",
+		"headquarters": "Full remote",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Delayed Leaflet 1.8.0 release due to invasion"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Closed access to leafletjs.com from 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Promoting various ways to help 🇺🇦",
+					"Promoting donations to Come Back Alive and other options from SupportUkraineNow.org"
+				]
+			}]
+		},
+		"links": [
+			"https://web.archive.org/web/20220321033923/https://leafletjs.com/",
+			"https://twitter.com/LeafletJS/status/1496737586152366081",
+			"https://twitter.com/mourner/status/1497917517070798851"
 		]
 	}, {
 		"name": "LEGO",
@@ -4150,6 +4206,44 @@
 			"https://www.saltwire.com/newfoundland-labrador/business/pirelli-puts-brake-on-russian-activities-100707498/"
 		]
 	}, {
+		"name": "Playrix",
+		"website": "https://www.playrix.com/",
+		"headquarters": "Dublin, 🇮🇪",
+		"industry": [
+			"Gaming",
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Company moderators started deleting posts about the war before shutting down the Slack channels entirely"
+				]
+			}],
+			"support": [{
+				"measures": [
+					"Paid a bonus equivalent to a month's salary to their entire 4,000-person workforce, including the 1,500 in 🇷🇺"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Does not planning to leave 🇷🇺 market",
+					"Provided support to employees in relocation from 🇷🇺 to 🇬🇪, 🇦🇲 and 🇹🇷"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Put all 🇺🇦 staff on paid leave",
+					"Donated $500,000 to the Red Cross in Ukraine",
+					"Provided support to employees in evacuation"
+				]
+			}]
+		},
+		"links": [
+			"https://www.forbes.com/sites/iainmartin/2022/03/31/playrix-revolut-grammarly-this-russia-born-billionaire-owns-one-of-the-worlds-largest-game-developers-amid-the-ukraine-war-he-navigates-a-company-in-turmoil/",
+			"https://gamedev.dou.ua/news/playrix-will-continue-working-in-russia/"
+		]
+	}, {
 		"name": "Posti",
 		"website": "https://www.posti.fi/",
 		"headquarters": "Helsinki, 🇫🇮",
@@ -4445,6 +4539,30 @@
 		"links": [
 			"https://yle.fi/news/3-12344659",
 			"https://s-ryhma.fi/en/news/s-group-will-close-all-business-operations-in-russ/1ryWAf2TE38Wo9OFv2BrUJ"
+		]
+	}, {
+		"name": "Sabre Corporation",
+		"website": "https://www.sabre.com/",
+		"headquarters": "Southlake, TX, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Terminated its distribution agreement with Aeroflot"
+				]
+			}],
+			"support": [{
+				"country": "🇵🇱",
+				"measures": [
+					"Donated $1M to the Polish Red Cross"
+				]
+			}]
+		},
+		"links": [
+			"https://www.sabre.com/insights/releases/sabre-terminates-distribution-agreement-with-aeroflot/"
 		]
 	}, {
 		"name": "Salesforce",
@@ -5376,6 +5494,34 @@
 		"links": [
 			"https://www.just-food.com/special-focus/ukraine-crisis/unilever-stops-russia-exports-but-maintains-essential-food-supply/",
 			"https://www.unilever.com/news/news-search/2022/updated-unilever-statement-on-the-war-in-ukraine/"
+		]
+	}, {
+		"name": "University of Colorado",
+		"website": "https://www.colorado.edu/",
+		"headquarters": "Boulder, CO, 🇺🇸",
+		"industry": [
+			"Education",
+			"Research"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Faculty across CU's four campuses currently are not conducting research funded by 🇷🇺 entities and are not sending funds to 🇷🇺 entities as part of any research project",
+					"Views any engagements with 🇷🇺, 🇧🇾, and 🇷🇺-occupied regions of 🇺🇦, as extremely high risk"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Exiting from its investments in 🇷🇺 companies",
+					"The Office of Export Controls will reassess and modify, or terminate, current engagements as appropriate",
+					"Recommend avoiding future engagements where there is a direct or indirect connection to 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://connections.cu.edu/stories/cu-moves-liquidate-its-investment-russian-companies",
+			"https://www.colorado.edu/researchinnovation/2022/03/10/compliance-updates-related-russia-belarus-and-ukraine"
 		]
 	}, {
 		"name": "Upwork",
