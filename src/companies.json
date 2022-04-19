@@ -2268,6 +2268,12 @@
 		],
 		"side": "🇺🇦",
 		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Started to block accounts of 🇷🇺 developers and organizations"
+				]
+			}],
 			"support": [{
 				"country": "🇺🇦",
 				"measures": [
@@ -2276,7 +2282,8 @@
 			}]
 		},
 		"links": [
-			"https://github.blog/2022-03-02-our-response-to-the-war-in-ukraine/"
+			"https://github.blog/2022-03-02-our-response-to-the-war-in-ukraine/",
+			"https://dou.ua/lenta/news/github-blocks-russian-accounts/"
 		]
 	}, {
 		"name": "GitLab",
@@ -2542,19 +2549,25 @@
 				"country": "🇷🇺",
 				"measures": [
 					"Stopped new investments in 🇷🇺",
-					"Stopped advertising in state-owned media and sponsoring activities in 🇷🇺"
+					"Stopped advertising in state-owned media and sponsoring activities in 🇷🇺",
+					"Decided to exit its business activities in 🇷🇺"
 				]
 			}],
 			"support": [{
 				"country": "🇷🇺",
-				"measures": [
-					"Refused to leave 🇷🇺 market"
+				"measures": [{
+					"outdated": true,
+					"date": "04/19",
+					"desc": "Refused to leave 🇷🇺 market"
+				},
+					"Employees in 🇷🇺 will continue to be employed and paid during Henkel exit from country"
 				]
 			}]
 		},
 		"links": [
 			"https://www.reuters.com/business/retail-consumer/henkel-continue-business-russia-now-2022-04-04/",
-			"https://www.henkel.com/press-and-media/press-releases-and-kits/2022-03-04-henkel-to-stop-investments-in-russia-1626160"
+			"https://www.henkel.com/press-and-media/press-releases-and-kits/2022-03-04-henkel-to-stop-investments-in-russia-1626160",
+			"https://www.henkel.com/press-and-media/press-releases-and-kits/2022-04-19-henkel-to-exit-its-business-in-russia-1654222"
 		]
 	}, {
 		"name": "Hesburger",
@@ -4398,6 +4411,47 @@
 			"https://www.rabobank.com/en/press/search/2022/20220330-rabobank-withdraws-from-russia.html"
 		]
 	}, {
+		"name": "Rakuten",
+		"website": "https://www.rakuten.com/",
+		"headquarters": "Tokyo, 🇯🇵",
+		"industry": [
+			"Software"
+		],
+		"brands": [
+			"Viber"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Removed advertising from its Viber messaging service in 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Removed advertising from its Viber messaging service in 🇺🇦"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Refused to terminate Viber service in 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Hiroshi Mikitani, chairman and CEO of Rakuten donated ¥1B ($8.7M) 🇺🇦 government for humanitarian assistance",
+					"Set up a webpage for people to donate money to 🇺🇦 through the Rakuten point program and by other means",
+					"Provides 60 free minutes of calls via the Viber Out service"
+				]
+			}]
+		},
+		"links": [
+			"https://www.japantimes.co.jp/news/2022/02/28/business/corporate-business/rakuten-viber-ads/",
+			"https://www.asahi.com/ajw/articles/14560885",
+			"https://www.dw.com/en/tech-firms-provide-free-internet-for-ukrainians/a-61364467"
+		]
+	}, {
 		"name": "Readdle",
 		"website": "https://readdle.com/",
 		"headquarters": "Odesa, 🇺🇦",
@@ -4416,6 +4470,64 @@
 		},
 		"links": [
 			"https://readdle.com/blog/bye-russia"
+		]
+	}, {
+		"name": "Reckitt",
+		"website": "https://www.reckitt.com/",
+		"headquarters": "Slough, 🇬🇧",
+		"industry": [
+			"Manufacturing",
+			"Pharmaceutical"
+		],
+		"brands": [
+			"Air Wick",
+			"Airborne",
+			"Calgon",
+			"Cillit Bang", 
+			"Clearasil", 
+			"Dettol",
+			"Disprin",
+			"Durex", 
+			"Enfamil",
+			"Gaviscon",
+			"Lysol", 
+			"Mead Johnson",
+			"Mortein",
+			"Mycil", 
+			"Nutramigen",
+			"Strepsils",
+			"Vanish",
+			"Veet"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped all advertising, promotion and sponsorships in 🇷🇺",
+					"Froze any capital investments in 🇷🇺",
+					"Begun a process aimed at transferring ownership of its 🇷🇺 business"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Operations in 🇺🇦 are suspended"
+				]
+			}],
+			"support": [{
+				"country": "🇬🇧",
+				"measures": [
+					"Committed £1M through a mixture of corporate and employee-matched fundraising efforts to British Red Cross"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Provides support to emoloyees from 🇺🇦",
+					"Empolyees in 🇵🇱 are volunteering to collect and hand out day-to-day necessities to refugees"
+				]
+			}]
+		},
+		"links": [
+			"https://www.reckitt.com/newsroom/latest-news/news/2022/march/an-update-on-russian-operations/"
 		]
 	}, {
 		"name": "Reddit",
@@ -5034,7 +5146,8 @@
 					"Closed office in Russia",
 					"Restricted the discoverability of shows owned and operated by Russian state-affiliated media",
 					"Removed all RT and Sputnik content from Spotify in the 🇪🇺 and other markets",
-					"Fully suspended its services in 🇷🇺"
+					"Fully suspended its services in 🇷🇺",
+					"Removed their app from app stores in 🇷🇺"
 				]
 			}],
 			"support": [{
@@ -5047,7 +5160,8 @@
 		},
 		"links": [
 			"https://newsroom.spotify.com/2022-03-02/spotifys-statement-in-response-to-the-war-in-ukraine/",
-			"https://www.theverge.com/2022/3/25/22996412/spotify-russia-suspending-services"
+			"https://www.theverge.com/2022/3/25/22996412/spotify-russia-suspending-services",
+			"https://www.techgenyz.com/2022/04/18/spotify-removed-from-app-stores-in-russia-amid-ukraine-invasion/"
 		]
 	}, {
 		"name": "SpaceX",
@@ -5062,12 +5176,14 @@
 				"country": "🇺🇦",
 				"measures": [
 					"Activated Starlink services in 🇺🇦",
-					"Sended Starlink terminals to 🇺🇦"
+					"Sended Starlink terminals to 🇺🇦",
+					"Started work on opening representative office of Starlink in 🇺🇦"
 				]
 			}]
 		},
 		"links": [
-			"https://www.nytimes.com/2022/02/28/world/europe/elon-musk-satellite-internet-ukraine.html"
+			"https://www.nytimes.com/2022/02/28/world/europe/elon-musk-satellite-internet-ukraine.html",
+			"https://mezha.media/en/2022/04/19/starlink-opens-a-representative-office-in-ukraine/"
 		]
 	}, {
 		"name": "SRAM",
@@ -5232,6 +5348,38 @@
 		},
 		"links": [
 			"https://www.retailbankerinternational.com/news/swedbank-russia-belarus-payment-halted/"
+		]
+	}, {
+		"name": "The Boston Athletic Association",
+		"website": "https://www.baa.org/",
+		"headquarters": "Boston, MA, 🇺🇸",
+		"industry": [
+			"Entertainment"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Belarusians, who were accepted into the 2022 Boston Marathon or 2022 B.A.A. 5K as part of the open registration process and are currently residing in 🇧🇾, will no longer be allowed to compete in either event",
+					"Belarusians, who are not currently residing in 🇧🇾 will not be able to run under the flag of 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Russians, who were accepted into the 2022 Boston Marathon or 2022 B.A.A. 5K as part of the open registration process and are currently residing in 🇷🇺, will no longer be allowed to compete in either event",
+					"Russians, who are not currently residing in 🇷🇺 will not be able to run under the flag of 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Will provide all Ukrainians who are registered in the 126th Boston Marathon or the 2022 B.A.A. 5K and are unable to compete with a refund or option to defer to a future year"
+				]
+			}]
+		},
+		"links": [
+			"https://www.baa.org/baa-policy-russian-and-belarusian-athletes",
+			"https://www.nytimes.com/2022/04/06/world/europe/boston-marathon-russia-belarus.html?smtyp=cur&smid=tw-nytimes"
 		]
 	}, {
 		"name": "The Kraft Heinz Company",
@@ -5552,6 +5700,32 @@
 		},
 		"links": [
 			"https://www.upwork.com/blog/a-letter-from-our-ceo-march-2022"
+		]
+	}, {
+		"name": "Valio",
+		"website": "https://www.valio.com/",
+		"headquarters": "Helsinki, 🇫🇮",
+		"industry": [
+			"Food"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Stopped all exports from 🇫🇮 to 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped all exports from 🇫🇮 to 🇷🇺",
+					"Stopped imports of ingredients and packaging materials from 🇷🇺 to 🇫🇮",
+					"Ending business operation in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.valio.com/news/valio-will-close-business-operation-in-russia/",
+			"https://www.just-food.com/special-focus/ukraine-crisis/finlands-valio-quits-russia-days-after-suspending-exports/"
 		]
 	}, {
 		"name": "VMware",
