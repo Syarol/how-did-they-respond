@@ -2180,7 +2180,7 @@
 	}, {
 		"name": "Geberit",
 		"website": "https://www.geberit.com/",
-		"headquarters": "Rapperswil-Jona, Switzerland",
+		"headquarters": "Rapperswil-Jona, 🇨🇭",
 		"industry": [
 			"Manufacturing"
 		],
@@ -2200,6 +2200,45 @@
 		},
 		"links": [
 			"https://assets.geberit.com/local-media/files/downloads/media-releases/2022/media-release-activities-russia-2022.pdf"
+		]
+	}, {
+		"name": "General Motors",
+		"website": "https://www.gm.com/",
+		"headquarters": "Detroit, MI, 🇺🇸",
+		"industry": [
+			"Machinery"
+		],
+		"brands": [
+			"Buick",
+			"Cadillac",
+			"Chevrolet",
+			"GMC"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"GM closed last manufacturing plant in 🇷🇺 at 2015"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended vehicle imports and commercial activity in 🇷🇺",
+					"Terminated most of the employees in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Will donate $250,000 to International Rescue Committee",
+					"Will match employees donations aimed at helping Ukrainians up to $50,000"
+				]
+			}]
+		},
+		"links": [
+			"https://www.freep.com/story/money/cars/general-motors/2022/02/28/gm-automakers-suspend-business-russia/9321570002/",
+			"https://www.freep.com/story/money/cars/general-motors/2022/03/04/gm-donate-match-employee-donations-help-ukraine/9364096002/",
+			"https://www.freep.com/story/money/cars/general-motors/2022/04/19/gm-stellantis-russian-operations/7370994001/"
 		]
 	}, {
 		"name": "GetResponse",
@@ -2901,6 +2940,40 @@
 		},
 		"links": [
 			"https://www.johnsoncontrols.com/insights/2022/feature-story/statement-on-ukraine"
+		]
+	}, {
+		"name": "Jooble",
+		"website": "https://jooble.org",
+		"headquarters": "Limassol, 🇨🇾",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Displayed banner with truth about war",
+					"Ceased its activity in 🇧🇾 market"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Displayed banner with truth about war",
+					"Ceased its activity in 🇷🇺 market",
+					"Fired 🇷🇺 employees"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Providing support to 🇺🇦 employees",
+					"Promoting 🇺🇦 support by hiring Ukrainians"
+				]
+			}]
+		},
+		"links": [
+			"https://dou.ua/lenta/articles/how-are-you-jooble/",
+			"https://jooble.org/blog/give-a-job-for-ukraine-support-the-employment-of-ukrainian-refugees-around-the-world/"
 		]
 	}, {
 		"name": "Journal of Molecular Structure",
@@ -4752,7 +4825,8 @@
 				"country": "🇷🇺",
 				"measures": [
 					"Stopped sales in 🇷🇺",
-					"Shutting down cloud operations in 🇷🇺"
+					"Shutting down cloud operations in 🇷🇺",
+					"Exiting from their operations in 🇷🇺"
 				]
 			}],
 			"support": [{
@@ -4760,15 +4834,17 @@
 				"measures": [
 					"Enabled suppliers on SAP Business Network to declare their readiness to provide humanitarian aid",
 					"Helping the 🇺🇦 government order supplies for hospitals",
-					"Total donations from SAP and employees have surpassed €3M",
+					"Total donations from SAP and employees have surpassed €3.7M",
 					"Over 4,000 employees have offered housing and other aid to refugees",
-					"Providing SAP office space to store donations such as medicine and food"
+					"Providing SAP office space to store donations such as medicine and food",
+					"Donated SAP Ariba solutions to an NGO working with the State Enterprise Medical Procurement of Ukraine"
 				]
 			}]
 		},
 		"links": [
 			"https://www.marketwatch.com/story/sap-pauses-sales-to-russia-271646301894",
-			"https://news.sap.com/2022/03/sap-continues-to-stand-in-solidarity-with-ukraine/"
+			"https://news.sap.com/2022/03/sap-continues-to-stand-in-solidarity-with-ukraine/",
+			"https://news.sap.com/2022/04/sap-plans-russia-exit/"
 		]
 	}, {
 		"name": "Saxo Bank",
@@ -5903,6 +5979,41 @@
 		"links": [
 			"https://weblium.com/official-statement",
 			"https://mezha.media/2022/03/28/konstruktor-saytiv-weblium/"
+		]
+	}, {
+		"name": "Wimbledon",
+		"alt_name": [
+			"The Championships"
+		],
+		"website": "https://www.wimbledon.com/",
+		"headquarters": "London, 🇬🇧",
+		"industry": [
+			"Entertainment"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Declined entries from 🇧🇾 players to The Championships 2022"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Declined entries from 🇷🇺 players to The Championships 2022"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donated $100,000 to the humanitarian relief efforts",
+					"Signal support via their social and digital platforms by prominently featuring the 🇺🇦 ribbon icon"
+				]
+			}]
+		},
+		"links": [
+			"https://www.wimbledon.com/en_GB/news/articles/2022-03-08/tennis_family_unites_behind_tennis_plays_for_peace_initiative_to_support_ukraine.html",
+			"https://www.nytimes.com/2022/04/20/sports/tennis/wimbledon-ban-russia-belarus-players.html",
+			"https://www.wimbledon.com/en_GB/news/articles/2022-04-20/statement_regarding_russian_and_belarusian_individuals_at_the_championships_2022.html"
 		]
 	}, {
 		"name": "Wirex",
