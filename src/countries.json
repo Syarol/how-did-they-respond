@@ -54,6 +54,9 @@
 		"name": "Hong Kong",
 		"emoji": "🇭🇰"
 	}, {
+		"name": "India",
+		"emoji": "🇮🇳"
+	}, {
 		"name": "Ireland",
 		"emoji": "🇮🇪"
 	}, {
@@ -68,6 +71,9 @@
 	}, {
 		"name": "Latvia",
 		"emoji": "🇱🇻"
+	}, {
+		"name": "Lithuania",
+		"emoji": "🇱🇹"
 	}, {
 		"name": "Netherlands",
 		"emoji": "🇳🇱"

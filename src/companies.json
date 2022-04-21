@@ -100,7 +100,8 @@
 			"sanctions": [{
 				"country": "🇷🇺",
 				"measures": [
-					"Suspended operations of all offline and online stores in Russia"
+					"Suspended operations of all offline and online stores in 🇷🇺",
+					"Suspended its partnership with the Russian Football Union"
 				]
 			}],
 			"support": [{
@@ -118,7 +119,8 @@
 			}]
 		},
 		"links": [
-			"https://www.linkedin.com/feed/update/urn:li:activity:6906644725970141185/"
+			"https://www.linkedin.com/feed/update/urn:li:activity:6906644725970141185/",
+			"https://www.wsj.com/livecoverage/russia-ukraine-latest-news-2022-03-08/card/adidas-closes-its-stores-in-russia-RdpeOsI4W0n7Q72skdQf"
 		]
 	}, {
 		"name": "Adobe",
@@ -146,6 +148,25 @@
 		"links": [
 			"https://blog.adobe.com/en/publish/2022/03/04/adobe-stops-all-new-sales-in-russia",
 			"https://blog.adobe.com/en/publish/2022/03/04/adobe-foundation-response-humanitarian-crisis-ukraine"
+		]
+	}, {
+		"name": "AeroVironment",
+		"website": "https://www.avinc.com/",
+		"headquarters": "Simi Valley, CA, 🇺🇸",
+		"industry": [
+			"Aerospace",
+			"Arms"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donated more than 100 Quantix™ Recon unmanned aircraft systems (UAS) and operational training services to the Ministry of Defence of Ukraine and territorial forces"
+				]
+			}]
+		},
+		"links": [
+			"https://www.avinc.com/resources/press-releases/view/aerovironment-donates-over-100-quantix-recon-unmanned-aircraft-systems-to-the-ministry-of-defence-of-ukraine-and-territorial-forces"
 		]
 	}, {
 		"name": "AGC",
@@ -176,6 +197,35 @@
 		},
 		"links": [
 			"https://www.agc.com/en/news/detail/1202857_2814.html"
+		]
+	}, {
+		"name": "airBaltic",
+		"alt_name": [
+			"AS Air Baltic"
+		],
+		"website": "https://www.airbaltic.com/",
+		"headquarters": "Mārupe Municipality, 🇱🇻",
+		"industry": [
+			"Logistics"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Leaved 🇷🇺 market"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Delivered a humanitarian relief cargo to the Ukrainian refugee center in Chisinau, 🇲🇩",
+					"On the return flight from 🇲🇩 to Riga airBaltic carried Ukrainian refugees together with the delegation of the President of Latvia"
+				]
+			}]
+		},
+		"links": [
+			"https://www.airbaltic.com/en/airbaltic-to-return-with-ukrainian-refugees-from-chisinau-on-presidential-flight",
+			"https://www.airbaltic.com/en/airbaltic-leaves-russian-market"
 		]
 	}, {
 		"name": "Airbnb",
@@ -2322,6 +2372,7 @@
 		},
 		"links": [
 			"https://github.blog/2022-03-02-our-response-to-the-war-in-ukraine/",
+			"https://www.bleepingcomputer.com/news/security/github-suspends-accounts-of-russian-devs-at-sanctioned-companies/",
 			"https://dou.ua/lenta/news/github-blocks-russian-accounts/"
 		]
 	}, {
@@ -5426,6 +5477,24 @@
 			"https://www.retailbankerinternational.com/news/swedbank-russia-belarus-payment-halted/"
 		]
 	}, {
+		"name": "Tata Steel Group",
+		"website": "https://www.tatasteeleurope.com/",
+		"headquarters": "Mumbai, 🇮🇳",
+		"industry": [
+			"Manufacturing"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopping doing business with 🇷🇺 and cutting off raw materials import from 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.tatasteeleurope.com/corporate/news/comment-from-tata-steel-clarifying-its-business-activity-with-russia"
+		]
+	}, {
 		"name": "The Boston Athletic Association",
 		"website": "https://www.baa.org/",
 		"headquarters": "Boston, MA, 🇺🇸",
@@ -5802,6 +5871,38 @@
 		"links": [
 			"https://www.valio.com/news/valio-will-close-business-operation-in-russia/",
 			"https://www.just-food.com/special-focus/ukraine-crisis/finlands-valio-quits-russia-days-after-suspending-exports/"
+		]
+	}, {
+		"name": "Vičiūnai Group",
+		"alt_name": [
+			"Vici",
+			"Viči",
+			"Vičiūnų grupė"
+		],
+		"website": "www.viciunaigroup.eu",
+		"headquarters": "Kaunas, 🇱🇹",
+		"industry": [
+			"Food"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped all investments to 🇷🇺",
+					"Suspended all advertising in 🇷🇺",
+					"Will leave the country"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Distributed more than 200,000 packages of food products to territorial defence units",
+					"Transferred its trucks for the needs of the 🇺🇦 government"
+				]
+			}]
+		},
+		"links": [
+			"https://fishfocus.co.uk/viciunai-group-winding-down-its-russian-operations/"
 		]
 	}, {
 		"name": "VMware",
