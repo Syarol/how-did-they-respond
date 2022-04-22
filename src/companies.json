@@ -199,6 +199,41 @@
 			"https://www.agc.com/en/news/detail/1202857_2814.html"
 		]
 	}, {
+		"name": "Ahrefs",
+		"website": "https://ahrefs.com/",
+		"headquarters": "Singapore, 🇸🇬",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Blocked all access from 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Blocked all access from 🇷🇺"
+				]
+			}],
+			"support": [{
+				"measures": [
+					"Providing free psychotherapeutic help to all of its team members"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Raised more than $1.5M to Ukrainian charities",
+					"Extended Ukrainian business accounts by six months"
+				]
+			}]
+		},
+		"links": [
+			"https://searchengineland.com/ahrefs-ukraine-fundraising-383731",
+			"https://twitter.com/ahrefs/status/1499266534656466944"
+		]
+	}, {
 		"name": "airBaltic",
 		"alt_name": [
 			"AS Air Baltic"
@@ -1049,6 +1084,27 @@
 		"links": [
 			"https://www.canadagoose.com/on/demandware.static/-/Library-Sites-CG-Global/default/dwb28ff8b5/press/CANADA_GOOSE_ANNOUNCES_DONATION_TO_UNITED_NATIONS.pdf",
 			"https://www.ctvnews.ca/business/these-canadian-companies-are-cutting-ties-with-russia-over-invasion-of-ukraine-1.5839194"
+		]
+	}, {
+		"name": "Canva",
+		"website": "https://www.canva.com/",
+		"headquarters": "Sydney, 🇦🇺",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donated 3,000 USB power banks to displaced people",
+					"Donated $1M to those impacted by war",
+					"Will match all donations made by employees 1:1 up tp $5,000",
+					"Created a range of templates and illustrations that derived to support 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://www.canva.com/newsroom/news/supporting-ukraine/"
 		]
 	}, {
 		"name": "Carlsberg",
@@ -1970,6 +2026,25 @@
 			"https://www.elsevier.com/connect/elsevier-condemns-russian-invasion-of-ukraine?SQ_VARIATION_1240637=0"
 		]
 	}, {
+		"name": "Embraer",
+		"website": "https://embraer.com/",
+		"headquarters": "São José dos Campos, 🇧🇷",
+		"industry": [
+			"Aerospace"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended the supply of parts and its maintenance service to 🇷🇺 companies"
+				]
+			}]
+		},
+		"links": [
+			"https://www.airport-technology.com/news/embraer-stops-parts-supply/",
+			"https://www.cnnbrasil.com.br/business/embraer-suspende-manutencao-e-venda-de-pecas-para-a-russia/"
+		]
+	}, {
 		"name": "Ericsson",
 		"website": "https://www.ericsson.com/",
 		"headquarters": "Stockholm, 🇸🇪",
@@ -1994,6 +2069,41 @@
 		"links": [
 			"https://www.datacenterdynamics.com/en/news/ericsson-suspends-deliveries-to-russia-is-evaluating-business-there/",
 			"https://www.ericsson.com/en/press-releases/2022/4/ericsson-suspends-business-in-russia-indefinitely-and-records-provision-in-q1-2022"
+		]
+	}, {
+		"name": "Etsy",
+		"website": "https://www.etsy.com/",
+		"headquarters": "New York, NY, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspended access for 🇧🇾-based sellers",
+					"Closed access to service from 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended access for 🇷🇺-based sellers",
+					"Closed access to service from 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Canceled the current balances owed to Etsy by all sellers in 🇺🇦, which includes listing fees, transaction fees, advertising fees, and more",
+					"Issued additional credits to sellers to help cover fees",
+					"Lauched curated selection page to promote 🇺🇦 sellers",
+					"Matching charitable donations (up to $750 per employee) for employees who donate to relief efforts"
+				]
+			}]
+		},
+		"links": [
+			"https://help.etsy.com/hc/en-us/articles/4688019913367-Information-for-Suspended-Sellers-in-Russia",
+			"https://www.etsy.com/news/standing-with-our-community-when-it-matters-most/"
 		]
 	}, {
 		"name": "European Organisation for the Exploitation of Meteorological Satellites",
@@ -4059,6 +4169,25 @@
 		"links": [
 			"https://in.pcmag.com/graphics-cards/148243/nvidia-to-stop-all-product-sales-to-russia",
 			"https://dou.ua/lenta/news/nvidia-admits-severstal-representatives-to-conference/?from=tge&utm_source=telegram&utm_medium=social"
+		]
+	}, {
+		"name": "OnlyFans",
+		"website": "https://onlyfans.com/",
+		"headquarters": "London, 🇬🇧",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Temporarily paused accounts where payments are received in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://www.vice.com/en/article/k7wvqa/onlyfans-stops-serving-russian-creators",
+			"https://www.theverge.com/2022/4/21/23036231/onlyfans-accounts-paused-russia-ukraine-war"
 		]
 	}, {
 		"name": "Oracle",

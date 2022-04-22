@@ -11,7 +11,10 @@
 	}, {
 		"name": "Bermuda",
 		"emoji": "🇧🇲"
-	},	{
+	}, {
+		"name": "Brazil",
+		"emoji": "🇧🇷"
+	}, {
 		"name": "Belarus",
 		"emoji": "🇧🇾"
 	}, {
@@ -86,6 +89,9 @@
 	}, {
 		"name": "Sweden",
 		"emoji": "🇸🇪"
+	}, {
+		"name": "Singapore",
+		"emoji": "🇸🇬"
 	}, {
 		"name": "Taiwan",
 		"emoji": "🇹🇼"
