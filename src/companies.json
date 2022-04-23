@@ -503,6 +503,45 @@
 			"https://in.pcmag.com/processors/148230/amd-intel-halt-all-chip-sales-to-russia-belarus-over-ukraine-invasion"
 		]
 	}, {
+		"name": "Anheuser-Busch InBev",
+		"alt_name": [
+			"AB InBev"
+		],
+		"website": "https://www.ab-inbev.com/",
+		"headquarters": "Leuven, 🇧🇪",
+		"industry": [
+			"Food"
+		],
+		"brands": [
+			"Budweiser",
+			"Corona",
+			"Leffe",
+			"Stella Artois"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended sales of its Budweiser brand in 🇷🇺",
+					"Will sell its interest in AB InBev Efes joint venture to Anadolu Efes",
+					"Will suspend license for production and sale of Bud in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Providing housing, financial support and other help to 1,800 employees in 🇺🇦",
+					"Donating to the Red Cross, working in partnership with them, other CPGs and local NGOs",
+					"Introduced Chernigivske to many European countries. All profits from the sale of Chernigivske will go to support humanitarian relief efforts"
+				]
+			}]
+		},
+		"links": [
+			"https://www.ab-inbev.com/news-media/news-stories/ab-inbev-humanitarian-relief-for-ukraine/",
+			"https://www.ab-inbev.com/news-media/news-stories/anheuser-busch-inbev-announces-decision-to-sell-interest-in-russian-jv/",
+			"https://www.euronews.com/next/2022/04/22/ukraine-crisis-ab-inbev"
+		]
+	}, {
 		"name": "Apple",
 		"website": "https://www.apple.com",
 		"headquarters": "Cupertino, CA, 🇺🇸",
@@ -3019,6 +3058,35 @@
 			"https://www.intel.com/content/www/us/en/newsroom/news/russia-business-statement.html"
 		]
 	}, {
+		"name": "Intellias",
+		"website": "https://intellias.com/",
+		"headquarters": "Chicago, IL, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇸",
+				"measures": [
+					"Closed its office in 🇷🇸 and moved it to 🇭🇷"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Provides help to employees in relocation to safer places",
+					"Promotion of ways to boycott 🇷🇺 and support 🇺🇦",
+					"Opened a new R&D office in Uzhorod"
+				]
+			}]
+		},
+		"links": [
+			"https://www.mobileeurope.co.uk/ukrainian-telco-service-defied-russian-aggression-with-business-continuity/",
+			"https://dou.ua/lenta/news/intellias-opens-new-offices-in-europe/",
+			"https://dou.ua/lenta/news/intellias-opened-a-development-center-in-uzhhorod/",
+			"https://explore.intellias.com/stand-with-ukraine"
+		]
+	}, {
 		"name": "JetBrains",
 		"website": "https://www.jetbrains.com/",
 		"headquarters": "Prague, 🇨🇿",
@@ -3751,6 +3819,7 @@
 			"Bing",
 			"GitHub",
 			"LinkedIn",
+			"Mojang",
 			"Office",
 			"Skype",
 			"Surface",
@@ -3810,6 +3879,29 @@
 		"links": [
 			"https://twitter.com/mikrotik_com/status/1507308221379354626",
 			"https://twitter.com/mikrotik_com/status/1500806788727386114"
+		]
+	}, {
+		"name": "Mojang",
+		"website": "https://www.minecraft.net/",
+		"headquarters": "Stockholm, 🇸🇪",
+		"industry": [
+			"Gaming",
+			"Software"
+		],
+		"brands": [
+			"Minecraft"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Removed Minecraft from the Google Play and Apple App Store in 🇷🇺",
+					"Suspended further sales of new products in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://indianexpress.com/article/technology/gaming/minecraft-removed-from-google-play-and-app-store-in-russia-7803198/"
 		]
 	}, {
 		"name": "Mondelēz International",
@@ -5261,6 +5353,26 @@
 			"https://www.sketch.com/blog/2022/03/08/we-stand-with-ukraine/"
 		]
 	}, {
+		"name": "SKF",
+		"website": "https://www.skf.com/",
+		"headquarters": "Gothenburg, 🇸🇪",
+		"industry": [
+			"Manufacturing"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped exports to 🇷🇺",
+					"Ceased all business and operations in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://mfn.se/cis/a/skf/skf-has-decided-to-exit-russia-18072d8a",
+			"https://www.skf.com/group/news-and-events/news/2022/2022-apr-22-skf-has-decided-to-exit-russia-4243410"
+		]
+	}, {
 		"name": "Slack",
 		"website": "https://slack.com/",
 		"headquarters": "San Francisco, CA, 🇺🇸",
@@ -6381,6 +6493,24 @@
 		},
 		"links": [
 			"https://www.dezeen.com/2022/03/02/david-chipperfield-zaha-hadid-architects-suspend-work-russia/"
+		]
+	}, {
+		"name": "Zoom",
+		"website": "https://zoom.us/",
+		"headquarters": "San Jose, CA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Banned distributors from selling access to its service to 🇷🇺 state companies and institutions"
+				]
+			}]
+		},
+		"links": [
+			"https://www.reuters.com/article/us-russia-zoom-idUSKBN2BU2EU"
 		]
 	}, {
 		"name": "Zurich Insurance",
