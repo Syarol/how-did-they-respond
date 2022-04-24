@@ -403,6 +403,28 @@
 			"https://www.alstom.com/press-releases-news/2022/3/alstom-statement-ukraine"
 		]
 	}, {
+		"name": "Alva Commerce",
+		"website": "https://alvacommerce.com/",
+		"headquarters": "Košice, 🇸🇰",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donated to the Armed Forces of Ukraine and the \"Come back alive\" fund",
+					"Raised funds to help employees and their friends currently serving in the army or their families",
+					"Gave half of office space to host refugees, providing them with a place to stay and work",
+					"Participated in DDOS attacks against 🇷🇺 propaganda websites and news channels",
+					"Donated to zoos and eco-parks in the territories affected by the war"
+				]
+			}]
+		},
+		"links": [
+			"https://www.linkedin.com/posts/alva-commerce_lets-make-ourselves-clear-as-a-slovakian-ukrainian-activity-6922590934043901952-GaiD/"
+		]
+	}, {
 		"name": "Amanita Design",
 		"website": "https://amanita-design.net/",
 		"headquarters": "Brno, 🇨🇿",
@@ -2203,6 +2225,25 @@
 			"https://www.esa.int/Newsroom/Press_Releases/Redirecting_ESA_programmes_in_response_to_geopolitical_crisis"
 		]
 	}, {
+		"name": "Essity",
+		"website": "https://www.essity.com/",
+		"headquarters": "Stockholm, 🇸🇪",
+		"industry": [
+			"Beauty"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Initiated exit out of 🇷🇺 market"
+				]
+			}]
+		},
+		"links": [
+			"https://www.euronews.com/next/2022/04/22/essity-results",
+			"https://www.lesprom.com/en/news/Essity_to_exit_Russian_market_103027/"
+		]
+	}, {
 		"name": "Estée Lauder",
 		"alt_name": [
 			"Estee Lauder"
@@ -3451,6 +3492,30 @@
 			"https://www.lgnewsroom.com/2022/03/lg-suspends-shipments-to-russia/"
 		]
 	}, {
+		"name": "Lidl",
+		"website": "https://www.lidl.com/",
+		"headquarters": "Neckarsulm, 🇩🇪",
+		"industry": [
+			"Retail"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will phasing out the sale of Russian products"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Plans to enter 🇺🇦 market have been postponed"
+				]
+			}]
+		},
+		"links": [
+			"https://allretail.ua/news/77178-adam-mishchishin-ocholit-lidl-u-slovachchini-hocha-vin-mav-keruvati-ciyeyu-merezheyu-v-ukrajini",
+			"https://www.newsy-today.com/lidl-and-co-no-longer-offer-russian-goods/"
+		]
+	}, {
 		"name": "Lindt & Sprüngli",
 		"alt_name": [
 			"Lindt & Sprungli"
@@ -4360,6 +4425,45 @@
 		},
 		"links": [
 			"https://www.panduit.com/en/about/media-resources/panduit-suspends-order-and-shipment-activities-in-russia.html"
+		]
+	}, {
+		"name": "Paramount",
+		"website": "https://www.paramount.com/",
+		"headquarters": "New York, NY, 🇺🇸",
+		"industry": [
+			"Entertainment"
+		],
+		"brands": [
+			"Nickelodeon",
+			"Simon & Schuster"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Delayed of the theatrical release in 🇷🇺 for The Lost City and Sonic the Hedgehog 2",
+					"Simon & Schuster has suspended sales to accounts in 🇷🇺, along with the licensing of translation rights to 🇷🇺 publishers",
+					"Paramount Consumer Products will pause all new licensing deals in 🇷🇺",
+					"Will cease distribution of linear channels and some content licensing in 🇷🇺",
+					"Paused the supply of Paramount Global content to 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will continue to financially support their dedicated team in Moscow"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Providing free access to Nickelodeon kids' content in Ukrainian language on various platforms in Europe and beyond",
+					"Donated $1M to support humanitarian relief organizations"
+				]
+			}]
+		},
+		"links": [
+			"https://www.hollywoodreporter.com/business/business-news/paramount-russia-suspend-operations-ukraine-bob-bakish-1235111611/",
+			"https://www.hollywoodreporter.com/tv/tv-news/paramount-nickelodeon-content-ukrainian-refugees-europe-1235130810/"
 		]
 	}, {
 		"name": "Parimatch",
@@ -5854,6 +5958,30 @@
 		},
 		"links": [
 			"https://twitter.com/TikTokComms/status/1500535434610368518"
+		]
+	}, {
+		"name": "Toshiba",
+		"website": "https://www.toshiba.com/",
+		"headquarters": "Tokyo, 🇯🇵",
+		"industry": [
+			"Electronics"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended order taking in 🇷🇺",
+					"Suspended investments in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"measures": [
+					"Donated a total of 100M yen to the UNHCR and Japan Platform"
+				]
+			}]
+		},
+		"links": [
+			"https://www.datacenterdynamics.com/en/news/toshiba-suspends-sales-in-russia/"
 		]
 	}, {
 		"name": "TotalEnergies",
