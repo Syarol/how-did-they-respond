@@ -199,6 +199,35 @@
 			"https://www.agc.com/en/news/detail/1202857_2814.html"
 		]
 	}, {
+		"name": "AgileBits",
+		"website": "https://1password.com/",
+		"headquarters": "Toronto, 🇨🇦",
+		"industry": [
+			"Software"
+		],
+		"brands": [
+			"1Password"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Halted new 1Password account creation in 🇷🇺, along with renewal payments for existing customers in the region"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Matching employees donations up to $50,000",
+					"Provides support to employees who are impacted by the war"
+				]
+			}]
+		},
+		"links": [
+			"https://blog.1password.com/responding-to-the-conflict-in-ukraine/",
+			"https://blog.1password.com/we-stand-with-ukraine/"
+		]
+	}, {
 		"name": "Ahrefs",
 		"website": "https://ahrefs.com/",
 		"headquarters": "Singapore, 🇸🇬",
@@ -1486,6 +1515,34 @@
 		},
 		"links": [
 			"https://www.dezeen.com/2022/04/05/wolf-prix-coop-himmelblau-russian-projects/"
+		]
+	}, {
+		"name": "Coupa",
+		"website": "https://www.coupa.com/",
+		"headquarters": "San Mateo, CA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended business in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"measures": [
+					"Donated to International Committee of the Red Cross"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Matching employee donations to humanitarian organizations working to help people in 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://www.linkedin.com/pulse/standing-ukrainian-people-rob-bernshteyn/"
 		]
 	}, {
 		"name": "Coupler.io",
@@ -3028,6 +3085,31 @@
 		},
 		"links": [
 			"https://twitter.com/Imperva/status/1501581093803331585"
+		]
+	}, {
+		"name": "Indian Oil Corporation",
+		"website": "https://iocl.com/",
+		"headquarters": "New Delhi, 🇮🇳",
+		"industry": [
+			"Oil"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Excluded 🇷🇺 oil from the basket of crude it sought in one of its tenders"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Continuing to buy crude oil from 🇷🇺 with discount"
+				]
+			}]
+		},
+		"links": [
+			"https://indianexpress.com/article/business/indian-oil-corporation-buys-russian-crude-at-deep-discount-7823196/",
+			"https://economictimes.indiatimes.com/industry/energy/oil-gas/indian-oil-has-removed-russian-urals-from-its-latest-tender-sources-say/articleshow/90795706.cms"
 		]
 	}, {
 		"name": "ING",
@@ -6274,6 +6356,28 @@
 			"https://fishfocus.co.uk/viciunai-group-winding-down-its-russian-operations/"
 		]
 	}, {
+		"name": "Vitol Group",
+		"website": "https://www.vitol.com/",
+		"headquarters": "Geneva, 🇨🇭",
+		"industry": [
+			"Finance",
+			"Oil"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped its spot business in 🇷🇺",
+					"Intends to completely stop trading 🇷🇺-origin crude and products by the end of 2022",
+					"Will not enter into any new 🇷🇺 crude and product transactions"
+				]
+			}]
+		},
+		"links": [
+			"https://www.bloomberg.com/news/articles/2022-03-29/vitol-profit-jumps-to-record-in-2021-after-energy-prices-surge",
+			"https://www.bloomberg.com/news/articles/2022-04-13/world-s-top-oil-merchant-says-it-will-stop-trading-russian-crude"
+		]
+	}, {
 		"name": "VMware",
 		"website": "https://www.vmware.com/",
 		"headquarters": "Palo Alto, CA, 🇺🇸",
@@ -6449,6 +6553,25 @@
 		"links": [
 			"https://weblium.com/official-statement",
 			"https://mezha.media/2022/03/28/konstruktor-saytiv-weblium/"
+		]
+	}, {
+		"name": "Welt",
+		"website": "https://www.welt.de/",
+		"headquarters": "Berlin, 🇩🇪",
+		"industry": [
+			"Mass media"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Hired 🇷🇺 propagandist Marina Ovsyannikova"
+				]
+			}]
+		},
+		"links": [
+			"https://www.welt.de/politik/ausland/plus238054341/Marina-Owsjannikowa-Die-Russen-haben-Angst.html",
+			"https://www.rferl.org/a/russia-ovsyanniikova-journalist-die-welt/31797727.html"
 		]
 	}, {
 		"name": "Wimbledon",
