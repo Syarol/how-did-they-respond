@@ -929,6 +929,46 @@
 			"https://sbcnews.co.uk/sportsbook/2022/03/02/parimatch-and-bet365-close-russian-operations-as-ukraine-invasion-intensifies/"
 		]
 	}, {
+		"name": "Binance",
+		"website": "https://www.binance.com/",
+		"headquarters": "Full remote",
+		"industry": [
+			"Finance",
+			"Software"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Accused in sharing users data with 🇷🇺 government, but denies it"
+				]
+			}],
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"🇷🇺 nationals, residents, or businesses in the country with crypto assets exceeding €10,000 will not be able to deposit or trade, and may only withdraw"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Continuing to operate in 🇷🇺, despite requests from 🇺🇦 government"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Donated $2.5M to the UNHCR for 🇺🇦 refugees support",
+					"Launched Refugee Card for users from 🇺🇦 forced to move to EEA countries and will provide 75 BUSD (equivalent value to $75) per month for three months"
+				]
+			}]
+		},
+		"links": [
+			"https://www.theblockcrypto.com/linked/143016/binance-agreed-to-share-data-with-russian-government-agency-report",
+			"https://www.binance.com/en/support/announcement/4887e569afdf4b1e89e024371d3a49b9",
+			"https://www.binance.com/en/blog/charity/binance-to-launch-refugee-crypto-card-for-ukrainians-forced-to-leave-ukraine-421499824684903753",
+			"https://www.reuters.com/technology/how-crypto-giant-binance-built-ties-russian-fsb-linked-agency-2022-04-22/",
+			"https://www.outlookindia.com/business/ukraine-refugee-crisis-unhcr-gets-its-first-crypto-aid-from-binance-news-190362"
+		]
+	}, {
 		"name": "Bloomberg",
 		"website": "https://www.bloomberg.com/",
 		"headquarters": "New York, NY, 🇺🇸",
@@ -1926,6 +1966,30 @@
 			"https://www.docker.com/blog/dockers-response-to-the-invasion-of-ukraine/"
 		]
 	}, {
+		"name": "Dow Jones",
+		"website": "https://www.dowjones.com/",
+		"headquarters": "New York, NY, 🇺🇸",
+		"industry": [
+			"Mass media"
+		],
+		"brands": [
+			"The Wall Street Journal",
+			"Barron's",
+			"Market Watch",
+			"Financial News"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Lifted the paywall across The Wall Street Journal, Barron's, MarketWatch and Financial News in 🇺🇦 and neighboring countries that are \"seeing a large influx of 🇺🇦 refugees\""
+				]
+			}]
+		},
+		"links": [
+			"https://digiday.com/media/how-publishers-are-working-to-make-their-russia-ukraine-coverage-available-to-readers-in-those-countries/"
+		]
+	}, {
 		"name": "Drops",
 		"website": "https://www.languagedrops.com/",
 		"headquarters": "Tallin, 🇪🇪",
@@ -2410,6 +2474,24 @@
 		},
 		"links": [
 			"https://www.figma.com/blog/our-response-to-ukraine/"
+		]
+	}, {
+		"name": "Financial Times",
+		"website": "https://www.ft.com/",
+		"headquarters": "London, 🇬🇧",
+		"industry": [
+			"Mass media"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Provides free access to key 🇺🇦 coverage articles"
+				]
+			}]
+		},
+		"links": [
+			"https://digiday.com/media/how-publishers-are-working-to-make-their-russia-ukraine-coverage-available-to-readers-in-those-countries/"
 		]
 	}, {
 		"name": "FMC Corporation",
@@ -5954,6 +6036,29 @@
 			"https://www.nytimes.com/2022/04/06/world/europe/boston-marathon-russia-belarus.html?smtyp=cur&smid=tw-nytimes"
 		]
 	}, {
+		"name": "The Economist",
+		"website": "https://www.economist.com/",
+		"headquarters": "London, 🇬🇧",
+		"industry": [
+			"Mass media"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Disables paywall for readers in 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Disables paywall for readers in 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://digiday.com/media/how-publishers-are-working-to-make-their-russia-ukraine-coverage-available-to-readers-in-those-countries/"
+		]
+	}, {
 		"name": "The Kraft Heinz Company",
 		"website": "https://www.kraftheinzcompany.com/",
 		"headquarters": "Chicago, IL, 🇺🇸",
@@ -6004,6 +6109,29 @@
 		"links": [
 			"https://twitter.com/ChernobylGame/status/1497288140259794947",
 			"https://www.marketscreener.com/quote/stock/THE-FARM-51-GROUP-SP-LKA-20707625/news/The-Farm-51-and-All-in-Games-Announces-Digital-Charity-Pack-DLC-For-Ukrainian-Pure-Heart-Foundation-39824145/"
+		]
+	}, {
+		"name": "The Washington Post",
+		"website": "https://www.washingtonpost.com/",
+		"headquarters": "Washington, DC, 🇺🇸",
+		"industry": [
+			"Mass media"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Disables paywall for readers in 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Disables paywall for readers in 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://digiday.com/media/how-publishers-are-working-to-make-their-russia-ukraine-coverage-available-to-readers-in-those-countries/"
 		]
 	}, {
 		"name": "Tiffany",
@@ -6315,13 +6443,14 @@
 				"measures": [
 					"Stopped all exports from 🇫🇮 to 🇷🇺",
 					"Stopped imports of ingredients and packaging materials from 🇷🇺 to 🇫🇮",
-					"Ending business operation in 🇷🇺"
+					"Ends business operation in 🇷🇺 and selling all assets to Velkom Group"
 				]
 			}]
 		},
 		"links": [
 			"https://www.valio.com/news/valio-will-close-business-operation-in-russia/",
-			"https://www.just-food.com/special-focus/ukraine-crisis/finlands-valio-quits-russia-days-after-suspending-exports/"
+			"https://www.just-food.com/special-focus/ukraine-crisis/finlands-valio-quits-russia-days-after-suspending-exports/",
+			"https://yle.fi/news/3-12417712"
 		]
 	}, {
 		"name": "Vičiūnai Group",
