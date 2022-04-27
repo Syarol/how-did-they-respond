@@ -1423,6 +1423,25 @@
 			"https://businessinsider.com.pl/biznes/cersanit-wychodzi-michal-solowow-sprzedaje-swoj-biznes-w-rosji-tylko-u-nas/lgglx6w"
 		]
 	}, {
+		"name": "Christie's",
+		"website": "https://www.christies.com/",
+		"headquarters": "London, 🇬🇧",
+		"industry": [
+			"Legal"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Presented an international program of exhibition and sales initiatives to benefit 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://www.christies.com/about-us/press-archive/details?PressReleaseID=10469&lid=1",
+			"https://www.theartnewspaper.com/2022/04/25/christies-aims-to-raise-dollar1m-for-ukraine-in-string-of-benefit-sales"
+		]
+	}, {
 		"name": "Clarivate",
 		"website": "https://clarivate.com/",
 		"headquarters": "London, 🇬🇧",
@@ -1517,6 +1536,43 @@
 		},
 		"links": [
 			"https://twitter.com/CodeceptJS/status/1499143288078704645"
+		]
+	}, {
+		"name": "Collaborator.pro",
+		"website": "https://collaborator.pro/",
+		"headquarters": "🇺🇦",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspended work of service in 🇧🇾",
+					"Banned registration of new accounts from 🇧🇾",
+					"Disabled wallet replenishment for 🇧🇾 users",
+					"Will terminate 🇧🇾 sites"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended work of service in 🇷🇺",
+					"Banned registration of new accounts from 🇷🇺",
+					"Removed ruble as available currency",
+					"Disabled wallet replenishment for 🇷🇺 users",
+					"Will terminate 🇷🇺 sites",
+					"Will terminated any site that is supporting 🇷🇺 invation of 🇺🇦"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Shared ways to support 🇺🇦 Armed Forces"
+				]
+			}]
+		},
+		"links": [
+			"https://collaborator.pro/blog/stop-war-in-ukraine"
 		]
 	}, {
 		"name": "ConforMIS",
@@ -1934,6 +1990,29 @@
 		"links": [
 			"https://www.channelnewsasia.com/business/dhl-suspends-deliveries-russia-and-belarus-2532696",
 			"https://twitter.com/thevillageua/status/1508362871868207109"
+		]
+	}, {
+		"name": "DJI",
+		"website": "https://www.dji.com/",
+		"headquarters": "Shenzhen, 🇨🇳",
+		"industry": [
+			"Electronics"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended all business activities in 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Suspended all business activities in 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://www.dji.com/nl/newsroom/news/dji-statement-on-sales-compliance-efforts"
 		]
 	}, {
 		"name": "Docker",
@@ -2610,14 +2689,16 @@
 				"country": "🇺🇦",
 				"measures": [
 					"Will donate $250,000 to International Rescue Committee",
-					"Will match employees donations aimed at helping Ukrainians up to $50,000"
+					"Will match employees donations aimed at helping Ukrainians up to $50,000",
+					"Donated 50 Chevrolet Tahoe SUVs to the 🇺🇦 Ministry of Infrastructure for humanitarian aid"
 				]
 			}]
 		},
 		"links": [
 			"https://www.freep.com/story/money/cars/general-motors/2022/02/28/gm-automakers-suspend-business-russia/9321570002/",
 			"https://www.freep.com/story/money/cars/general-motors/2022/03/04/gm-donate-match-employee-donations-help-ukraine/9364096002/",
-			"https://www.freep.com/story/money/cars/general-motors/2022/04/19/gm-stellantis-russian-operations/7370994001/"
+			"https://www.freep.com/story/money/cars/general-motors/2022/04/19/gm-stellantis-russian-operations/7370994001/",
+			"https://www.freep.com/story/money/cars/general-motors/2022/04/22/gm-suvs-ukraine-russia-invasion/7412411001/"
 		]
 	}, {
 		"name": "GetResponse",
@@ -2831,12 +2912,15 @@
 			"support": [{
 				"country": "🇺🇦",
 				"measures": [
-					"Donating $5 million organizations and funds supporting the people of Ukraine"
+					"Donating $5 million organizations and funds supporting the people of 🇺🇦",
+					"Provides both relocation and ongoing financial support for employees, including a year of paid leave to those joining Ukraine's armed forces",
+					"Offering Grammarly Premium for free to media organizations in 🇺🇦"
 				]
 			}]
 		},
 		"links": [
-			"https://www.grammarly.com/stand-with-ukraine"
+			"https://www.grammarly.com/stand-with-ukraine",
+			"https://www.grammarly.com/blog/support-for-Ukraine/"
 		]
 	}, {
 		"name": "GSC Game World",
@@ -3107,6 +3191,26 @@
 		},
 		"links": [
 			"https://newsroom.ibm.com/War-in-Ukraine-Supporting-IBMers"
+		]
+	}, {
+		"name": "ICE Industrial Services",
+		"website": "https://www.ice.cz/",
+		"headquarters": "Prague, 🇨🇿",
+		"industry": [
+			"Manufacturing"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Printing barriers for 🇺🇦 army",
+					"Planning to send printers to 🇺🇦 to help rebuild homes after the war"
+				]
+			}]
+		},
+		"links": [
+			"https://twitter.com/Reuters/status/1517024079848611840",
+			"https://www.linkedin.com/posts/ice-industrial-services_czech-firm-3d-prints-barriers-for-ukrainian-activity-6924037798001790976-nivf"
 		]
 	}, {
 		"name": "IKEA",
@@ -3915,6 +4019,24 @@
 		},
 		"links": [
 			"https://www.mars.com/news-and-stories/press-releases-statements/mars-update-russia-and-ukraine"
+		]
+	}, {
+		"name": "Marvel",
+		"website": "https://www.marvel.com/",
+		"headquarters": "New York, NY, 🇺🇸",
+		"industry": [
+			"Entertainment"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Revoke comics licenses in 🇷🇺"
+				]
+			}]
+		},
+		"links": [
+			"https://t.me/bbcrussian/27172"
 		]
 	}, {
 		"name": "Marvell Technology",
@@ -6322,7 +6444,7 @@
 			"support": [{
 				"country": "🇺🇦",
 				"measures": [
-					"uDonated a total of €1M to International Medical Corps and Bright Kids Charity to support humanitarian relief efforts related to the war in 🇺🇦"
+					"Donated a total of €1M to International Medical Corps and Bright Kids Charity to support humanitarian relief efforts related to the war in 🇺🇦"
 				]
 			}]
 		},
