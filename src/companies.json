@@ -827,10 +827,51 @@
 			"https://www.just-food.com/news/barilla-maintains-russia-production/"
 		]
 	}, {
+		"name": "BASF",
+		"website": "https://www.basf.com/",
+		"headquarters": "Ludwigshafen, 🇩🇪",
+		"industry": [
+			"Chemical"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Will end business activities in 🇧🇾, except business to support food production"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Will end business activities in 🇷🇺, except business to support food production"
+				]
+			}],
+			"support": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Will continue to support its employees in 🇧🇾 until end of 2022"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Will continue to support its employees in 🇧🇾 until end of 2022"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Donated €5.2M to support 🇺🇦 employees and refugees"
+				]
+			}]
+		},
+		"links": [
+			"https://www.basf.com/global/en/media/news-releases/2022/04/p-22-215.html",
+			"https://www.basf.com/global/en/media/news-releases/2022/04/p-22-211.html"
+		]
+	}, {
 		"name": "Bayer",
 		"website": "https://www.bayer.com/",
 		"headquarters": "Leverkusen, 🇩🇪",
 		"industry": [
+			"Chemical",
 			"Pharmaceutical"
 		],
 		"actions": {
@@ -1613,6 +1654,24 @@
 			"https://www.dezeen.com/2022/04/05/wolf-prix-coop-himmelblau-russian-projects/"
 		]
 	}, {
+		"name": "Coty",
+		"website": "https://www.coty.com/",
+		"headquarters": "New York, NY, 🇺🇸",
+		"industry": [
+			"Beauty"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Ceased its 🇷🇺 operations"
+				]
+			}]
+		},
+		"links": [
+			"https://www.nasdaq.com/articles/covergirl-owner-coty-to-exit-russia-operations"
+		]
+	}, {
 		"name": "Coupa",
 		"website": "https://www.coupa.com/",
 		"headquarters": "San Mateo, CA, 🇺🇸",
@@ -1743,6 +1802,33 @@
 		},
 		"links": [
 			"https://twitter.com/Crytivo/status/1496948130272579615"
+		]
+	}, {
+		"name": "Currency.com",
+		"website": "https://currency.com/",
+		"headquarters": "Gibraltar, 🇬🇧",
+		"industry": [
+			"Software",
+			"Finance"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped opening new accounts for clients from 🇷🇺",
+					"Halted operations for residents of the 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donated a total of $1M to support the humanitarian crisis in 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://currency.com/currency-com-halts-operations-for-clients-from-russia",
+			"https://currency.com/currency-com-responds-to-ukraine-humanitarian-effort-with-1m-donation"
 		]
 	}, {
 		"name": "ČEZ Group",
@@ -3250,6 +3336,46 @@
 			"https://about.ikea.com/en/newsroom/2022/03/03/ikea-pauses-operations-in-russia-and-belarus"
 		]
 	}, {
+		"name": "Imperial Brands",
+		"alt_name": [
+			"Imperial Tobacco Group"
+		],
+		"website": "https://www.imperialbrandsplc.com/",
+		"headquarters": "Bristol, 🇬🇧",
+		"industry": [
+			"Food"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended all operations in 🇷🇺",
+					"Selling 🇷🇺 assets and operations to local company"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Suspended operations in 🇺🇦"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Will continue to pay employees from 🇷🇺 while operations are paused"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Provides support to 🇺🇦 employees and their families, including with transport and accommodation"
+				]
+			}]
+		},
+		"links": [
+			"https://www.imperialbrandsplc.com/media/key-announcements/2022/update-on-russia---ukraine.html",
+			"https://www.imperialbrandsplc.com/media/key-announcements/2022/update-on-russia-and-revised-guidance.html",
+			"https://www.imperialbrandsplc.com/media/key-announcements/2022/russia-update.html"
+		]
+	}, {
 		"name": "Imperva",
 		"website": "https://www.imperva.com/",
 		"headquarters": "San Mateo, CA, 🇺🇸",
@@ -3846,7 +3972,8 @@
 				"measures": [
 					"Halted investments in the 🇷🇺 market",
 					"Suspended all exports to 🇷🇺",
-					"Closed all stores in 🇷🇺"
+					"Closed all stores in 🇷🇺",
+					"Started talks to sell business in 🇷🇺"
 				]
 			}],
 			"support": [{
@@ -3858,7 +3985,8 @@
 		},
 		"links": [
 			"https://www.facebook.com/DiscoverLPP/posts/5399953006695854",
-			"https://www.lppsa.com/informacje-prasowe/lpp-zamknelo-wszystkie-sklepy-w-rosji"
+			"https://www.lppsa.com/informacje-prasowe/lpp-zamknelo-wszystkie-sklepy-w-rosji",
+			"https://www.bloomberg.com/news/articles/2022-04-28/top-polish-clothier-lpp-starts-talks-to-sell-russian-operations"
 		]
 	}, {
 		"name": "MacPaw",
@@ -6951,6 +7079,32 @@
 		},
 		"links": [
 			"https://www.tirebusiness.com/russia-war-ukraine/yokohama-latest-tire-maker-stop-production-russia"
+		]
+	}, {
+		"name": "YouTube",
+		"website": "https://www.youtube.com/",
+		"headquarters": "San Bruno, CA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Blocked state-backed 🇷🇺 media outlets from advertising and earning money on the platform",
+					"Started to completely block YouTube channels funded by the 🇷🇺 government",
+					"Will remove content about the 🇷🇺 invasion of 🇺🇦 that denies, minimizes, or trivializes \"well-documented violent events\"",
+					"Stopped all monetization features in 🇷🇺",
+					"Removed 🇷🇺-propagandist Graham Phillips video \"interview\" with 🇺🇦 POW"
+				]
+			}]
+		},
+		"links": [
+			"https://www.theverge.com/2022/2/26/22952439/youtube-bans-ads-rt-russia-channels-google-ukraine",
+			"https://www.theverge.com/2022/3/11/22972911/youtube-rt-russian-sputnik-block-state-media-globally",
+			"https://gizmodo.com/youtube-stops-monetization-for-video-creators-in-russia-1848633335",
+			"https://twitter.com/GlasnostGone/status/1517594154708127745",
+			"https://www.euronews.com/next/2022/04/23/youtube-reviewing-video-of-ukraine-war-prisoner-aiden-aslin-amid-claim-it-breaks-geneva-co"
 		]
 	}, {
 		"name": "Yves Rocher",
