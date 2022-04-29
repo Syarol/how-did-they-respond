@@ -129,25 +129,40 @@
 		"industry": [
 			"Software"
 		],
+		"brands": [
+			"Behance",
+			"Creative Cloud",
+			"Photoshop"
+		],
 		"side": "🇺🇦",
 		"actions": {
 			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspended all new sales in 🇧🇾"
+				]
+			}, {
 				"country": "🇷🇺",
 				"measures": [
-					"Suspended all new sales in Russia",
-					"Terminated access to Adobe Creative Cloud, Adobe Document Cloud and Adobe Experience Cloud to Russian government-controlled media outlets"
+					"Suspended all new sales in 🇷🇺",
+					"Terminated access to Adobe Creative Cloud, Adobe Document Cloud and Adobe Experience Cloud to 🇷🇺 government-controlled media outlets"
 				]
 			}],
 			"support": [{
 				"country": "🇺🇦",
 				"measures": [
-					"Series of grants totaling over $1 million"
+					"Series of grants totaling over $1M",
+					"Given nearly $2.5M to aid humanitarian relief efforts in 🇺🇦 and support journalists on the ground",
+					"Instituted a 90-day billing waiver for Adobe Creative Cloud and Adobe Document Cloud customers in 🇺🇦",
+					"Featuring artwork from 🇺🇦 artists on Adobe Stock homepage",
+					"Offering employment opportunities with their team in Romania to Ukrainians displaced in the 🇪🇺. Individuals can receive a 12-month fixed term contract with Adobe, relocation assistance and health and wellbeing benefits"
 				]
 			}]
 		},
 		"links": [
 			"https://blog.adobe.com/en/publish/2022/03/04/adobe-stops-all-new-sales-in-russia",
-			"https://blog.adobe.com/en/publish/2022/03/04/adobe-foundation-response-humanitarian-crisis-ukraine"
+			"https://blog.adobe.com/en/publish/2022/03/04/adobe-foundation-response-humanitarian-crisis-ukraine",
+			"https://blog.adobe.com/en/publish/2022/04/08/adobes-continuing-efforts-to-support-ukraine"
 		]
 	}, {
 		"name": "AeroVironment",
@@ -986,7 +1001,8 @@
 			"sanctions": [{
 				"country": "🇷🇺",
 				"measures": [
-					"🇷🇺 nationals, residents, or businesses in the country with crypto assets exceeding €10,000 will not be able to deposit or trade, and may only withdraw"
+					"🇷🇺 nationals, residents, or businesses in the country with crypto assets exceeding €10,000 will not be able to deposit or trade, and may only withdraw",
+					"Blocked accounts linked to relatives of senior Kremlin officials"
 				]
 			}],
 			"support": [{
@@ -1007,7 +1023,8 @@
 			"https://www.binance.com/en/support/announcement/4887e569afdf4b1e89e024371d3a49b9",
 			"https://www.binance.com/en/blog/charity/binance-to-launch-refugee-crypto-card-for-ukrainians-forced-to-leave-ukraine-421499824684903753",
 			"https://www.reuters.com/technology/how-crypto-giant-binance-built-ties-russian-fsb-linked-agency-2022-04-22/",
-			"https://www.outlookindia.com/business/ukraine-refugee-crisis-unhcr-gets-its-first-crypto-aid-from-binance-news-190362"
+			"https://www.outlookindia.com/business/ukraine-refugee-crisis-unhcr-gets-its-first-crypto-aid-from-binance-news-190362",
+			"https://www.bloomberg.com/news/articles/2022-04-28/binance-blocks-accounts-tied-to-relatives-of-kremlin-officials"
 		]
 	}, {
 		"name": "Bloomberg",
@@ -1118,6 +1135,23 @@
 			"https://blog.bolt.eu/en/bolt-stands-against-invasion-in-ukraine-donates-over-e5m/",
 			"https://blog.bolt.eu/en/bolt-has-donated-e3m-to-ngos-supporting-ukraine-so-far-more-to-follow/",
 			"https://nv.ua/ukr/ukraine/events/dopomoga-u-kiyevi-kudi-zvertatisya-za-jizheyu-likami-poradyu-likarya-50221937.html"
+		]
+	}, {
+		"name": "Borjomi",
+		"website": "https://www.borjomi.com/",
+		"headquarters": "Nicosia, 🇨🇾",
+		"industry": [
+			"Food"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Suspended work in both of its factories in 🇬🇪 due to sanctions (Company owned by 🇷🇺)"
+				]
+			}]
+		},
+		"links": [
+			"https://civil.ge/archives/488103"
 		]
 	}, {
 		"name": "Bridgestone",
@@ -1781,6 +1815,36 @@
 		},
 		"links": [
 			"https://pressroom.credit-agricole.com/news/conflict-ukraine-russia-groups-policy-be8e-94727.html"
+		]
+	}, {
+		"name": "Crocoblock",
+		"website": "https://crocoblock.com/",
+		"headquarters": "Mykolaiv, 🇺🇦",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped selling licenses to the citizens of 🇷🇺",
+					"Will no longer provide services to the existing customers from 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Provides a way to use service for 🇷🇺 citizens who condems 🇷🇺 invation"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Promotion of ways to support 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://www.facebook.com/crocoblock/posts/3298064553784786"
 		]
 	}, {
 		"name": "Crytivo",
@@ -3135,6 +3199,11 @@
 				]
 			}],
 			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Decided to exit its business activities in 🇧🇾"
+				]
+			}, {
 				"country": "🇷🇺",
 				"measures": [
 					"Stopped new investments in 🇷🇺",
@@ -3156,7 +3225,8 @@
 		"links": [
 			"https://www.reuters.com/business/retail-consumer/henkel-continue-business-russia-now-2022-04-04/",
 			"https://www.henkel.com/press-and-media/press-releases-and-kits/2022-03-04-henkel-to-stop-investments-in-russia-1626160",
-			"https://www.henkel.com/press-and-media/press-releases-and-kits/2022-04-19-henkel-to-exit-its-business-in-russia-1654222"
+			"https://www.henkel.com/press-and-media/press-releases-and-kits/2022-04-19-henkel-to-exit-its-business-in-russia-1654222",
+			"https://www.henkel.com/press-and-media/press-releases-and-kits/2022-04-29-henkel-achieves-significant-organic-sales-growth-in-the-first-quarter-and-updates-full-year-guidance-for-2022-1657866"
 		]
 	}, {
 		"name": "Hesburger",
@@ -5056,6 +5126,30 @@
 			"https://www.barrons.com/articles/philip-morris-stock-russia-51648144241"
 		]
 	}, {
+		"name": "Pinterest",
+		"website": "https://www.pinterest.com/",
+		"headquarters": "San Francisco, CA, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"general": [{
+				"measures": [
+					"Continuing to monitor the platform very closely to keep disinformation off Pinterest"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Donated $250,000 to International Rescue Committee",
+					"Established a Ukraine Humanitarian Support Fund with multiple organizations for employees to contribute and matchinging all employee donations 2:1"
+				]
+			}]
+		},
+		"links": [
+			"https://newsroom.pinterest.com/en/post/pinterests-support-for-ukraine"
+		]
+	}, {
 		"name": "Pirelli",
 		"website": "https://www.pirelli.com/",
 		"headquarters": "Milan, 🇮🇹",
@@ -5676,6 +5770,42 @@
 		},
 		"links": [
 			"https://www.slb.com/newsroom/press-release/2022/pr-2022-0318-update-on-russia"
+		]
+	}, {
+		"name": "Schneider Electric",
+		"website": "https://www.se.com/",
+		"headquarters": "Rueil-Malmaison, 🇫🇷",
+		"industry": [
+			"Electric",
+			"Electronics"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Suspended new investments in 🇧🇾",
+					"Suspended deliveries of new project orders to 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended new investments in 🇷🇺",
+					"Suspended deliveries of new project orders to 🇷🇺",
+					"Declared plans sell its 🇷🇺 business to local team"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Provides support to emoloyees from 🇺🇦",
+					"Supporting its NGO partner 'SOS Attitude' to set up a refugee camp in 🇲🇩"
+				]
+			}]
+		},
+		"links": [
+			"https://www.se.com/ww/en/about-us/newsroom/news/press-releases/an-update-on-ukraine-russia-and-belarus-623333c931dba0100d4f745f",
+			"https://www.se.com/ww/en/about-us/newsroom/news/press-releases/schneider-electric-announces-intention-to-sell-its-schneider-electric-russia-operations-to-local-management-6268ca4923d4a02a8d5f84b3",
+			"https://www.power-technology.com/news/schneider-electric-russia-operations/"
 		]
 	}, {
 		"name": "Science",
