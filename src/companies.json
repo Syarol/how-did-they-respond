@@ -2650,6 +2650,24 @@
 			"https://www.fazergroup.com/settings/cision-news/?id=4201996"
 		]
 	}, {
+		"name": "Fennovoima",
+		"website": "https://www.fennovoima.fi/",
+		"headquarters":"Helsinki, 🇫🇮",
+		"industry": [
+			"Electric"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Terminated the contract for the construction of the Hanhikivi 1 nuclear power plant with Rosatom"
+				]
+			}]
+		},
+		"links": [
+			"https://www.fennovoima.fi/en/press-releases/fennovoima-has-terminated-contract-delivery-hanhikivi-1-nuclear-power-plant-rosatom"
+		]
+	},{
 		"name": "Ferrero SpA",
 		"website": "https://www.ferrero.com/",
 		"headquarters": "Alba, 🇮🇹",
@@ -5487,6 +5505,42 @@
 			"https://www.reckitt.com/newsroom/latest-news/news/2022/march/an-update-on-russian-operations/"
 		]
 	}, {
+		"name": "Red Hat",
+		"website": "https://www.redhat.com/",
+		"headquarters": "Raleigh, NC, 🇺🇸",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇧🇾",
+				"measures": [
+					"Dscontinuing sales and services to organizations based in or headquarteredin 🇧🇾",
+					"Discontinuing partner relationships with organizations based in or headquartered in 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Dscontinuing sales and services to organizations based in or headquarteredin 🇷🇺",
+					"Discontinuing partner relationships with organizations based in or headquartered in 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Provided support to 🇷🇺 employees"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Provided help to 🇺🇦 employees to move safely to nearby countries and resources they need"
+				]
+			}]
+		},
+		"links": [
+			"https://www.redhat.com/en/blog/red-hats-response-war-ukraine"
+		]
+	}, {
 		"name": "Reddit",
 		"website": "https://www.reddit.com/",
 		"headquarters": "San Francisco, CA, 🇺🇸",
@@ -5974,6 +6028,46 @@
 		"links": [
 			"https://www.signetjewelers.com/investors/financial-news-releases/financial-news-release/2022/Signet-Love-Inspires-Foundation-Helps-Victims-in-Ukraine/default.aspx",
 			"https://www.bloomberg.com/news/articles/2022-03-17/signet-shocks-diamond-trade-with-refusal-to-buy-russian-gems"
+		]
+	}, {
+		"name": "Signify",
+		"alt_name": [
+			"Philips Lighting"
+		],
+		"website": "https://www.signify.com/",
+		"headquarters": "Eindhoven, 🇳🇱",
+		"industry": [
+			"Electronics",
+			"Manufacturing"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Stopped all investments to 🇷🇺",
+					"Suspended exports to 🇷🇺"
+				]
+			}, {
+				"country": "🇺🇦",
+				"measures": [
+					"Discontinued business in 🇺🇦"
+				]				
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Providing unrestricted financial support to 🇺🇦 employees and their families",
+					"Signify Poland is organizing transfers, food and accommodation for people arriving at the 🇺🇦/🇵🇱 border",
+					"Signify Poland established a dedicated fund to support 🇺🇦 employees and their families living in 🇵🇱",
+					"Provided 300 energy-effective lamps for Irpin' city to restore its lighting"
+				]
+			}]
+		},
+		"links": [
+			"https://www.signify.com/global/our-company/news/press-releases/2022/20220305-signify-statement-on-war-in-ukraine",
+			"https://www.signify.com/global/our-company/news/press-releases/2022/20220429-signify-first-quarter-results-2022",
+			"https://visnyk-irpin.com.ua/en/kompaniya-signify-dopomozhe-irpenyu-vidnovyty-vulychne-osvitlennya/",
+			"https://www.hortidaily.com/article/9410086/signify-suspends-exporting-to-russia/"
 		]
 	}, {
 		"name": "Sketch",
@@ -6661,6 +6755,26 @@
 			"https://gamedev.dou.ua/news/ubisoft-ukrainian-store/"
 		]
 	}, {
+		"name": "UnionPay",
+		"website": "https://www.unionpayintl.com/",
+		"headquarters": "Shanghai, 🇨🇳",
+		"industry": [
+			"Finance"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Suspended negotiations with 🇷🇺 banks on issuing new bank cards for their customers",
+					"Leaved 🇷🇺 market"
+				]
+			}]
+		},
+		"links": [
+			"https://nationalinterest.org/blog/buzz/chinese-payment-system-suspends-operations-russia-further-isolating-moscow-201975",
+			"https://fortune.com/2022/04/22/unionpay-china-credit-card-sberbank-secondary-sanctions-russia/"
+		]
+	}, {
 		"name": "Uniper",
 		"website": "https://www.uniper.energy/",
 		"headquarters": "Düsseldorf, 🇩🇪",
@@ -6863,6 +6977,33 @@
 		},
 		"links": [
 			"https://fishfocus.co.uk/viciunai-group-winding-down-its-russian-operations/"
+		]
+	}, {
+		"name": "Visa",
+		"website": "https://www.visa.com/",
+		"headquarters": "San Francisco, CA, 🇺🇸",
+		"industry": [
+			"Finance"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"All transactions initiated with Visa cards issued in 🇷🇺 will no work outside the country",
+					"Any Visa cards issued by financial institutions outside of 🇷🇺 no longer work within 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Removed fees for transactions and interbank commission inside 🇺🇦 during March",
+					"Abolished interbank and acquiring transaction fees in 🇺🇦 for charitable payments until May 31, 2022"
+				]
+			}]
+		},
+		"links": [
+			"https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.18871.html",
+			"https://www.visa.com.ua/uk_UA/about-visa/newsroom/press-releases/prl-01032022_1.html"
 		]
 	}, {
 		"name": "Vitol Group",
