@@ -1425,14 +1425,16 @@
 				"country": "🇺🇦",
 				"measures": [
 					"Provides humanitarian aid to refugees from Ukraine",
-					"Donated 1 million PLN to Polska Akcja Humanitarna that is helping Ukrainian refugees"
+					"Donated 1 million PLN to Polska Akcja Humanitarna that is helping Ukrainian refugees",
+					"Launched internship program for 🇺🇦 refugees in 🇵🇱"
 				]
 			}]
 		},
 		"links": [
 			"https://en.cdprojektred.com/news/important-update-4/",
 			"https://twitter.com/CDPROJEKTRED/status/1499801772075933700",
-			"https://twitter.com/CDPROJEKTRED/status/1497207867773964290"
+			"https://twitter.com/CDPROJEKTRED/status/1497207867773964290",
+			"https://ain.ua/2022/05/02/cd-projekt-red-proponuye-ukrayinczyam-oplachuvane-stazhuvannya/"
 		]
 	}, {
 		"name": "CERN",
@@ -2454,6 +2456,51 @@
 		"links": [
 			"https://www.airport-technology.com/news/embraer-stops-parts-supply/",
 			"https://www.cnnbrasil.com.br/business/embraer-suspende-manutencao-e-venda-de-pecas-para-a-russia/"
+		]
+	}, {
+		"name": "Emerson",
+		"website": "https://www.emerson.com/",
+		"headquarters": "St. Louis, MO, 🇺🇸",
+		"industry": [
+			"Manufacturing"
+		],
+		"brands": [
+			"Metran"
+		],
+		"actions": {
+			"sanctions": [{
+				"country": "🇷🇺",
+				"measures": [
+					"Declared plans to exit 🇷🇺 business",
+					"Exploring options to divest Metran, their 🇷🇺-based manufacturing subsidiary"
+				]
+			}]
+		},
+		"links": [
+			"https://www.emerson.com/en-us/news/corporate/emerson-second-quarter-2022-results"
+		]
+	}, {
+		"name": "EOS Data Analytics",
+		"website": "https://eos.com/",
+		"headquarters": "Mountain View, CA, 🇺🇸",
+		"industry": [
+			"Aerospace",
+			"Software"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Promoting various ways to help 🇺🇦",
+					"Urged aerospace data providers to provide SAR and optical data to 🇺🇦",
+					"Established an agreement with Geosat to provide Imagery and EO services in 🇺🇦"
+				]
+			}]
+		},
+		"links": [
+			"https://eos.com/blog/russian-invasion-of-ukraine/",
+			"https://eos.com/stand-with-ukraine/"
+			"https://eos.com/blog/eosda-contracted-an-agreement-with-geosat/"
 		]
 	}, {
 		"name": "Ericsson",
@@ -4736,12 +4783,14 @@
 			"support": [{
 				"country": "🇺🇦",
 				"measures": [
-					"Launched Ukrainian-language version website"
+					"Launched Ukrainian-language version website",
+					"Launched Japanese language lessons in Ukrainian"
 				]
 			}]
 		},
 		"links": [
-			"https://www3.nhk.or.jp/nhkworld/en/news/20220315_19/"
+			"https://www3.nhk.or.jp/nhkworld/en/news/20220315_19/",
+			"https://twitter.com/tkhir_pivnyk/status/1515078703964950532"
 		]
 	}, {
 		"name": "Nike",
@@ -6478,6 +6527,41 @@
 			"https://www.tatasteeleurope.com/corporate/news/comment-from-tata-steel-clarifying-its-business-activity-with-russia"
 		]
 	}, {
+		"name": "TeamViewer",
+		"website": "https://www.teamviewer.com/",
+		"headquarters": "Göppingen, 🇩🇪",
+		"industry": [
+			"Software"
+		],
+		"actions": {
+			"sanctions":[{
+				"country": "🇧🇾",
+				"measures": [
+					"Declared plans to completely phase out any remaining business activity in 🇧🇾",
+					"Stopped new business in 🇧🇾",
+					"Won't prolong any contracts with customers from 🇧🇾"
+				]
+			}, {
+				"country": "🇷🇺",
+				"measures": [
+					"Declared plans to completely phase out any remaining business activity in 🇷🇺",
+					"Stopped new business in 🇷🇺",
+					"Won't prolong any contracts with customers from 🇷🇺"
+				]
+			}],
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Offering its products to all organizations within 🇺🇦 free of charge",
+					"Donated more than €750,000 to Red Cross organizations for humanitarian help on the ground"
+				]
+			}]
+		},
+		"links": [
+			"https://en.trend.az/world/russia/3591740.html",
+			"http://web.archive.org/web/20220506113644/https://www.teamviewer.com/en-us/company/press/"
+		]
+	}, {
 		"name": "The Boston Athletic Association",
 		"website": "https://www.baa.org/",
 		"headquarters": "Boston, MA, 🇺🇸",
@@ -7082,7 +7166,11 @@
 					"desc": "VR Transpoint is suspending the traffic of freight wagons from 🇷🇺"
 				},
 					"VR will discontinue the Allegro-train service which connects Helsinki and St Petersburg",
-					"Ended communication with Russian Railways, excluding the necessary communication required for cross-border traffic"
+					"Ended communication with Russian Railways, excluding the necessary communication required for cross-border traffic",
+					"Terminates contracts related to the transport of goods between 🇷🇺 and 🇫🇮",
+					"Planning to cease railway traffic with 🇷🇺 completely by the end of the year",
+					"Initiated negotiations for the sale or liquidation of its Finnish associated companies ContainerTrans Scandinavia (CTS) and Freight One Scandinavia (FOS)",
+					"Started negotiations to sell its 🇷🇺 subsidiary Finnlog"
 				]
 			}],
 			"support": [{
@@ -7102,7 +7190,8 @@
 			"https://www.vrgroup.fi/en/vrgroup/news/vr-transpoint-is-suspending-freight-traffic-from-russia-until-further-notice-due-to-sanctions--260320221420/",
 			"https://www.vrgroup.fi/en/vrgroup/news/vr-groups-actions-due-to-russian-attack-on-ukraine--010320221735/",
 			"https://www.vrgroup.fi/en/vrgroup/news/-vr-will-discontinue-the-allegro-train-service-starting-from-march-28th-2022-250320221234/",
-			"https://yle.fi/news/3-12383309"
+			"https://yle.fi/news/3-12383309",
+			"https://www.vrgroup.fi/en/vrgroup/news/vr-terminates-contracts-related-to-the-transport-of-goods-between-russia-and-finland-030520221320/"
 		]
 	}, {
 		"name": "VyOS",
@@ -7332,6 +7421,27 @@
 		},
 		"links": [
 			"https://www.news.xerox.com/news/xerox-releases-statement-on-conflict-in-ukraine"
+		]
+	}, {
+		"name": "Yle",
+		"alt_name": [
+			"Yleisradio Oy"
+		],
+		"website": "https://yle.fi/",
+		"headquarters": "Helsinki, 🇫🇮",
+		"industry": [
+			"Mass media"
+		],
+		"actions": {
+			"support": [{
+				"country": "🇺🇦",
+				"measures": [
+					"Launched Ukrainian-language version website"
+				]
+			}]
+		},
+		"links": [
+			"https://yle.fi/novyny/3-12425428"
 		]
 	}, {
 		"name": "Yokohama",
