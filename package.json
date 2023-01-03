@@ -12,17 +12,16 @@
     "lint:json:industries": "ajv test -s src/schemas/industries.schema -d src/industries --valid --spec=draft2020"
   },
   "dependencies": {
-    "vue": "^3.2.31",
-    "vue-router": "^4.0.12"
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.1.0",
-    "@vitejs/plugin-vue": "^2.2.2",
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^4.0.0",
     "@vue/eslint-config-prettier": "^7.0.0",
-    "ajv-cli": "^5.0.0",
-    "eslint": "^8.5.0",
-    "eslint-plugin-vue": "^8.2.0",
-    "prettier": "^2.5.1",
-    "vite": "^2.8.4"
+    "eslint": "^8.31.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "prettier": "^2.8.1",
+    "vite": "^4.0.3"
   }
 }
